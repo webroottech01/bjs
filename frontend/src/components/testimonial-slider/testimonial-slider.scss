@@ -1,0 +1,88 @@
+.testimonial-slider {
+  padding-top: 89px;
+  .slick-slide {
+    &:nth-child(3n-2) {
+      padding-right: 64px;
+    }
+    &:nth-child(3n-1) {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    &:nth-child(3n) {
+      padding-left: 64px;
+    }
+    .hypeicon {
+      height: 54px;
+      width: 57px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    &:nth-child(3n-2) .hypeicon {
+      background-image: url(../../../public/images/flame-micon.svg);
+    }
+    &:nth-child(3n-1) .hypeicon {
+      background-image: url(../../../public/images/kitty-micon.svg);
+    }
+    &:nth-child(3n) .hypeicon {
+      background-image: url(../../../public/images/rocket-micon.svg);
+    }
+    .single-review {
+      > .d-flex {
+        gap: 25px;
+      }
+      .review-photo {
+        border-radius: 12px;
+        margin-bottom: 17px;
+        max-width: 174px;
+        max-height: 174px;
+        object-fit: cover;
+      }
+      .review-details {
+        .d-flex {
+          gap: 10px;
+          justify-content: space-between;
+        }
+        h3 {
+          color: #10410f;
+          font-family: Poppins;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 34px;
+          margin-bottom: 6px;
+        }
+        span {
+          color: #10410f;
+          font-size: 14px;
+          line-height: 1;
+          display: block;
+        }
+        p {
+          color: #818181;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 26px;
+          margin: 16px 0 0;
+        }
+      }
+    }
+  }
+  .slick-prev {
+    width: 38px;
+    height: 38px;
+    left: -52px;
+    &:before {
+      content: url("../../../public/images/testiconleft.svg");
+    }
+  }
+  .slick-next {
+    width: 38px;
+    height: 38px;
+    right: -52px;
+    &:before {
+      content: url("../../../public/images/testiconryt.svg");
+    }
+  }
+}

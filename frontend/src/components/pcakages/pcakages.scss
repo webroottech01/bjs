@@ -1,0 +1,128 @@
+.packages-inner {
+  padding-bottom: 194px;
+  background-image: url("../../../public/images/composbg.png");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  .col-md-4 {
+    &:nth-child(1) .package-card {
+      background: #e72b6a;
+    }
+    &:nth-child(2) .package-card {
+      background: #562479;
+
+      button {
+        color: #562479;
+      }
+    }
+    &:nth-child(3) .package-card {
+      background: #ff472e;
+
+      button {
+        color: #ff472e;
+      }
+    }
+  }
+  .package-card {
+    padding: 52px 57px 40px;
+    border-radius: 28.94px;
+    box-shadow: 0px 14px 4px 0px rgba(0, 0, 0, 0.66);
+    color: #fff;
+    .row {
+      gap: 42px;
+    }
+
+    .package-detail {
+      display: flex;
+      gap: 9%;
+      img {
+        filter: brightness(0) invert(1);
+        width: 56px;
+        margin-top: 24px;
+      }
+      h3 {
+        font-family: "Fonarto";
+        font-size: 48px;
+        line-height: 50px;
+        text-transform: uppercase;
+      }
+      h4 {
+        font-family: "Jost";
+        font-size: 28.94px;
+        font-weight: 600;
+        line-height: 28.94px;
+        margin-top: 14px;
+        margin-bottom: 38px;
+      }
+      h5 {
+        font-size: 28.94px;
+        font-weight: 600;
+        line-height: 28.94px;
+      }
+      span {
+        font-size: 20.258px;
+        font-weight: 500;
+        line-height: 1;
+        margin-left: 14px;
+      }
+    }
+    .package-desc {
+      margin: 39px 0 31px;
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      li {
+        font-size: 23.152px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.6;
+        background-image: url("../../../public/images/list-icon.svg");
+        background-repeat: no-repeat;
+        background-size: 30px 40px;
+        background-position: left top;
+        padding-left: 48px;
+      }
+      p {
+        font-size: 23.152px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.6;
+      }
+    }
+    button {
+      padding: 20px 66px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+      background: #fff;
+      color: #ff36a4;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.5;
+      border: none;
+    }
+  }
+}
+.modal-90w {
+  max-width: 90vw;
+}
+.modal-dialog-centered {
+  .modal-dialog {
+    align-items: center;
+    display: flex;
+    min-height: calc(100% - var(--bs-modal-margin) * 2);
+    .btn-close {
+      background-color: #fff;
+      opacity: 1;
+  }
+    .modal-content {
+      background-image: url(../../../public/images/contactbg.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+  }
+}

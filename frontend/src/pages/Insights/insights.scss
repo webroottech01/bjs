@@ -1,0 +1,54 @@
+.insights-outer {
+  background:#000000a4 url("../../../public/images/abstract.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  .in-overlay{
+    background-color : #ffffff87;
+  }
+  .row {
+    padding: 50px 0;
+    .col-md-6 {
+      padding: 30px 20px;
+    }
+    .insight-inner {
+      padding: 50px;
+      background: linear-gradient(to bottom right, #ffb600 50%, #562479 50%);
+      box-shadow: #000 0px 0px 5px;
+      height: 100%;
+
+      > div {
+        background: #fff;
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
+          box-shadow: #000 0px 5px 15px -10px
+        }
+        .insight-detail {
+          padding: 30px;
+
+          h2 {
+            font-family: "Fonarto";
+            color: #000;
+          }
+          p {
+            font-size: 20px;
+            margin: 25px 0 40px;
+          }
+          .btnyellow {
+            padding: 14px 32px;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
