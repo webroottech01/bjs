@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontend/build/static/css/main.919907d9.css",
-    "main.js": "/frontend/build/static/js/main.8641ce76.js",
+    "main.js": "/frontend/build/static/js/main.e3b6b274.js",
     "static/js/453.8ab44547.chunk.js": "/frontend/build/static/js/453.8ab44547.chunk.js",
     "static/media/abstract.webp": "/frontend/build/static/media/abstract.e820fcc629c7a58df973.webp",
     "static/media/Poppins-Regular.woff": "/frontend/build/static/media/Poppins-Regular.387f9003f984ef1cec60.woff",
@@ -41,11 +41,11 @@
     "static/media/testiconryt.svg": "/frontend/build/static/media/testiconryt.eb2a09e5fdd3d70e643f.svg",
     "static/media/testiconleft.svg": "/frontend/build/static/media/testiconleft.15214f3765464a3affa9.svg",
     "main.919907d9.css.map": "/frontend/build/static/css/main.919907d9.css.map",
-    "main.8641ce76.js.map": "/frontend/build/static/js/main.8641ce76.js.map",
+    "main.e3b6b274.js.map": "/frontend/build/static/js/main.e3b6b274.js.map",
     "453.8ab44547.chunk.js.map": "/frontend/build/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.919907d9.css",
-    "static/js/main.8641ce76.js"
+    "static/js/main.e3b6b274.js"
   ]
 }

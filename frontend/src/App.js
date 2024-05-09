@@ -19,14 +19,14 @@ function App() {
   return (
     <div className="App">
       
-      <BrowserRouter>
+      <BrowserRouter >
       <Header />
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/help" element={<ContactUs />} />
-          <Route path="/pricing" element={<Pricing />} />
+          <Route path="contact-us" element={<ContactUs />} />
+          <Route path="help" element={<ContactUs />} />
+          <Route path="pricing" element={<Pricing />} />
           {/*  Solutions routes */}
           <Route path="solutions/contact-center" element={<ContactCenter />} />
           <Route path="solutions/account-managment" element={<AccountManagment />} />
