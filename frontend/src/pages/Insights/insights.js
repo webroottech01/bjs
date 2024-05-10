@@ -8,7 +8,7 @@ const Insights = () => {
 
   useEffect(() => {
     fetch(
-      "https://newsapi.org/v2/top-headlines?q=tesla&from= + new Date().toISOString().split('T')[0] +&sortBy=publishedAt&apiKey=62f81cba61464860ad3ef7849b210627"
+      "https://newsdata.io/api/1/news?apikey=pub_4383641f3a58b9c41767fa46b023d2083e991&q=services"
     )
       .then((res) => {
         return res.json(); 
@@ -16,7 +16,7 @@ const Insights = () => {
       .then((data) => {
         console.log(data);
         console.log("https://newsapi.org/v2/top-headlines?q=tesla&from= + new Date().toISOString().split('T')[0] +&sortBy=publishedAt&apiKey=62f81cba61464860ad3ef7849b210627")
-        setInsights(data.articles);
+        setInsights(data.results);
         
       })
       .catch((error) => {
@@ -31,16 +31,16 @@ const Insights = () => {
         <div className="container-max">
           <div className="row">
             {insights.map((insight) => (
-              <div className="col-md-6" key={insight.title}>
+              <div className="col-md-6" key={insight.article_id}>
                 <div className="insight-inner">
                   <div>
-                    <img src={insight.urlToImage} alt="" />
+                    <img src={insight.image_url} alt="" />
                     <div className="insight-detail">
                       <h2>{insight.title}</h2>
                       <p>{insight.description}</p>
-                      <Link to="" className="btn btnyellow">
+                      <Link to="#" className="btn btnyellow">
                         Read more
-                      </Link>
+                      </Link> 
                     </div>
                   </div>
                 </div>

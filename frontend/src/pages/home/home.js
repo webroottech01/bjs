@@ -9,11 +9,10 @@ import ContactTeam from "../../components/contact-team/contact-team";
 import HomeIndustries from "../industries/home-industries/home-industries";
 
 const Home = () => {
-  console.log("dasda");
   let pagetitle = "Time to think Beyond Just";
   let pagedesc =
     "You’re bogged down with processes, spinning plates, juggling workloads, and generally just struggling to keep it all together – hi 👋 we’re here to help.";
-  let bgimage = "./images/bghome.webp"; 
+  let bgimage = "images/bghome.webp"; 
   
   return (
     <div className="home">
