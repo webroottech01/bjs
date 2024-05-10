@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       
-      <BrowserRouter basename={'/frontend'} >  
+      <BrowserRouter basename={'./'} >  
       <Header />
 
         <Routes>
