@@ -15,7 +15,7 @@ const Header = () => {
                 <LinkContainer to="/">
                   <Navbar.Brand className="site-logo">
                     <img src={
-                      process.env.PUBLIC_URL + "/images/bjs-logo.svg"} alt="" />
+                      process.env.PUBLIC_URL + "/images/bjslogo.svg"} alt="" /> 
                   </Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

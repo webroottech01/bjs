@@ -12,6 +12,11 @@ import Automobile from "./pages/industries/automobile/automobile";
 import AccountManagment from "./pages/solutions/account-managment/account-managment";
 import Finance from "./pages/industries/finance/finance";
 import ContactCenter from "./pages/solutions/contact-center/contact-center";
+import ECommerce from "./pages/industries/e-commerce/e-commerce";
+import Hospitality from "./pages/industries/hospitality/hospitality";
+import RealEstate from "./pages/industries/real-estate/realestate";
+import Supplychain from "./pages/industries/supplychain/supplychain";
+import TeleCommunications from "./pages/industries/telecommunications/telecommunications";
 
 
 
@@ -40,14 +45,14 @@ function App() {
           {/* end Solutions routes */}
           {/*  Industries routes */}
           <Route path="/industries/automobile" element={<Automobile />} />
-          <Route path="/industries/e-commerce" element={<Finance />} /> 
+          <Route path="/industries/e-commerce" element={<ECommerce />} /> 
           <Route path="/industries/finance" element={<Finance />} /> 
-          <Route path="/industries/hospitality" element={<ComingSoon />} /> 
-          <Route path="/industries/real-estate" element={<ComingSoon />} /> 
-          <Route path="/industries/supply-chain" element={<ComingSoon />} /> 
-          <Route path="/industries/tele-communications" element={<ComingSoon />} />
+          <Route path="/industries/hospitality" element={<Hospitality />} /> 
+          <Route path="/industries/real-estate" element={<RealEstate />} /> 
+          <Route path="/industries/supply-chain" element={<Supplychain />} /> 
+          <Route path="/industries/tele-communications" element={<TeleCommunications />} />
            {/*  end Industries routes */}
-          <Route path="/insights" element={<Insights />} /> 
+          <Route path="/insights" element={<Insights />} />  
         </Routes> 
         <Footer /> 
       </BrowserRouter>

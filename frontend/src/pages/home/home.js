@@ -9,7 +9,7 @@ import ContactTeam from "../../components/contact-team/contact-team";
 import HomeIndustries from "../industries/home-industries/home-industries";
 
 const Home = () => {
-  let pagetitle = "Time to think Beyond Just";
+  let pagetitle = "Time to think Beyond Just Service";
   let pagedesc =
     "You’re bogged down with processes, spinning plates, juggling workloads, and generally just struggling to keep it all together – hi 👋 we’re here to help.";
   let bgimage = "./images/bghome.webp"; 
@@ -19,7 +19,6 @@ const Home = () => {
       <Banner
         title={pagetitle}
         desc={pagedesc}
-        subtitle="Services"
         bgimage={bgimage}
       />
       <div className="services-sec">

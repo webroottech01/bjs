@@ -12,7 +12,7 @@ const Banner = (props) => {
       <div className="banner-inner">
         <div className="container-med">
         <h2 className="banner-title">
-          {props.title} <span>{props.subtitle}</span>
+          {props.title}
         </h2>
         <p className="banner-desc">{props.desc}</p>
         <div className="banner-gettouch">

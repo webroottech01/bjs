@@ -106,17 +106,17 @@ const Finance = () => {
           <div className="container-max">
             <h2 className="secheading">How Can BJS Help You?</h2>
             <h3>Here are some key ways BJS serves your Industry</h3>
-            <div class="triangle-cards">
-              <div class="card">
-                <div class="icon">
+            <div className="triangle-cards">
+              <div className="card">
+                <div className="icon">
                   <img
                     alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
-                  />
+                  /> 
                 </div>
-                <div class="card-cont">
+                <div className="card-cont">
                   <h4>E-Commerce Support</h4>
                   <p>
                     As a business in the finance industry, you must serve your
@@ -128,14 +128,14 @@ const Finance = () => {
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <div class="icon">
+              <div className="card">
+                <div className="icon">
                   <img
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                     alt=""
                   />
                 </div>
-                <div class="card-cont">
+                <div className="card-cont">
                   <h4>Human Resources</h4>
                   <p>
                     We know the pain that finance firms go through in handling
@@ -151,14 +151,14 @@ const Finance = () => {
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <div class="icon">
+              <div className="card">
+                <div className="icon">
                   <img
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                     alt=""
                   />
                 </div>
-                <div class="card-cont">
+                <div className="card-cont">
                   <h4>Finance & E-Commerce Management</h4>
                   <p>
                     Your E-Commerce and financial systems require proper
@@ -172,14 +172,14 @@ const Finance = () => {
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <div class="icon">
+              <div className="card">
+                <div className="icon">
                   <img
                     src={process.env.PUBLIC_URL + "/images/mentoring.png"}
                     alt=""
                   />
                 </div>
-                <div class="card-cont">
+                <div className="card-cont">
                   <h4>Call Centres</h4>
                   <p>
                     Finding new customers and generating leads requires a lot of
@@ -191,14 +191,14 @@ const Finance = () => {
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <div class="icon">
+              <div className="card">
+                <div className="icon">
                   <img
                     src={process.env.PUBLIC_URL + "/images/business.png"}
                     alt=""
                   />
                 </div>
-                <div class="card-cont">
+                <div className="card-cont">
                   <h4>Virtual PA</h4>
                   <p>
                     Our virtual PA eases your workload by handling coordination,
@@ -212,14 +212,14 @@ const Finance = () => {
                   </p>
                 </div>
               </div>
-              <div class="card">
-                <div class="icon">
+              <div className="card">
+                <div className="icon">
                   <img
                     alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
-                <div class="card-cont">
+                <div className="card-cont">
                   <h4>Process Consulting</h4>
                   <p>
                     Financial services and products need to follow proper

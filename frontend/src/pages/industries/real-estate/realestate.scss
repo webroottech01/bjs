@@ -1,4 +1,4 @@
-.account-managment {
+.real-estate {
   .right-splitsec {
     padding: 100px 0;
 
@@ -41,7 +41,7 @@
   }
 
   .outsourcing-sec {
-    margin: 120px 0;
+    margin: 90px 0 120px;
     h3 {
       font-size: 50px;
       text-align: center;
@@ -65,17 +65,12 @@
     h3 {
       text-align: center;
       color: #ffffff;
-      font-size: 20px;
-      width: 70%;
-      margin: 35px auto 0;
     }
 
     .triangle-cards {
       margin: 70px 0;
       columns: 3;
       column-gap: 35px;
-      display: grid;
-      grid-template-columns: repeat(3, auto);
 
       .icon {
         background: #ffb600;
@@ -113,20 +108,17 @@
     }
   }
   .benifits-sec {
-    margin: 90px 0;
+    margin: 90px 0 120px;
     text-align: center;
 
     .secheading {
-      color: #000;
+      color: #ff472e;
     }
     h3 {
       color: #5b5b5b;
       margin: 20px auto 70px;
       font-size: 20px;
       font-weight: 400;
-    }
-    &.threeelements .roundcard-outer {
-      grid-template-columns: repeat(3, 30%);
     }
     .roundcard-outer {
       display: grid;
@@ -136,7 +128,7 @@
         padding: 60px 15px;
         border-radius: 25px;
         border: 2px solid #000000;
-        background: #e72b6a;
+        background: #ff472e;
 
         h4 {
           font-family: "Jost";
@@ -155,9 +147,6 @@
       }
     }
   }
-  .contact-sec {
-    margin-top: 120px;
-}
   .account-faqs {
     margin-top: 85px;
     h2 {

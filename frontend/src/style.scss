@@ -86,6 +86,15 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'EvelethW01-CleanRegular';
+  src: url('fonts/EvelethW01-CleanRegular.woff2') format('woff2'),
+      url('fonts/EvelethW01-CleanRegular.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 $baseyellow: #ffb600;
 $basepurple: #562479;

@@ -6,8 +6,7 @@ import Banner from '../banner/banner';
 const ComingSoon = () => (
   <div className="coming-soon">
     <Banner
-        title='Coming Soon...'
-        subtitle="Stay Tuned" 
+        title='Coming Soon...' 
         innerpage
       />
   </div>
