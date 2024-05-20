@@ -19,7 +19,7 @@ const Hospitality = () => {
   ];
   return (
     <>
-      <div className="hospitality">
+      <div className="hospitality industries-subpage">
         <Banner title="Hospitality" innerpage />
         <div className="container-med">
           <div className="right-splitsec">
@@ -59,7 +59,7 @@ const Hospitality = () => {
             </div>
           </div>
         </div>
-        <div className="bgpeach small-strip">
+        <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
               <img

@@ -20,7 +20,7 @@ const Finance = () => {
   ];
   return (
     <>
-      <div className="finance">
+      <div className="finance industries-subpage">
         <Banner title="Finance" innerpage />
         <div className="container-med">
           <div className="right-splitsec">
@@ -59,7 +59,7 @@ const Finance = () => {
             </div>
           </div>
         </div>
-        <div className="bgpeach small-strip">
+        <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
               <img

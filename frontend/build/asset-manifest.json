@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/frontend/build/static/css/main.9898072b.css",
-    "main.js": "/frontend/build/static/js/main.9ee176aa.js",
+    "main.css": "/frontend/build/static/css/main.ae775b35.css",
+    "main.js": "/frontend/build/static/js/main.e059b12c.js",
     "static/js/453.8ab44547.chunk.js": "/frontend/build/static/js/453.8ab44547.chunk.js",
-    "static/media/abstract.webp": "/frontend/build/static/media/abstract.e820fcc629c7a58df973.webp",
     "static/media/Poppins-Regular.woff": "/frontend/build/static/media/Poppins-Regular.387f9003f984ef1cec60.woff",
     "static/media/Poppins-SemiBold.woff": "/frontend/build/static/media/Poppins-SemiBold.71da8e4f0d76b718897c.woff",
     "static/media/services-bg.jpg": "/frontend/build/static/media/services-bg.3a194d7bd22b44cc1ccf.jpg",
@@ -42,12 +41,12 @@
     "index.html": "/frontend/build/index.html",
     "static/media/testiconryt.svg": "/frontend/build/static/media/testiconryt.eb2a09e5fdd3d70e643f.svg",
     "static/media/testiconleft.svg": "/frontend/build/static/media/testiconleft.15214f3765464a3affa9.svg",
-    "main.9898072b.css.map": "/frontend/build/static/css/main.9898072b.css.map",
-    "main.9ee176aa.js.map": "/frontend/build/static/js/main.9ee176aa.js.map",
+    "main.ae775b35.css.map": "/frontend/build/static/css/main.ae775b35.css.map",
+    "main.e059b12c.js.map": "/frontend/build/static/js/main.e059b12c.js.map",
     "453.8ab44547.chunk.js.map": "/frontend/build/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9898072b.css",
-    "static/js/main.9ee176aa.js"
+    "static/css/main.ae775b35.css",
+    "static/js/main.e059b12c.js"
   ]
 }

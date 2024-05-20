@@ -20,7 +20,7 @@ const ECommerce = () => {
   ];
   return (
     <>
-      <div className="e-commerce page">
+      <div className="e-commerce industries-subpage">
         <Banner title="E-commerce" innerpage />
         <div className="container-med">
           <div className="right-splitsec">
@@ -52,7 +52,7 @@ const ECommerce = () => {
             </div>
           </div>
         </div>
-        <div className="bgpeach small-strip">
+        <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
               <img

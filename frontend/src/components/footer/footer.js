@@ -12,7 +12,7 @@ const Footer = () => (
         <div className="row upper-footer">
           <div className="col-md-6">
             <img className="footer-logo" src={
-                      process.env.PUBLIC_URL + "/images/bjs-logo.svg"} alt="Logo" />
+                      process.env.PUBLIC_URL + "/images/bjslogofooter.svg"} alt="Logo" />
             <p>
               The impact of well-crafted website content cannot be overstated
               and can be the difference between a thriving online presence and a

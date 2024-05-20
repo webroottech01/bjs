@@ -19,7 +19,7 @@ const Supplychain = () => {
   ];
   return (
     <>
-      <div className="supplychain">
+      <div className="supplychain industries-subpage">
         <Banner title="Supply Chain" innerpage />
         <div className="container-med">
           <div className="right-splitsec">
@@ -58,7 +58,7 @@ const Supplychain = () => {
             </div>
           </div>
         </div>
-        <div className="bgpeach small-strip">
+        <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
               <img

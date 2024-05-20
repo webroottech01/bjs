@@ -19,7 +19,7 @@ const TeleCommunications = () => {
   ];
   return (
     <>
-      <div className="telecommunications">
+      <div className="telecommunications industries-subpage">
         <Banner title="Tele-communications" innerpage />
         <div className="container-med">
           <div className="right-splitsec">
@@ -58,7 +58,7 @@ const TeleCommunications = () => {
             </div>
           </div>
         </div>
-        <div className="bgpeach small-strip">
+        <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
               <img

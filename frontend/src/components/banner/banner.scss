@@ -81,10 +81,15 @@
       background: #562479;
       width: fit-content;
       color: #ffffff;
-      font-family: Fonarto;
+      font-family: 'Poppins';
       font-size: 28px;
       text-decoration: none;
       border: 3px solid;
+
+      &:hover{
+        background: #ffb600;
+        color: #000000;
+      }
     }
   }
 }
