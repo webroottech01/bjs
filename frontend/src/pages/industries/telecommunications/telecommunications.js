@@ -7,14 +7,14 @@ import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 const TeleCommunications = () => {
   const accountfaqs = [
     {
-      faq_heading: "What services can be outsourced in the real estate sector?",
+      faq_heading: "What services can be outsourced in the Telecom sector?",
       description:
-        "The Real Estate sector can outsource all their non-essential tasks to top firms. HR, Finance Management, e-commerce, call answering, and account management are some of the services that can be outsourced. Lucky for you, BJS, a UK-based juggernaut, offers all these services under a single roof.",
+        "Top business service firms can handle all the non-essential tasks for the Telecom sector. Outsourcing services such as HR, Finance Management, e-commerce, call answering, and account management can be highly beneficial. Fortunately, BJS, a prominent company based in the UK, provides all of these services under the same roof.",
     },
     {
       faq_heading: "How can I get customised solutions for my needs?",
       description:
-        "Yes, of course, top firms like BJS are well-experienced in real estate and know that customisation is critical to adapting and helping your business grow meaningfully. That’s why our team actively discusses and tries to understand all your needs and curate a package that is best suited for all your unique needs and requirements.",
+        "Certainly, reputable firms in the UK, such as BJS, have extensive expertise in the telecom industry. We use our experience, knowledge, and skills to serve your needs and top priorities better. We understand the importance of customisation in order to support the growth of your business effectively. Our team enters into thorough discussions with you to better understand your needs. This information is used to curate a tailored package that perfectly aligns with your requirements.",
     },
   ];
   return (
@@ -25,26 +25,25 @@ const TeleCommunications = () => {
           <div className="right-splitsec">
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
-                <span className="">Financial Efficiency</span>
-                <h3 className="secheading">
-                  Maintain Compliance And Maximise Growth
-                </h3>
+                <span className="">Telecom Optimization</span>
+                <h3 className="secheading">Robust Telecom Services</h3>
                 <p className="mb-0">
-                  Real estate customers often require multiple rounds of
-                  location tours, negotiations, and discussions before sealing
-                  the deal. During the process, any hiccup can turn them away
-                  from your firm.
+                  The Telecom industry is known for its tough, unforgiving
+                  nature and tight regulations. Human Resources, IT support,
+                  data management, analytics, planning, and finance, many things
+                  need to be nailed for the success and growth of your firm.
                 </p>
                 <p className="mb-0 mt-4">
-                  To ensure smooth operations and a tight-knit experience for
-                  your present or potential customers, you must outsource
-                  certain tasks like Field Agent Management, Financial Planning
-                  and more to industry experts.
+                  One of the best service providers for the telecom industry is
+                  BJS. It can massively simplify business operations, help
+                  reduce taxes and unwanted expenses, and optimise business
+                  processes to give you the best possible results.
                 </p>
                 <p className="mb-0 mt-4">
-                  Industry leaders like BJS can massively simplify your business
-                  operations while improving the results for you and your
-                  customers. Let’s discuss how.
+                  Outsourcing services ensure you can focus on your core telecom
+                  service and that BJS handles the rest of the business needs.
+                  Our work requires minimal oversight and operates seamlessly in
+                  the background while delivering results.
                 </p>
               </div>
               <div className="col-md-12 col-lg-6 order-lg-1">
@@ -65,37 +64,39 @@ const TeleCommunications = () => {
                 alt=""
                 src={process.env.PUBLIC_URL + "/images/successfulblk.png"}
               />
-              Best in the Business
+              Trusted Service Provider
             </h3>
             <p className="mb-0">
-              BJS is ideal for handling customer queries, scheduling
-              on-site/off-site meetings, planning projects, controlling field
-              agents and more.
+              Thanks to years of experience, BJS is a trusted name for
+              outsourcing services in many industries, including Telecom.
             </p>
           </div>
         </div>
         <div className="outsourcing-sec">
           <div className="container">
             <h3>
-              What are Outsourced Services? <br /> How does the Real Estate
-              Sector benefit from Outsourcing
+              What are Outsourced Services? <br /> How does the Telecom Sector
+              benefit from Outsourcing
             </h3>
             <p>
-              Outsourced services can be ideal for real estate builders as well
-              as agents in improving their workflow and retaining customers.
-              It's not uncommon for Real Estate professionals to have plenty of
-              unanswered calls and missed schedules.
+              While the telecom sector in itself might be a master at
+              communications, there are business aspects that are quite handled
+              by the telecom sector. Taxation, financial planning, sales, and
+              process management are some areas where Telecom services might
+              need help.
             </p>
             <p>
-              We at BJS offer virtual personal assistants to handle your
-              schedules, coordination, and calendar management. In addition, our
-              process consultation services help optimise your firm for the best
-              possible efficiency and redundancy.
+              That’s where BJS comes into play. BJS has multiple valuable
+              business services, including all the ones discussed above. This
+              means you can delegate all these tasks to BJS and focus on your
+              core business functions.
             </p>
             <p>
-              Overall, BJS offers lucrative tools, services, and overall
-              solutions to help your business grow and flourish. Let’s see how
-              our key services align with the needs of the real estate sector.
+              As an industry expert, we are perfect for handling all your needs
+              and most likely exceeding your expectations. Our experts can also
+              provide you with guidance and advice to better adapt and grow your
+              business through reforms in taxation, process planning, human
+              resources, and more.
             </p>
           </div>
         </div>
@@ -114,10 +115,10 @@ const TeleCommunications = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Field Agent Management
-</h4>
+                  <h4>Human Resources</h4>
                   <p>
-                  The Real Estate sector requires a lot of movement of people and goods. Sales agents, truck drivers, and more. It is hard to keep track of everyone. Our field agent management services deploy advanced software solutions and proper supervision by our experts to avoid any unnecessary delays in any process.
+                  The tightly regulated Telecom industry requires highly skilled HR executives to handle all business requirements and demands properly. BJS, thankfully, provides Human Resource services that monitor and guarantee that every employee is presenting themselves in the best possible light. They also take care of the welfare of the entire workforce by implementing employee benefits, insurance, leaves, and pay designed to satisfy staff members without going over budget.
+
                   </p>
                 </div>
               </div>
@@ -129,14 +130,15 @@ const TeleCommunications = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Human Resources</h4>
+                  <h4>Process Consulting
+</h4>
                   <p>
-                  Real Estate is a hugely labour-intensive sector. Due to the overwhelming number of people involved in real estate projects, it is quite hard to track and look after the workforce accurately. Fortunately, BJS offers human resource services that track and ensure all employees are putting their best foot forward. While doing so, they also make sure the well-being of all employees is accounted for. Proper employee benefits, insurance, leaves, and compensations are formulated to keep employees happy without breaking the bank.
+                  Years of real estate industry expertise help our industry professionals provide you with guidance and suggestions to improve processes. This can include building redundancy systems like backups, data security methodologies, and more for compliance. In addition, they can redesign and reconfigure various processes to extract more performance or save costs for your firm. Previously unreleased performance potential can be easily extracted to gain you a competitive edge.
 
                   </p>
                 </div>
               </div>
-              
+
               <div className="card">
                 <div className="icon">
                   <img
@@ -145,10 +147,10 @@ const TeleCommunications = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Integrated Sales
-</h4>
+                  <h4>Integrated Sales</h4>
                   <p>
-                  Unlike conventional sales teams, our modern combined marketing and sales teams, collectively known as integrated sales teams, stay connected with customers right from 1st interaction until sale completion. This ensures the customer always has a single point of contact and that it is always taken care of. The lean and simple model results in better performance and customer satisfaction overall.
+                  Our innovative integrated sales teams are dedicated to maintaining a strong connection with customers throughout the entire sales process, from the initial interaction to the final sale. Ensuring that the customer always has a dedicated point of contact and receives consistent care is paramount. The model yields improved performance and overall customer satisfaction with a streamlined and straightforward approach. Our model combined marketing and sales departments into a unified Integrated Sales setup.
+
 
                   </p>
                 </div>
@@ -161,12 +163,11 @@ const TeleCommunications = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Customer Relationship Management</h4>
+                  <h4>Account Management Services</h4>
                   <p>
+                  As a Telecom service, you probably have many clients with different plans, pricing structures, and contract periods. In addition, you would be collaborating with various businesses and 3rd-party services that get payments from you. Properly managing these accounts payable and accounts receivable isn’t easy. That’s why our Account Management Services are ideal for you. We perform proper bookkeeping and keep track of all incoming and outgoing payments to ensure no defaults/delays occur.
 
-                  Customer Relationship Management
 
-In the dynamic world of real estate, maintaining strong relationships with clients is paramount. Our Customer Relationship Management services are tailored to ensure seamless communication and personalized interactions with every client.
                   </p>
                 </div>
               </div>
@@ -178,11 +179,10 @@ In the dynamic world of real estate, maintaining strong relationships with clien
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Process Consulting
+                  <h4>Virtual PA
 </h4>
                   <p>
-                  Our expert process consultants have years of experience in the real estate sector. All your processing issues, choke points, vulnerabilities, and optimisation opportunities are carefully analysed to formulate the best possible processes. These processes are designed to maximise profitability, minimise delays, and create redundant, stable systems with maximum reliability.
-
+                  Our virtual PA helps ease your workload by taking over various responsibilities such as day planning, calendar management, and coordinating meetings. They make travel arrangements, reservations, and various other tasks on your behalf to save you the time and the hassle of doing these things on your own.
                   </p>
                 </div>
               </div>
@@ -194,11 +194,17 @@ In the dynamic world of real estate, maintaining strong relationships with clien
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Virtual PA
-</h4>
+                  <h4>Pending</h4>
                   <p>
-                  A Virtual Private Assistant is specifically responsible for assisting you in day-to-day tasks and ensuring they handle anything unimportant, freeing up time for you. Scheduling customer meetings, taking appointments, coordinating business meetings, and more help save time. Your assistant maintains a proper calendar with all the events planned. This ensures you are always aware of upcoming activities. Our agents proactively make hotel reservations, travel arrangements, and other things.
-
+                    A Virtual Private Assistant is specifically responsible for
+                    assisting you in day-to-day tasks and ensuring they handle
+                    anything unimportant, freeing up time for you. Scheduling
+                    customer meetings, taking appointments, coordinating
+                    business meetings, and more help save time. Your assistant
+                    maintains a proper calendar with all the events planned.
+                    This ensures you are always aware of upcoming activities.
+                    Our agents proactively make hotel reservations, travel
+                    arrangements, and other things.
                   </p>
                 </div>
               </div>
@@ -214,27 +220,29 @@ In the dynamic world of real estate, maintaining strong relationships with clien
             </h3>
             <div className="roundcard-outer">
               <div className="roundcard">
-                <h4>Consistency</h4>
+                <h4>Training</h4>
                 <p>
-                With proper training, evaluations, and past experience, we ensure that all our agents are equally capable of serving you and managing all your needs.
+                Our industry experts train our staff in our robust in-house training facilities. Our training ensures the workforce is ready to handle all your needs.
+
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Consultation</h4>
                 <p>
-                Have a question in mind? Our consultants can help you with a wide range of topics, including taxation, logistics, financial planning, and more.
+                Have a question in mind? Our consultants can help you with various topics, including taxation, costing, financial planning, etc.
                 </p>
               </div>
               <div className="roundcard">
-                <h4>24x7</h4>
+                <h4>Technology</h4>
                 <p>
-                Our staff is available 24x7, ensuring all your needs can be met as and when you want us. After all, what good is a service if it isn’t available when you need it? We are always available to support you and serve your needs.
+                We quickly adapt to the latest state-of-the-art technologies and infrastructure to provide your firm with the tools and solutions you might need.
+
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Experience</h4>
                 <p>
-                As the best firm in the UK, we have a lot of experience handling high-profile real estate clients, making us an ideal choice for you as well. We use this experience to help you with decision-making, optimisation, and overall business improvements.
+                We hire some of the highest-paid, most skilled, and most experienced staff. The quality workforce is an important factor that contributed to our incredible success.
 
                 </p>
               </div>

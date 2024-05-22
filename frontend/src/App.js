@@ -17,6 +17,7 @@ import Hospitality from "./pages/industries/hospitality/hospitality";
 import RealEstate from "./pages/industries/real-estate/realestate";
 import Supplychain from "./pages/industries/supplychain/supplychain";
 import TeleCommunications from "./pages/industries/telecommunications/telecommunications";
+import IntegratedSales from "./pages/solutions/integrated-sales/integrated-sales";
 
 
 
@@ -35,7 +36,7 @@ function App() {
           {/*  Solutions routes */}
           <Route path="solutions/contact-center" element={<ContactCenter />} />
           <Route path="solutions/account-managment" element={<AccountManagment />} />
-          <Route path="solutions/integrated-sales" element={<ComingSoon />} />
+          <Route path="solutions/integrated-sales" element={<IntegratedSales />} />
           <Route path="solutions/virtual-pa" element={<ComingSoon />} />
           <Route path="solutions/human-resources" element={<ComingSoon />} />
           <Route path="solutions/process-consulting" element={<ComingSoon />} />

@@ -28,7 +28,7 @@ const accountfaqs = [
 
   return (
     <>
-      <div className="account-managment">
+      <div className="account-managment solutions-subpage">
         <Banner title={"Account Managment"} innerpage />
         <div className="container-med">
           <div className="right-splitsec leftimgtype">
@@ -168,7 +168,7 @@ const accountfaqs = [
           </div>
         </div>
 
-        <div className="bgpink small-strip">
+        <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
               <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
