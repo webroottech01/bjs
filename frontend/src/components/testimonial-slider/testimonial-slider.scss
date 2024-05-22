@@ -1,16 +1,10 @@
 .testimonial-slider {
   padding-top: 89px;
+  .slick-slider {
+    margin: 0 50px;
+  
   .slick-slide {
-    &:nth-child(3n-2) {
-      padding-right: 64px;
-    }
-    &:nth-child(3n-1) {
-      padding-left: 32px;
-      padding-right: 32px;
-    }
-    &:nth-child(3n) {
-      padding-left: 64px;
-    }
+    padding: 0 30px;
     .hypeicon {
       height: 54px;
       width: 57px;
@@ -85,4 +79,5 @@
       content: url("../../../public/images/testiconryt.svg");
     }
   }
+}
 }

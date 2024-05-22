@@ -7,14 +7,14 @@ import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 const Supplychain = () => {
   const accountfaqs = [
     {
-      faq_heading: "What services can be outsourced in the real estate sector?",
+      faq_heading: "Is it safe to outsource services?",
       description:
-        "The Real Estate sector can outsource all their non-essential tasks to top firms. HR, Finance Management, e-commerce, call answering, and account management are some of the services that can be outsourced. Lucky for you, BJS, a UK-based juggernaut, offers all these services under a single roof.",
+        "Yes, modern outsourcing services are a great alternative to old-fashioned in-house setups. These firms are bound by strict laws and have proper policies implemented to make sure your needs are met. Cheaper/newer services might still be unreliable, but proven market players like BJS are more than safe for all your business needs.",
     },
     {
-      faq_heading: "How can I get customised solutions for my needs?",
+      faq_heading: "Can I get customised services to match my business needs?",
       description:
-        "Yes, of course, top firms like BJS are well-experienced in real estate and know that customisation is critical to adapting and helping your business grow meaningfully. That’s why our team actively discusses and tries to understand all your needs and curate a package that is best suited for all your unique needs and requirements.",
+        "Yes, every supply chain has its own unique requirements and priorities. We understand that very well. Our staff will customise all the services to make sure that they are optimised to meet all your requirements and priorities. We strive to deliver an ideal experience for you throughout the year.",
     },
   ];
   return (
@@ -25,7 +25,7 @@ const Supplychain = () => {
           <div className="right-splitsec">
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
-                <span className="">Financial Efficiency</span>
+                <span className="">Supply Chain Mastery</span>
                 <h3 className="secheading">
                   Solutions To Manage And Optimise Supply Chain
                 </h3>
@@ -123,14 +123,9 @@ const Supplychain = () => {
                 <div className="card-cont">
                   <h4>Customer Support</h4>
                   <p>
-                    Our call centres are suitable for offering robust customer
-                    support to all your customers, ensuring all their queries
-                    and issues can be resolved with minimum possible delays. Our
-                    omnichannel support ensures your customers can connect via
-                    their preferred medium and get consistent, reliable, and
-                    helpful support every single time.
+                  Our call centres are suitable for offering robust customer support to all your customers, ensuring all their queries and issues can be resolved with minimum possible delays. Our omnichannel support ensures your customers can connect via their preferred medium and get consistent, reliable, and helpful support every single time.
                   </p>
-                </div>
+                </div> 
               </div>
               <div className="card">
                 <div className="icon">
@@ -240,38 +235,29 @@ const Supplychain = () => {
             </h3>
             <div className="roundcard-outer">
               <div className="roundcard">
-                <h4>Consistency</h4>
+                <h4>Experience</h4>
                 <p>
-                  With proper training, evaluations, and past experience, we
-                  ensure that all our agents are equally capable of serving you
-                  and managing all your needs.
+                Our entire workforce is highly experienced and skilled to handle your business needs. There are no chances of “rookie mistakes”.
                 </p>
               </div>
               <div className="roundcard">
-                <h4>Consultation</h4>
+                <h4>UK-based</h4>
                 <p>
-                  Have a question in mind? Our consultants can help you with a
-                  wide range of topics, including taxation, logistics, financial
-                  planning, and more.
+                Our completely UK-based workforce of native English speakers is suitable for communication with the majority of people in the world, considering English is the most widely spoken language.
+
                 </p>
               </div>
               <div className="roundcard">
                 <h4>24x7</h4>
                 <p>
-                  Our staff is available 24x7, ensuring all your needs can be
-                  met as and when you want us. After all, what good is a service
-                  if it isn’t available when you need it? We are always
-                  available to support you and serve your needs.
+                Our offices operate 24x7 to ensure that any emergency or sudden need in your supply chain can be immediately noticed and addressed, minimising losses and maximising reliability.
                 </p>
               </div>
               <div className="roundcard">
-                <h4>Experience</h4>
+                <h4>Security</h4>
                 <p>
-                  As the best firm in the UK, we have a lot of experience
-                  handling high-profile real estate clients, making us an ideal
-                  choice for you as well. We use this experience to help you
-                  with decision-making, optimisation, and overall business
-                  improvements.
+                Your supply chain logistics are secretive and confidential. We understand that your critical business data is stored safely with us and is never shared with your competitors or any unauthorised person.
+
                 </p>
               </div>
             </div>

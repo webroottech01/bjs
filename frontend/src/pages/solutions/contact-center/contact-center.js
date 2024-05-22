@@ -28,7 +28,7 @@ const ContactCenter = () => {
   
     return (
       <>
-        <div className="contact-center">
+        <div className="contact-center solutions-subpage">
           <Banner title={"Contact Centre Services"} innerpage />
           <div className="container-med">
             <div className="right-splitsec leftimgtype">
@@ -150,7 +150,7 @@ const ContactCenter = () => {
             </div>
           </div>
   
-          <div className="bgpink small-strip">
+          <div className="small-strip">
             <div className="container-med">
               <h3 className="iconheading">
                 <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />

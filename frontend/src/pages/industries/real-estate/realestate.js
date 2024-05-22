@@ -25,7 +25,7 @@ const RealEstate = () => {
           <div className="right-splitsec">
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
-                <span className="">Financial Efficiency</span>
+                <span className="">Operational Excellence</span>
                 <h3 className="secheading">
                   Maintain Compliance And Maximise Growth
                 </h3>
