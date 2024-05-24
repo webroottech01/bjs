@@ -44,7 +44,7 @@ const ContactCenter = () => {
                   Manage all your inbound and outbound communications.
                   </h3>
                   <p className="mb-0">
-                  t's no secret that managing communications through multiple channels is a tedious task. Being always available to pick up the calls, reply to live chat and emails, or be diligent enough to make cold calls continuously is not everybody’s cup of tea.
+                  It's no secret that managing communications through multiple channels is a tedious task. Being always available to pick up the calls, reply to live chat and emails, or be diligent enough to make cold calls continuously is not everybody’s cup of tea.
                   </p>
                   <p className="mb-0 mt-4">
                   That’s why we at BJS offer robust 24x7 contact centre services to make and take calls on your behalf. The communication is done in your name and is indistinguishable from the communication made by your own staff.

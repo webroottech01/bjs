@@ -13,7 +13,6 @@ const ServicesSlider = () => {
     centerPadding: "15%",
     slidesToShow: 2,
     dots: true,
-    slidesToScroll: 1,
     center : true,
     autoplay: true,
     speed: 7000,
