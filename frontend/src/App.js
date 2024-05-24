@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css';
-import './style.scss';
-import Header from './components/header/header';
-import Footer from './components/footer/footer'
-import Home from './pages/home/home';
+import "./App.css";
+import "./style.scss";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
+import Home from "./pages/home/home";
 import ContactUs from "./pages/contact-us/contact-us";
 import ComingSoon from "./components/coming-soon/coming-soon";
 import Pricing from "./pages/pricing/pricing";
-import Insights from "./pages/Insights/insights"; 
+import Insights from "./pages/Insights/insights";
 import Automobile from "./pages/industries/automobile/automobile";
 import AccountManagment from "./pages/solutions/account-managment/account-managment";
 import Finance from "./pages/industries/finance/finance";
@@ -20,15 +20,13 @@ import TeleCommunications from "./pages/industries/telecommunications/telecommun
 import IntegratedSales from "./pages/solutions/integrated-sales/integrated-sales";
 import VirtualPa from "./pages/solutions/virtual-pa/virtual-pa";
 import HumanResources from "./pages/solutions/human-resources/human-resources";
-
-
+import Banner from "./components/banner/banner";
 
 function App() {
   return (
     <div className="App">
-      
-      <BrowserRouter >  
-      <Header />
+      <BrowserRouter>
+        <Header />
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -37,29 +35,47 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           {/*  Solutions routes */}
           <Route path="solutions/contact-center" element={<ContactCenter />} />
-          <Route path="solutions/account-managment" element={<AccountManagment />} />
-          <Route path="solutions/integrated-sales" element={<IntegratedSales />} />
+          <Route
+            path="solutions/account-managment"
+            element={<AccountManagment />}
+          />
+          <Route
+            path="solutions/integrated-sales"
+            element={<IntegratedSales />}
+          />
           <Route path="solutions/virtual-pa" element={<VirtualPa />} />
-          <Route path="solutions/human-resources" element={<HumanResources />} />
+          <Route
+            path="solutions/human-resources"
+            element={<HumanResources />}
+          />
           <Route path="solutions/process-consulting" element={<ComingSoon />} />
           <Route path="solutions/finance-accounting" element={<ComingSoon />} />
           <Route path="solutions/e-commerce" element={<ComingSoon />} />
-          <Route path="solutions/field-agent-management" element={<ComingSoon />} />
+          <Route
+            path="solutions/field-agent-management"
+            element={<ComingSoon />}
+          />
           {/* end Solutions routes */}
           {/*  Industries routes */}
           <Route path="/industries/automobile" element={<Automobile />} />
-          <Route path="/industries/e-commerce" element={<ECommerce />} /> 
-          <Route path="/industries/finance" element={<Finance />} /> 
-          <Route path="/industries/hospitality" element={<Hospitality />} /> 
-          <Route path="/industries/real-estate" element={<RealEstate />} /> 
-          <Route path="/industries/supply-chain" element={<Supplychain />} /> 
-          <Route path="/industries/tele-communications" element={<TeleCommunications />} />
-           {/*  end Industries routes */}
-          <Route path="/insights" element={<Insights />} />  
-        </Routes> 
-        <Footer /> 
+          <Route path="/industries/e-commerce" element={<ECommerce />} />
+          <Route path="/industries/finance" element={<Finance />} />
+          <Route path="/industries/hospitality" element={<Hospitality />} />
+          <Route path="/industries/real-estate" element={<RealEstate />} />
+          <Route path="/industries/supply-chain" element={<Supplychain />} />
+          <Route
+            path="/industries/tele-communications"
+            element={<TeleCommunications />}
+          />
+          {/*  end Industries routes */}
+          <Route path="/insights" element={<Insights />} />
+        </Routes>
+        <Footer />
+        <div className="underconst">
+        <img className="underlogo" src={"images/bjslogo.svg"} alt="" />
+          <Banner title={"Coming Soon: Enhanced Experience"} desc="A responsive version of our website is in the works. In the meantime, please visit us on a screen size of 1920px or larger for the best experience. Thank you for your patience."></Banner>
+        </div>
       </BrowserRouter>
-      
     </div>
   );
 }

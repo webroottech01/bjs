@@ -46,3 +46,71 @@
   padding-left: 0 !important;
   padding-right: 7%;
 } 
+.underconst{
+  display: none;
+}
+
+.underconst .banner-inner {
+  min-height: 100vh;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+}
+.underconst .banner-inner .container-med {
+  width: 90%;
+  padding-left: 0 !important;
+}
+.underconst .banner-gettouch {
+  display: none;
+}
+.underconst .underlogo{
+  position: fixed;
+  top: 30px;
+  left: 5%;
+  background: #fff;
+  z-index: 1;
+  width: 125px;
+  padding: 5px;
+}
+@media screen and (max-width : 1800px){
+.underconst .site-banner h2{
+    font-size: 52px;
+  }
+  .App > div {
+    display: none;
+}
+.App > div.underconst {
+  display: block;
+}
+.underconst .site-banner .triblocks img {
+  width: 100px;
+}
+.underconst .site-banner p {
+  margin-bottom: 0;
+}
+}
+@media screen and (max-width :1024px){
+ .underconst .site-banner .banner-inner {
+    background: linear-gradient(90deg, #d51bed 0%, #e72b6a 10%, #ffb600 40%, rgba(255, 182, 0, 0.75) 55%, rgba(255, 182, 0, 0.3) 75%) ;
+}
+
+}
+
+@media screen and (max-width :768px){
+ .underconst .site-banner h2 {
+   font-size: 48px;
+ }
+ .underconst .site-banner .banner-inner {
+  background: linear-gradient(90deg, #d51bed 0%, #e72b6a 20%, #ffb600 50%, rgba(255, 182, 0, 0.75) 75%, rgba(255, 182, 0, 0.3) 100%);
+}
+ }
+ @media screen and (max-width :500px){
+.underconst .site-banner p {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+.underconst .site-banner h2 {
+  font-size: 34px;
+}
+ }

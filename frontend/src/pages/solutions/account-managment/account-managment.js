@@ -7,24 +7,28 @@ import TestimonialSlider from "../../../components/testimonial-slider/testimonia
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 
 const AccountManagment = () => {
-const accountfaqs = [ 
-  {
-    faq_heading : 'What are Account Management Services?',
-    description : 'As the name suggests, Account Management Services maintains your account. It tracks all current and future incoming/outgoing transactions. They perform bookkeeping and track the flow of goods through your firm.'
-  },
-  {
-    faq_heading : 'How Do Account Management Services Work?',
-    description : 'You can find quality account management services for really cheap prices. However, they would not have the experience, skills, and software solutions to match your expectations. That’s why you should consider quality services like BJS. We at BJS meet all your requirements and expectations while still being reasonably competitive in the price.'
-  },
-  {
-    faq_heading : 'Can I Customise My Account Management Service at BJS?',
-    description : 'Yes, ofcourse. We can fine-tune our services to meet your demands. Everything, including working hours, periodic reports, SOPs, integrations, and coordination, can be adapted to match your needs.'
-  },
-  {
-    faq_heading : 'Are Account Management Services Useful?',
-    description : 'Truth be told, if you are a tiny firm with about a dozen or so transactions monthly, you should handle these things better. However, once you achieve some scale, trusting expert account management services in the UK, such as BJS, is better. They help optimise procedures, resolve bottlenecks, save taxes, and reduce burdens.'
-  }
-]
+  const accountfaqs = [
+    {
+      faq_heading: "What are Account Management Services?",
+      description:
+        "As the name suggests, Account Management Services maintains your account. It tracks all current and future incoming/outgoing transactions. They perform bookkeeping and track the flow of goods through your firm.",
+    },
+    {
+      faq_heading: "How Do Account Management Services Work?",
+      description:
+        "You can find quality account management services for really cheap prices. However, they would not have the experience, skills, and software solutions to match your expectations. That’s why you should consider quality services like BJS. We at BJS meet all your requirements and expectations while still being reasonably competitive in the price.",
+    },
+    {
+      faq_heading: "Can I Customise My Account Management Service at BJS?",
+      description:
+        "Yes, ofcourse. We can fine-tune our services to meet your demands. Everything, including working hours, periodic reports, SOPs, integrations, and coordination, can be adapted to match your needs.",
+    },
+    {
+      faq_heading: "Are Account Management Services Useful?",
+      description:
+        "Truth be told, if you are a tiny firm with about a dozen or so transactions monthly, you should handle these things better. However, once you achieve some scale, trusting expert account management services in the UK, such as BJS, is better. They help optimise procedures, resolve bottlenecks, save taxes, and reduce burdens.",
+    },
+  ];
 
   return (
     <>
@@ -35,7 +39,9 @@ const accountfaqs = [
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img src={process.env.PUBLIC_URL + "/images/accounting.jpg"} />
+                  <img
+                    src={process.env.PUBLIC_URL + "/images/accounting.jpg"}
+                  />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
@@ -156,11 +162,12 @@ const accountfaqs = [
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Risk Mitigation</h4>
+                  <h4>Data Analytics</h4>
                   <p>
-                    Professional account management services help mitigate
-                    financial risks by implementing robust internal controls,
-                    compliance measures, and fraud detection mechanisms.
+                    With various analytical tools, data points, and real-time
+                    data collection, you get proper insights about your business
+                    performance. The in-depth data allows you to analyse issues
+                    and find room for improvement as well.
                   </p>
                 </div>
               </div>
@@ -188,7 +195,7 @@ const accountfaqs = [
             <h2 className="secheading">
               Benefits of BJS Account Management Services
             </h2>
-<h3>Here are some benifits of BJS Account Management Services</h3>
+            <h3>Here are some benifits of BJS Account Management Services</h3>
             <div className="roundcard-outer">
               <div className="roundcard">
                 <h4>Experience</h4>
@@ -263,33 +270,39 @@ const accountfaqs = [
 
         <div className="benifits-sec">
           <div className="container-max">
-            <h2 className="secheading">Benefits of BJS Contact Centre Services</h2>
+            <h2 className="secheading">
+              Benefits of BJS Contact Centre Services
+            </h2>
             <h3>Unmatched Service and Quality</h3>
             <div className="roundcard-outer">
               <div className="roundcard">
                 <h4>24x7 Support</h4>
                 <p>
-                Our support staff works 24x7 in multiple shifts to ensure complete coverage and availability for your customers.
-
+                  Our support staff works 24x7 in multiple shifts to ensure
+                  complete coverage and availability for your customers.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Native English Speakers</h4>
                 <p>
-                Our staff is composed of native English speakers, mostly from the UK, ensuring proper command and understanding of English.
+                  Our staff is composed of native English speakers, mostly from
+                  the UK, ensuring proper command and understanding of English.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Personalised</h4>
                 <p>
-                All services are personalised, and we can implement custom guidelines, scripts, caller tunes, and various other features to adapt to your needs.
+                  All services are personalised, and we can implement custom
+                  guidelines, scripts, caller tunes, and various other features
+                  to adapt to your needs.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Sales</h4>
                 <p>
-                A proper knowledge base helps our staff have an in-depth understanding of the topic. This is crucial for taking sales calls and converting potential customers.
-
+                  A proper knowledge base helps our staff have an in-depth
+                  understanding of the topic. This is crucial for taking sales
+                  calls and converting potential customers.
                 </p>
               </div>
             </div>
@@ -304,13 +317,12 @@ const accountfaqs = [
         <div className="testimonial-sec">
           <h2 className="secheading">What our partners say about us</h2>
           <TestimonialSlider />
-        </div> 
+        </div>
 
         <div className="account-faqs">
           <h2 className="secheading">FAQs</h2>
-          <FaqTabs faqs={accountfaqs} /> 
+          <FaqTabs faqs={accountfaqs} />
         </div>
-        
       </div>
     </>
   );

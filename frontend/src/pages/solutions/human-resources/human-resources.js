@@ -148,12 +148,9 @@ const HumanResources = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Pending</h4>
+                  <h4>Accounts Payable</h4>
                   <p>
-                    To reduce the hurdles for your client, the telephone
-                    services can be made toll-free, motivating your clients to
-                    call you freely, which is impossible with conventional
-                    mobile numbers.
+                  With our proper tracking and management tools, you can always be up-to-date with your accounts payable data. This ensures there are no unexpected surprises relating to employee salaries and benefits.
                   </p>
                 </div>
               </div>
@@ -164,12 +161,9 @@ const HumanResources = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Pending</h4>
+                  <h4>Employee Benefits</h4>
                   <p>
-                    A well-managed contact center can contribute to building a
-                    positive brand reputation by delivering exceptional customer
-                    service, resolving issues promptly which can lead to
-                    increased customer loyalty and advocacy.
+                  A proper dedicated Human Resource department can help implement monetary and non-monetary employee benefits. These help boost morale, ensure proper legal compliance, and overall improve the well-being of the employees.
                   </p>
                 </div>
               </div>

@@ -181,9 +181,9 @@ const Hospitality = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Experience Enhancement</h4>
+                  <h4>Field Agent Management</h4>
                   <p>
-                  In the hospitality industry, customer experience reigns supreme. Every interaction, from the moment a guest considers your services to the time they check out, shapes their perception of your brand. At BJS, we specialize in enhancing customer experiences to foster loyalty and drive positive word-of-mouth. 
+                  Hospitality usually requires multiple employees working together with complete coordination and precision to ensure an ideal user experience. Most of the times, our field agent management services can reduce cost overruns, optimise processes, and bring massive efficiency boost for firms.
                   </p>
                 </div>
               </div>
