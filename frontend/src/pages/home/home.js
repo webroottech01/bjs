@@ -12,7 +12,7 @@ const Home = () => {
   let pagetitle = "Time to think Beyond Just Service";
   let pagedesc =
     "You’re bogged down with processes, spinning plates, juggling workloads, and generally just struggling to keep it all together – hi 👋 we’re here to help.";
-  let bgimage = "./images/bghome.webp"; 
+  let bgimage = "./images/bjsbannerlight.jpg"; 
   
   return (
     <div className="home">
@@ -30,7 +30,7 @@ const Home = () => {
         
       </div>
       <div className="justimage-sec">
-        <img src={process.env.PUBLIC_URL + "/images/justgirl.webp"}  />
+        <img src={process.env.PUBLIC_URL + "/images/homejustgirl.jpg"}  />
         <div className="bounceball one"></div>
         <div className="bounceball two"></div>
         <div className="bounceball three"></div>

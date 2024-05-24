@@ -30,7 +30,7 @@ const ContactUs = () => {
 
   return (
     <div className="contact-us">
-      <Banner title="Contact us" innerpage />
+      <Banner title="Contact us" innerpage  bgimage={'images/contactusban.jpg'}/>
       <div className="center-part">
         <div className="container-max">
           <div className="row">
