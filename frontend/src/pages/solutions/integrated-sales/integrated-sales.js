@@ -177,12 +177,13 @@ const IntegratedSales = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Pending</h4>
+                  <h4>Turnaround Times</h4>
                   <p>
-                    A well-managed contact center can contribute to building a
-                    positive brand reputation by delivering exceptional customer
-                    service, resolving issues promptly which can lead to
-                    increased customer loyalty and advocacy.
+                    Due to the involvement of multiple departments in the
+                    conventional methods, most of the time, customer acquisition
+                    is a long process. However, with our streamlined business
+                    model, the reduced turnaround times improve your financial
+                    condition while saving time and resources.
                   </p>
                 </div>
               </div>

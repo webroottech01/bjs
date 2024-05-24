@@ -123,9 +123,14 @@ const Supplychain = () => {
                 <div className="card-cont">
                   <h4>Customer Support</h4>
                   <p>
-                  Our call centres are suitable for offering robust customer support to all your customers, ensuring all their queries and issues can be resolved with minimum possible delays. Our omnichannel support ensures your customers can connect via their preferred medium and get consistent, reliable, and helpful support every single time.
+                    Our call centres are suitable for offering robust customer
+                    support to all your customers, ensuring all their queries
+                    and issues can be resolved with minimum possible delays. Our
+                    omnichannel support ensures your customers can connect via
+                    their preferred medium and get consistent, reliable, and
+                    helpful support every single time.
                   </p>
-                </div> 
+                </div>
               </div>
               <div className="card">
                 <div className="icon">
@@ -134,50 +139,17 @@ const Supplychain = () => {
                     alt=""
                   />
                 </div>
-                <div className="card-cont"> 
-                  <h4>Virtual PA</h4>
-                  <p>
-                  Supply Chain businesses are largely driven by strong and robust relationships between businesses. To foster such relationships, constant meetings, visits, and office tours are arranged. Our PA service ensures that all your needs are met. The PA would maintain your calendar, schedule your day(s) ahead, book tickets and hotel reservations, plan itineraries, and more for visits with clients. The virtual PA ensures you can focus on your business negotiations and dealings, while the rest of the activities, like planning, scheduling, coordinating, and documenting, are handled by them.
-                  </p>
-                </div>
-              </div>
-
-              <div className="card">
-                <div className="icon">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/business.png"}
-                    alt=""
-                  />
-                </div>
                 <div className="card-cont">
-                  <h4>Field Agent Management</h4>
+                  <h4>Human Resources</h4>
                   <p>
-                  We provide a comprehensive range of tracking tools, software solutions, management tools, and performance metrics to support your field agents. With this tool, you can effortlessly keep tabs on and oversee all delivery agents and personnel who are not in the office. Our service diligently monitors the performance of each employee, ensuring that any unforeseen issues are kept to a minimum.
-
-                  </p> 
-                </div>
-              </div>
-             
-              <div className="card">
-                <div className="icon">
-                  <img
-                    alt=""
-                    src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
-                  />
-                </div>
-                <div className="card-cont">
-                  <h4>Finance & E-Commerce Management</h4>
-                  <p>
-                    We have skilled e-commerce experts who ensure all your
-                    financial systems, payment gateways, products, and platforms
-                    are in ideal condition. This ensures that all customers can
-                    actually access and purchase your services with minimum
-                    hassle. Apart from maintenance, top finance services can
-                    also implement surge pricing and customised packages and run
-                    data-driven analyses to provide you with insights into room
-                    for improvement. They help maximise profitability and
-                    scalability. Prices and offers are modified depending on the
-                    trends observed in the market.
+                    The significance of Human Resources in the realm of Supply
+                    Chain cannot be understated. With lots of employees working
+                    around the clock, any employee issue can result in a
+                    complete standstill for the entire chain. It is important to
+                    ensure all your employees are satisfied. In addition, proper
+                    legal and regulatory compliance needs to be maintained as
+                    well. All of that gets handled with perfection by our
+                    skilled workforce at BJS.
                   </p>
                 </div>
               </div>
@@ -223,6 +195,50 @@ const Supplychain = () => {
                   </p>
                 </div>
               </div>
+              <div className="card">
+                <div className="icon">
+                  <img
+                    src={process.env.PUBLIC_URL + "/images/business.png"}
+                    alt=""
+                  />
+                </div>
+                <div className="card-cont">
+                  <h4>Field Agent Management</h4>
+                  <p>
+                    We provide a comprehensive range of tracking tools, software
+                    solutions, management tools, and performance metrics to
+                    support your field agents. With this tool, you can
+                    effortlessly keep tabs on and oversee all delivery agents
+                    and personnel who are not in the office. Our service
+                    diligently monitors the performance of each employee,
+                    ensuring that any unforeseen issues are kept to a minimum.
+                  </p>
+                </div>
+              </div>
+
+              <div className="card">
+                <div className="icon">
+                  <img
+                    alt=""
+                    src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
+                  />
+                </div>
+                <div className="card-cont">
+                  <h4>Finance & E-Commerce Management</h4>
+                  <p>
+                    We have skilled e-commerce experts who ensure all your
+                    financial systems, payment gateways, products, and platforms
+                    are in ideal condition. This ensures that all customers can
+                    actually access and purchase your services with minimum
+                    hassle. Apart from maintenance, top finance services can
+                    also implement surge pricing and customised packages and run
+                    data-driven analyses to provide you with insights into room
+                    for improvement. They help maximise profitability and
+                    scalability. Prices and offers are modified depending on the
+                    trends observed in the market.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -237,27 +253,35 @@ const Supplychain = () => {
               <div className="roundcard">
                 <h4>Experience</h4>
                 <p>
-                Our entire workforce is highly experienced and skilled to handle your business needs. There are no chances of “rookie mistakes”.
+                  Our entire workforce is highly experienced and skilled to
+                  handle your business needs. There are no chances of “rookie
+                  mistakes”.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>UK-based</h4>
                 <p>
-                Our completely UK-based workforce of native English speakers is suitable for communication with the majority of people in the world, considering English is the most widely spoken language.
-
+                  Our completely UK-based workforce of native English speakers
+                  is suitable for communication with the majority of people in
+                  the world, considering English is the most widely spoken
+                  language.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>24x7</h4>
                 <p>
-                Our offices operate 24x7 to ensure that any emergency or sudden need in your supply chain can be immediately noticed and addressed, minimising losses and maximising reliability.
+                  Our offices operate 24x7 to ensure that any emergency or
+                  sudden need in your supply chain can be immediately noticed
+                  and addressed, minimising losses and maximising reliability.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Security</h4>
                 <p>
-                Your supply chain logistics are secretive and confidential. We understand that your critical business data is stored safely with us and is never shared with your competitors or any unauthorised person.
-
+                  Your supply chain logistics are secretive and confidential. We
+                  understand that your critical business data is stored safely
+                  with us and is never shared with your competitors or any
+                  unauthorised person.
                 </p>
               </div>
             </div>

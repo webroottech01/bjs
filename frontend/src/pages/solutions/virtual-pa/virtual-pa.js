@@ -40,9 +40,7 @@ const VirtualPa = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/virtualpa.jpg"}
-                  />
+                  <img src={process.env.PUBLIC_URL + "/images/virtualpa.jpg"} />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
@@ -150,12 +148,12 @@ const VirtualPa = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Pending</h4>
+                  <h4>Response Times</h4>
                   <p>
-                    To reduce the hurdles for your client, the telephone
-                    services can be made toll-free, motivating your clients to
-                    call you freely, which is impossible with conventional
-                    mobile numbers.
+                    You cannot always be available to take calls. Customers get
+                    impatient if their calls are not picked up instantly. Our
+                    staff is trained to ensure that calls are picked up
+                    instantly and the customer is kept engaged.
                   </p>
                 </div>
               </div>
@@ -166,12 +164,14 @@ const VirtualPa = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Pending</h4>
+                  <h4>Personalised</h4>
                   <p>
-                    A well-managed contact center can contribute to building a
-                    positive brand reputation by delivering exceptional customer
-                    service, resolving issues promptly which can lead to
-                    increased customer loyalty and advocacy.
+                    Our services are personalised according to your needs.
+                    Custom scripts, greetings, procedures, and more, you name
+                    it, and we implement it. This ensures your unique
+                    requirements, needs, and use cases are taken into
+                    consideration by our PA, delivering the best results for
+                    your firm.
                   </p>
                 </div>
               </div>

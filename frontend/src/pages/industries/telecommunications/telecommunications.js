@@ -117,24 +117,34 @@ const TeleCommunications = () => {
                 <div className="card-cont">
                   <h4>Human Resources</h4>
                   <p>
-                  The tightly regulated Telecom industry requires highly skilled HR executives to handle all business requirements and demands properly. BJS, thankfully, provides Human Resource services that monitor and guarantee that every employee is presenting themselves in the best possible light. They also take care of the welfare of the entire workforce by implementing employee benefits, insurance, leaves, and pay designed to satisfy staff members without going over budget.
-
+                    The tightly regulated Telecom industry requires highly
+                    skilled HR executives to handle all business requirements
+                    and demands properly. BJS, thankfully, provides Human
+                    Resource services that monitor and guarantee that every
+                    employee is presenting themselves in the best possible
+                    light. They also take care of the welfare of the entire
+                    workforce by implementing employee benefits, insurance,
+                    leaves, and pay designed to satisfy staff members without
+                    going over budget.
                   </p>
                 </div>
               </div>
               <div className="card">
                 <div className="icon">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
+                    src={process.env.PUBLIC_URL + "/images/mentoring.png"}
                     alt=""
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Process Consulting
-</h4>
+                  <h4>E-Commerce Support</h4>
                   <p>
-                  Years of real estate industry expertise help our industry professionals provide you with guidance and suggestions to improve processes. This can include building redundancy systems like backups, data security methodologies, and more for compliance. In addition, they can redesign and reconfigure various processes to extract more performance or save costs for your firm. Previously unreleased performance potential can be easily extracted to gain you a competitive edge.
-
+                    Our E-Commerce Support Services are designed to be robust
+                    and prompt in handling all your needs. We ensure that your
+                    customers are properly given pre-sales and after-sales
+                    support to keep them satisfied. Our support is available
+                    across multiple channels including live chat, social media,
+                    and email.
                   </p>
                 </div>
               </div>
@@ -149,12 +159,19 @@ const TeleCommunications = () => {
                 <div className="card-cont">
                   <h4>Integrated Sales</h4>
                   <p>
-                  Our innovative integrated sales teams are dedicated to maintaining a strong connection with customers throughout the entire sales process, from the initial interaction to the final sale. Ensuring that the customer always has a dedicated point of contact and receives consistent care is paramount. The model yields improved performance and overall customer satisfaction with a streamlined and straightforward approach. Our model combined marketing and sales departments into a unified Integrated Sales setup.
-
-
+                    Our innovative integrated sales teams are dedicated to
+                    maintaining a strong connection with customers throughout
+                    the entire sales process, from the initial interaction to
+                    the final sale. Ensuring that the customer always has a
+                    dedicated point of contact and receives consistent care is
+                    paramount. The model yields improved performance and overall
+                    customer satisfaction with a streamlined and straightforward
+                    approach. Our model combined marketing and sales departments
+                    into a unified Integrated Sales setup.
                   </p>
                 </div>
               </div>
+
               <div className="card">
                 <div className="icon">
                   <img
@@ -165,9 +182,37 @@ const TeleCommunications = () => {
                 <div className="card-cont">
                   <h4>Account Management Services</h4>
                   <p>
-                  As a Telecom service, you probably have many clients with different plans, pricing structures, and contract periods. In addition, you would be collaborating with various businesses and 3rd-party services that get payments from you. Properly managing these accounts payable and accounts receivable isn’t easy. That’s why our Account Management Services are ideal for you. We perform proper bookkeeping and keep track of all incoming and outgoing payments to ensure no defaults/delays occur.
-
-
+                    As a Telecom service, you probably have many clients with
+                    different plans, pricing structures, and contract periods.
+                    In addition, you would be collaborating with various
+                    businesses and 3rd-party services that get payments from
+                    you. Properly managing these accounts payable and accounts
+                    receivable isn’t easy. That’s why our Account Management
+                    Services are ideal for you. We perform proper bookkeeping
+                    and keep track of all incoming and outgoing payments to
+                    ensure no defaults/delays occur.
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="icon">
+                  <img
+                    src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
+                    alt=""
+                  />
+                </div>
+                <div className="card-cont">
+                  <h4>Process Consulting</h4>
+                  <p>
+                    Years of real estate industry expertise help our industry
+                    professionals provide you with guidance and suggestions to
+                    improve processes. This can include building redundancy
+                    systems like backups, data security methodologies, and more
+                    for compliance. In addition, they can redesign and
+                    reconfigure various processes to extract more performance or
+                    save costs for your firm. Previously unreleased performance
+                    potential can be easily extracted to gain you a competitive
+                    edge.
                   </p>
                 </div>
               </div>
@@ -179,32 +224,14 @@ const TeleCommunications = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Virtual PA
-</h4>
+                  <h4>Virtual PA</h4>
                   <p>
-                  Our virtual PA helps ease your workload by taking over various responsibilities such as day planning, calendar management, and coordinating meetings. They make travel arrangements, reservations, and various other tasks on your behalf to save you the time and the hassle of doing these things on your own.
-                  </p>
-                </div>
-              </div>
-              <div className="card">
-                <div className="icon">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/mentoring.png"}
-                    alt=""
-                  />
-                </div>
-                <div className="card-cont">
-                  <h4>Pending</h4>
-                  <p>
-                    A Virtual Private Assistant is specifically responsible for
-                    assisting you in day-to-day tasks and ensuring they handle
-                    anything unimportant, freeing up time for you. Scheduling
-                    customer meetings, taking appointments, coordinating
-                    business meetings, and more help save time. Your assistant
-                    maintains a proper calendar with all the events planned.
-                    This ensures you are always aware of upcoming activities.
-                    Our agents proactively make hotel reservations, travel
-                    arrangements, and other things.
+                    Our virtual PA helps ease your workload by taking over
+                    various responsibilities such as day planning, calendar
+                    management, and coordinating meetings. They make travel
+                    arrangements, reservations, and various other tasks on your
+                    behalf to save you the time and the hassle of doing these
+                    things on your own.
                   </p>
                 </div>
               </div>
@@ -222,28 +249,33 @@ const TeleCommunications = () => {
               <div className="roundcard">
                 <h4>Training</h4>
                 <p>
-                Our industry experts train our staff in our robust in-house training facilities. Our training ensures the workforce is ready to handle all your needs.
-
+                  Our industry experts train our staff in our robust in-house
+                  training facilities. Our training ensures the workforce is
+                  ready to handle all your needs.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Consultation</h4>
                 <p>
-                Have a question in mind? Our consultants can help you with various topics, including taxation, costing, financial planning, etc.
+                  Have a question in mind? Our consultants can help you with
+                  various topics, including taxation, costing, financial
+                  planning, etc.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Technology</h4>
                 <p>
-                We quickly adapt to the latest state-of-the-art technologies and infrastructure to provide your firm with the tools and solutions you might need.
-
+                  We quickly adapt to the latest state-of-the-art technologies
+                  and infrastructure to provide your firm with the tools and
+                  solutions you might need.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Experience</h4>
                 <p>
-                We hire some of the highest-paid, most skilled, and most experienced staff. The quality workforce is an important factor that contributed to our incredible success.
-
+                  We hire some of the highest-paid, most skilled, and most
+                  experienced staff. The quality workforce is an important
+                  factor that contributed to our incredible success.
                 </p>
               </div>
             </div>
