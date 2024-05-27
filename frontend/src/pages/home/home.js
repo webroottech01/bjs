@@ -12,7 +12,7 @@ const Home = () => {
   let pagetitle = "Time to think Beyond Just Service";
   let pagedesc =
     "You’re bogged down with processes, spinning plates, juggling workloads, and generally just struggling to keep it all together – hi 👋 we’re here to help.";
-  let bgimage = "./images/bjsbannerlight.jpg"; 
+  let bgimage = "./images/newbjsbanner.webp"; 
   
   return (
     <div className="home">
@@ -99,9 +99,12 @@ const Home = () => {
       <div className="familylogos-sec">
         <div className="container-max">
           <div className="d-flex">
-            <img src={process.env.PUBLIC_URL + "/images/bjscouriers.svg"} />
+            {/* <img src={process.env.PUBLIC_URL + "/images/bjscouriers.svg"} /> */}
             <img src={process.env.PUBLIC_URL + "/images/bjshaulage.svg"} />
-            <img src={process.env.PUBLIC_URL + "/images/bjsextra.svg"} />
+            {/* <img src={process.env.PUBLIC_URL + "/images/bjsextra.svg"} /> */}
+            
+            <img src={process.env.PUBLIC_URL + "/images/koonerlogo.png"} />
+            <img src={process.env.PUBLIC_URL + "/images/beds-divan-logo.png"} />
             <img src={process.env.PUBLIC_URL + "/images/constructit.svg"} />
           </div>
         </div>

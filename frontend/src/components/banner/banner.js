@@ -10,7 +10,7 @@ const Banner = (props) => {
   <>
     <div  className={`site-banner ${bannerClass}`} style={{ background: `url(${props.bgimage}), #ffb600` }}>
       <div className="banner-inner">
-        <div className="container-med">
+        <div className="container-max">
         <h2 className="banner-title">
           {props.title}
         </h2>

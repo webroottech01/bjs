@@ -41,12 +41,12 @@ const ContactCenter = () => {
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/callinggrp.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/contactcenter.webp"}
                   />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
-                <span className="">Communication stability</span>
+                <span className="">Communication Management</span>
                 <h3 className="secheading">
                   Manage all your inbound and outbound communications.
                 </h3>

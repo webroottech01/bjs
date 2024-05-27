@@ -41,14 +41,14 @@ const IntegratedSales = () => {
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/callinggrp.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/integrated.webp"}
                   />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
-                <span className="">Communication stability</span>
+                <span className="">Product Promotion</span>
                 <h3 className="secheading">
-                  Market & Sell Your Products/Services
+                Market & Sell Your Products/Services
                 </h3>
                 <p className="mb-0">
                   One of the biggest challenges for the success of any business
@@ -61,7 +61,7 @@ const IntegratedSales = () => {
                   Similarly, most sales professionals are really good at
                   converting a lead into a sale, but they rarely get leads. We
                   guess you might also struggle with this issue. That’s where
-                  our Integrated Sales come into play.
+                  our Integrated Sales come into play. 
                 </p>
                 <p className="mb-0 mt-4">
                   We have created a new breed of experts, called “Integrated
