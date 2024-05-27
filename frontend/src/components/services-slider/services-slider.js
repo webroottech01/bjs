@@ -7,18 +7,16 @@ const ServicesSlider = () => {
 
 
   const settings = {
-    className: "center",
-    centerMode: true,
     infinite: true,
-    centerPadding: "15%",
-    slidesToShow: 2,
+    slidesToShow: 3,
     dots: true,
-    center : true,
     autoplay: true,
     speed: 7000,
-    autoplaySpeed: 0,
+    slidesToScroll: 1,
+    swipeToSlide: true,
     cssEase: "linear" ,
     pauseOnHover: true,
+    autoplaySpeed: 2000,
       responsive: [
         {
           breakpoint: 1024,

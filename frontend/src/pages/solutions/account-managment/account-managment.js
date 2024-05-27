@@ -40,12 +40,12 @@ const AccountManagment = () => {
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/accounting.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/accountmanage.jpg"}
                   />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
-                <span className="">Account Oversight</span>
+                <span className="">Accounts Management</span>
                 <h3 className="secheading">
                   Manage your Payable / Receivable Accounts
                 </h3>
@@ -271,7 +271,7 @@ const AccountManagment = () => {
         <div className="benifits-sec">
           <div className="container-max">
             <h2 className="secheading">
-              Benefits of BJS Contact Centre Services
+            Why Choose BJS?
             </h2>
             <h3>Unmatched Service and Quality</h3>
             <div className="roundcard-outer">

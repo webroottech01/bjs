@@ -105,7 +105,7 @@ const ContactUs = () => {
                   </div>
                   <div className="featured-content">
                     <h5>Drop Mail On</h5>
-                   <a href="mailto:info.Indro@Gmail.Com">Info.Indro@Gmail.Com</a>
+                   <a href="mailto:info@bjs-beyond.com">info@bjs-beyond.com</a>
                   </div>
                 </div>
                 <div className="contact-icon-box">

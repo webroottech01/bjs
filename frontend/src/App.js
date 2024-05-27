@@ -21,6 +21,10 @@ import IntegratedSales from "./pages/solutions/integrated-sales/integrated-sales
 import VirtualPa from "./pages/solutions/virtual-pa/virtual-pa";
 import HumanResources from "./pages/solutions/human-resources/human-resources";
 import Banner from "./components/banner/banner";
+import ProcessConsulting from "./pages/solutions/process-consulting/process-consulting";
+import FinanceEcomm from "./pages/solutions/finance-ecomm/finance-ecomm";
+import Ecommerce from "./pages/solutions/e-commerce/e-commerce";
+import FieldAgentManagement from "./pages/solutions/field-agent-management/field-agent-management";
 
 function App() {
   return (
@@ -48,12 +52,12 @@ function App() {
             path="solutions/human-resources"
             element={<HumanResources />}
           />
-          <Route path="solutions/process-consulting" element={<ComingSoon />} />
-          <Route path="solutions/finance-accounting" element={<ComingSoon />} />
-          <Route path="solutions/e-commerce" element={<ComingSoon />} />
+          <Route path="solutions/process-consulting" element={<ProcessConsulting />} />
+          <Route path="solutions/finance-ecomm" element={<FinanceEcomm />} />
+          <Route path="solutions/e-commerce" element={<Ecommerce />} />
           <Route
             path="solutions/field-agent-management"
-            element={<ComingSoon />}
+            element={<FieldAgentManagement />}
           />
           {/* end Solutions routes */}
           {/*  Industries routes */}

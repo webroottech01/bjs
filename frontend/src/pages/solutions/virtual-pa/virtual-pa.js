@@ -44,7 +44,7 @@ const VirtualPa = () => {
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
-                <span className="">Communication stability</span>
+                <span className="">Virtual Assistance</span>
                 <h3 className="secheading">
                   Virtual Assistant to Manage Your Needs
                 </h3>

@@ -41,12 +41,12 @@ const HumanResources = () => {
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/callinggrp.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/hrres.jpg"}
                   />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
-                <span className="">Communication stability</span>
+                <span className="">HR Outsourcing</span>
                 <h3 className="secheading">
                   Outsource Your Human Resource Management
                 </h3>

@@ -107,4 +107,23 @@
     background-color: rgb(255 71 46 / 75%);
   }
 }
+
+.slick-prev {
+  top: 75px;
+  left: calc(99%  - 130px);
+  width: 60px;
+  height: 55px;
+  z-index: 999;
+}
+.slick-next {
+  top: 75px;
+  right: 1%;
+  width: 60px;
+  height: 55px;
+}
+.slick-prev:before, .slick-next:before {
+  font-family: "slick";
+  font-size: 60px;
+  opacity: 1;
+}
 }

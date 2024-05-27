@@ -48,8 +48,8 @@ const Header = () => {
                       <LinkContainer to="/solutions/process-consulting" className="dropdown-item">
                         <Nav.Link>Process Consulting</Nav.Link>
                       </LinkContainer>
-                      <LinkContainer to="/solutions/finance-accounting" className="dropdown-item">
-                        <Nav.Link>finance & Accounting</Nav.Link>
+                      <LinkContainer to="/solutions/finance-ecomm" className="dropdown-item">
+                        <Nav.Link>Finance & E-Commerce</Nav.Link>
                       </LinkContainer>
                       <LinkContainer to="/solutions/e-commerce" className="dropdown-item">
                         <Nav.Link>E-commerce Support</Nav.Link>
