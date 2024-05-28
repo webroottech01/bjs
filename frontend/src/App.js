@@ -77,7 +77,7 @@ function App() {
         <Footer />
         <div className="underconst">
         <img className="underlogo" src={"images/bjslogo.svg"} alt="" />
-          <Banner title={"Coming Soon: Enhanced Experience"} desc="A responsive version of our website is in the works. In the meantime, please visit us on a screen size of 1920px or larger for the best experience. Thank you for your patience."></Banner>
+          <Banner title={"Coming Soon: Responsive version"} desc="A responsive version of our website is in the works. In the meantime, please visit us on a screen size of 1920px or larger for the best experience. Thank you for your patience."></Banner>
         </div>
       </BrowserRouter>
     </div>
