@@ -39,9 +39,7 @@
     color-stop(50%, Salmon),
     color-stop(50%, Khaki)
   );
-  background: -webkit-linear-gradient(top left, Salmon 50%, Khaki 50%);
-  background: -o-linear-gradient(top left, Salmon 50%, Khaki 50%);
-  background: linear-gradient(to bottom right, #ffb600 50%, #562479 50%);
+  background: #562479;
   padding: 0;
   box-shadow: #000 0px 0px 5px 0px;
 }
