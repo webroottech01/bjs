@@ -40,16 +40,15 @@ const Pricing = () => {
       </div>
       <div className="tribackground">
         <h2>Answering Packages</h2>
-        
-        <div className="packages-pricing"> 
-        <p>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint.
-        </p>
+
+        <div className="packages-pricing">
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum deleniti atque corrupti quos
+            dolores et quas molestias excepturi sint.
+          </p>
           <Pcakages />
         </div>
-        
       </div>
       <div className="container-med">
         <div className="pricing-splitsec leftimgtype">
@@ -66,19 +65,22 @@ const Pricing = () => {
                 </span>
                 <h2 className="secheading">How We Work?</h2>
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque corrupti quos
-                  dolores et quas molestias excepturi sint.
+                  BJS has decades of experience in serving clients across
+                  various industries. Our all-round solutions have been
+                  instrumental for clients across all sectors and scales. We
+                  deliver unmatched quality thanks to our large investments in
+                  cutting-edge technology.
                 </p>
-                <ul className="list-style1 d-flex flex-wrap align-items-center">
-                  <li>Market Management</li>
-                  <li>Freelancing Training</li>
-                  <li>Business Analysis</li>
-                  <li>Augmented Reailty</li>
-                  <li>Machine Learning</li>
-                </ul>
-                <Link className="thm-btn" to={'/contact-us'}>Contact us</Link>
-               
+                <p>
+                  Our training centres create highly skilled professionals that
+                  are capable of handling all your business needs and exceeding
+                  all expectations. Industry experts and experienced
+                  professionals create a curriculum to train and prepare our
+                  workforce to serve you in the best way possible.
+                </p>
+                <Link className="thm-btn" to={"/contact-us"}>
+                  Contact us
+                </Link>
               </div>
             </div>
           </div>

@@ -16,14 +16,27 @@ const ContactTeam = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can implement the logic to handle form submission
-    console.log(formData);
-    // Clear the form fields after submission
-    setFormData({
-      name: "",
-      contact_no: "",
-      email: "",
-      message: "",
+
+    fetch('http://127.0.0.1:8000/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      // Clear the form fields after successful submission
+      setFormData({
+        name: "",
+        contact_no: "",
+        email: "",
+        message: "",
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
     });
   };
 
