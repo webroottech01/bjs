@@ -59,7 +59,7 @@ const ServicesSlider = () => {
       subhead: "Smaller companies",
       icon_url: "/images/mugcall.svg",
       image_url: "./images/calling.webp",
-      main_url: "/solutions/account-managment",
+      main_url: "/solutions/account-management",
     },
     {
       id: 3,

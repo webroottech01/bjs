@@ -33,7 +33,7 @@ const AccountManagment = () => {
   return (
     <>
       <div className="account-managment solutions-subpage">
-        <Banner title={"Account Managment"} innerpage />
+        <Banner title={"Account Management"} innerpage />
         <div className="container-med">
           <div className="right-splitsec leftimgtype">
             <div className="row align-items-center ">
