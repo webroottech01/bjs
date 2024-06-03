@@ -30,10 +30,10 @@ const Header = () => {
 
                     <NavDropdown title="Solutions" id="nav-dropdown">
                     <LinkContainer to="/solutions/contact-center" className="dropdown-item">
-                        <Nav.Link>Contact Center</Nav.Link>
+                        <Nav.Link>Contact Centre v2</Nav.Link>
                       </LinkContainer> 
-                    <LinkContainer to="/solutions/account-managment" className="dropdown-item">
-                        <Nav.Link>Account Managment</Nav.Link>
+                    <LinkContainer to="/solutions/account-management" className="dropdown-item">
+                        <Nav.Link>Account Management</Nav.Link>
                       </LinkContainer> 
                       <LinkContainer to="/solutions/integrated-sales" className="dropdown-item">
                         <Nav.Link>Integrated Sales</Nav.Link>

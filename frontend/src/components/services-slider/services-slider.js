@@ -47,7 +47,7 @@ const ServicesSlider = () => {
   let services = [
     {
       id: 1,
-      name: "Contcat Centre",
+      name: "Contact Centre v2",
       subhead: "Busy People",
       icon_url: "/images/phone.svg",
       image_url: "./images/driving.webp",
@@ -59,7 +59,7 @@ const ServicesSlider = () => {
       subhead: "Smaller companies",
       icon_url: "/images/mugcall.svg",
       image_url: "./images/calling.webp",
-      main_url: "/solutions/account-managment",
+      main_url: "/solutions/account-management",
     },
     {
       id: 3,

@@ -41,10 +41,12 @@ class ContactContoller extends Controller
     }
 
     public function contactUs(Request $request){
+
+        // dd($request);
         $validator = Validator::make($request->all(), [
             'name' => 'required|string',
             'email' => 'required|email',
-            'phone' => ['required', 'regex:/^(\+?[0-9\s\-\(\)]*)$/'],
+            'contact_no' => ['required'], //, 'regex:/^(\+?[0-9\s\-\(\)]*)$/'
             'message' => 'required|string',
         ]);
 
@@ -52,14 +54,14 @@ class ContactContoller extends Controller
             return $this->sendError('Validation Error.', $validator->errors());
         }
 
-        $contact = new Contact;
+        $contact = new Contact();
         $contact->name = $request->name;
         $contact->email = $request->email;
-        $contact->phone = $request->phone;
+        $contact->contact_no = $request->contact_no;
         $contact->message = $request->message;
         $contact->save();
 
-        Mail::to("rk.webroottech@gmail.com")->send(new ContactUs($request));
+        Mail::to("help@bjs-beyond.com")->send(new ContactUs($request));
 
         return $this->sendResponse($contact, 'Form has been submitted');
     }

@@ -40,7 +40,7 @@ function App() {
           {/*  Solutions routes */}
           <Route path="solutions/contact-center" element={<ContactCenter />} />
           <Route
-            path="solutions/account-managment"
+            path="solutions/account-management"
             element={<AccountManagment />}
           />
           <Route

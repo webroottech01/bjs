@@ -34,7 +34,7 @@ const ContactCenter = () => {
   return (
     <>
       <div className="contact-center solutions-subpage">
-        <Banner title={"Contact Centre Services"} innerpage />
+        <Banner title={"Contact Centre Services"} innerpage /> 
         <div className="container-med">
           <div className="right-splitsec leftimgtype">
             <div className="row align-items-center ">
@@ -46,22 +46,23 @@ const ContactCenter = () => {
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
-                <span className="">Communication Management</span>
+                <span className="">Scalable Communication Solutions</span>
                 <h3 className="secheading">
-                  Manage all your inbound and outbound communications.
+                  Providing a seamless contact centre solution for your
+                  business.
                 </h3>
                 <p className="mb-0">
-                  It's no secret that managing communications through multiple
-                  channels is a tedious task. Being always available to pick up
-                  the calls, reply to live chat and emails, or be diligent
-                  enough to make cold calls continuously is not everybody’s cup
-                  of tea.
+                  Managing communications across multiple platforms can be a big
+                  task for most businesses. From fielding calls and responding
+                  to live chats to managing emails and making cold calls,
+                  staying on top of it all can be a challenge.
                 </p>
                 <p className="mb-0 mt-4">
-                  That’s why we at BJS offer robust 24x7 contact centre services
-                  to make and take calls on your behalf. The communication is
-                  done in your name and is indistinguishable from the
-                  communication made by your own staff.
+                  At Beyond Just Service, we provide a 24x7 contact centre
+                  solution designed to streamline your communications and give
+                  you the room to grow. Our agents integrate seamlessly with
+                  your team, delivering a consistent brand experience that
+                  reflects your company's values and standards.
                 </p>
               </div>
             </div>
@@ -89,11 +90,11 @@ const ContactCenter = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Professionalism</h4>
+                  <h4>Flexible</h4>
                   <p>
-                    A telephone number looks more professional and gives the
-                    sense of an established brand compared to an unknown,
-                    personally helpful mobile number.
+                    Our flexible plans ranging from a single agent to a fully
+                    managed, full-stack service – are scalable up and down to
+                    meet demand
                   </p>
                 </div>
               </div>
@@ -102,11 +103,11 @@ const ContactCenter = () => {
                   <img src={process.env.PUBLIC_URL + "/images/business.png"} />
                 </div>
                 <div className="card-cont">
-                  <h4>Personal Life</h4>
+                  <h4>Omnichannel </h4>
                   <p>
-                    Telephone services ensure that all business communication
-                    happens on the telephone channels, ensuring little to no
-                    interference in your personal life.
+                    The communications experience we have means we’ve got all
+                    channels covered, allowing you to offer your customers more
+                    from the get-go.
                   </p>
                 </div>
               </div>
@@ -118,12 +119,11 @@ const ContactCenter = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Multi-user</h4>
+                  <h4>Scalability</h4>
                   <p>
-                    Multiple users in a firm can use the same communications,
-                    making it more scalable. Calls can be transferred to anyone
-                    in your office thanks to the multi-user support in our
-                    telephone networks.
+                    With multi-user support, our contact centre solution enables
+                    multiple team members to manage your communications
+                    efficiently.
                   </p>
                 </div>
               </div>
@@ -134,9 +134,7 @@ const ContactCenter = () => {
                 <div className="card-cont">
                   <h4>Integration</h4>
                   <p>
-                    Our customised contact centre services integrate with CRM
-                    software, 3rd party tools and various other services to
-                    better scale up and adapt to your business needs.
+                  We are an extension to your business, so our customisable contact centre services integrate with a variety of CRM software, third-party tools, and other services.
                   </p>
                 </div>
               </div>
@@ -148,12 +146,9 @@ const ContactCenter = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Toll-Free</h4>
+                  <h4>Cost reduction</h4>
                   <p>
-                    To reduce the hurdles for your client, the telephone
-                    services can be made toll-free, motivating your clients to
-                    call you freely, which is impossible with conventional
-                    mobile numbers.
+                  Whether you’re looking for a cost reduction for your business, or a cost reduction for your customers, we can help!
                   </p>
                 </div>
               </div>
@@ -164,15 +159,15 @@ const ContactCenter = () => {
                   />
                 </div>
                 <div className="card-cont">
-                  <h4>Call Transfers</h4>
+                  <h4>Brand Reputation
+</h4>
                   <p>
-                    Our infrastructure gives us the capability to convert normal
-                    calls into conference calls to handle more advanced queries.
-                    Our switchboard can also be used to transfer the customer
-                    calls to specific departments in your firm.
+                  A well-managed contact centre enhances your brand's reputation by providing exceptional customer service, resolving issues promptly, and fostering customer loyalty and advocacy.
+
                   </p>
                 </div>
               </div>
+              
             </div>
           </div>
         </div>
@@ -184,11 +179,7 @@ const ContactCenter = () => {
               Outsourced Contact Centres
             </h3>
             <p className="mb-0">
-              Rather than hiring, training, and managing staff for customer
-              support, it is best for you to outsource all your support to our
-              professional UK-based service centres. Not only would it improve
-              customer experience, but it would also reduce the burden on your
-              shoulders.
+            Outsourcing customer support to our professional UK-based contact centres means you can focus on core business activities while we handle customer interactions. This not only improves customer experience but also alleviates the burden of managing in-house support staff.
             </p>
           </div>
         </div>
@@ -203,38 +194,28 @@ const ContactCenter = () => {
               <div className="roundcard">
                 <h4>24x7 Operations</h4>
                 <p>
-                  Your business never sleeps, and neither do we. Our services
-                  operate 24x7 to ensure all your needs are met at any given
-                  time of the day. Equally talented staff across multiple shifts
-                  manage your accounts and keep them in an ideal condition.
+                Your business never sleeps, and neither do we! Our round-the-clock services ensure that your needs are met at any time of day, with our skilled staff available across multiple shifts, meaning we’re there when you need us.
+
                 </p>
               </div>
               <div className="roundcard">
-                <h4>Data</h4>
+                <h4>Data Security</h4>
                 <p>
-                  Tightly built procedures and guidelines ensure that your data
-                  and mission-critical business information remain largely
-                  private. Employees are shared critical data on a need-to-know
-                  basis. Only specific employees handling your accounts have
-                  access to information, and they maintain the privilege.
+                We adhere to strict procedures and guidelines to keep your data secure. Critical information is shared only on a need-to-know basis, securely, ensuring privacy and confidentiality, and peace of mind for you.
                 </p>
               </div>
               <div className="roundcard">
-                <h4>Training</h4>
+                <h4>Expert Training</h4>
                 <p>
-                  Our in-house training institution trains our employees under
-                  careful supervision. This guarantees that our personnel are
-                  equally qualified and skilled to serve you. Our in-house
-                  training facilities set us apart from other providers.
+                Our in-house training academy ensures that all our employees are meticulously trained and equipped to provide a personalised experience for your business. 
+
                 </p>
               </div>
               <div className="roundcard">
-                <h4>Consultation</h4>
+                <h4>Consultation Services</h4>
                 <p>
-                  Whenever you are in doubt or confused, feel free to connect
-                  with our specialist account managers, who will carefully
-                  understand your concerns. They use their skills and training
-                  to provide an optimal answer/solution to your problems.
+                Our specialist account managers are always available to address your concerns, providing expert advice and tailored solutions to meet your needs.
+
                 </p>
               </div>
             </div>
@@ -247,26 +228,25 @@ const ContactCenter = () => {
             <h3>Here are some use cases of Contact Center Services</h3>
             <div className="roundcard-outer">
               <div className="roundcard">
-                <h4>Customer Support</h4>
+                <h4>Customer Support
+</h4>
                 <p>
-                  BJS omnichannel contact centres are ideal for setting up
-                  customer support, as they are ready to communicate, answer
-                  queries, and solve common issues.
+                BJS omnichannel contact centres are ideal for customer support, ready to handle inquiries, resolve issues, and provide seamless communication.
+
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Virtual Receptionist</h4>
                 <p>
-                  Set up a virtual receptionist for customer appointments,
-                  scheduling meetings, and coordinating events on your behalf
-                  easily.
+                Easily manage customer appointments, schedule meetings, and coordinate events with our virtual receptionist services.
+
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Customer Outreach</h4>
                 <p>
-                  You can use our centres to actively make cold calls, generate
-                  leads, recover disengaging customers, and grow your business.
+                Utilise our centres for proactive customer outreach, including cold calls, lead generation, and re-engaging disengaged customers to grow your business.
+
                 </p>
               </div>
             </div>
@@ -279,33 +259,22 @@ const ContactCenter = () => {
             <h3>Unmatched Service and Quality</h3>
             <div className="roundcard-outer">
               <div className="roundcard">
-                <h4>Industries</h4>
+                <h4>Industry Expertise
+</h4>
                 <p>
-                  BJS serves a wide array of clients with diverse requirements.
-                  We have clients from the UK and across the world in industries
-                  like automobile, finance, real estate, logistics, supply
-                  chains, and more.
+                We serve a diverse array of clients from various industries, including automobile, finance, real estate, logistics, supply chains, and more, both in the UK and globally.
                 </p>
               </div>
               <div className="roundcard">
-                <h4>Training</h4>
+                <h4>Comprehensive Training</h4>
                 <p>
-                  Our in-house training academy ensures that all of our
-                  workforce gets trained under our strict guidelines and
-                  supervision. This ensures our staff is equally trained,
-                  capable, and proficient in serving your needs. The in-house
-                  training facilities give us a competitive edge compared to all
-                  other services.
+                Our in-house training academy ensures that our workforce meets stringent standards, providing consistent and proficient service. This competitive edge sets us apart from other providers.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Transparency</h4>
                 <p>
-                  As per your discretion, we provide reports, data, and usage
-                  details so that you have a bird’s eye view of every activity.
-                  The complete transparency in our operations ensures you are
-                  never caught by surprise and can always make changes to
-                  optimise costs and conversions.
+                We offer comprehensive reports, data, and usage details to give you a clear overview of every activity. This transparency allows you to optimise costs and conversions effectively, ensuring you are always in control.
                 </p>
               </div>
             </div>

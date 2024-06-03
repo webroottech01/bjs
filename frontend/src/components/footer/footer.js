@@ -66,7 +66,7 @@ const Footer = () => (
                       <Nav.Link>Pricing</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/solutions/contact-center">
-                      <Nav.Link>Contact Center</Nav.Link>
+                      <Nav.Link>Contact Centre v2</Nav.Link>
                     </LinkContainer>
 
                     <LinkContainer to="/contact-us">
