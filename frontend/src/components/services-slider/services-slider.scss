@@ -107,7 +107,9 @@
     background-color: rgb(255 71 46 / 75%);
   }
 }
-
+button.slick-arrow:before {
+  color: #000;
+}
 .slick-prev {
   top: 75px;
   left: calc(99%  - 130px);
