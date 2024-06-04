@@ -68,8 +68,8 @@ const Header = () => {
                       <LinkContainer to="/industries/e-commerce" className="dropdown-item">
                         <Nav.Link>E-commerce</Nav.Link>
                       </LinkContainer>
-                      <LinkContainer to="/industries/hospitality" className="dropdown-item">
-                        <Nav.Link>Hospitality</Nav.Link>
+                      <LinkContainer to="/industries/manufacturing" className="dropdown-item">
+                        <Nav.Link>Manufacturing</Nav.Link>
                       </LinkContainer>
                       <LinkContainer to="/industries/real-estate" className="dropdown-item">
                         <Nav.Link>Real Estate</Nav.Link>
@@ -81,9 +81,7 @@ const Header = () => {
                         <Nav.Link>Telecommunications</Nav.Link>
                       </LinkContainer>
                     </NavDropdown>
-                    <LinkContainer to="/insights">
-                      <Nav.Link>Insights</Nav.Link>
-                    </LinkContainer>
+
                     <LinkContainer to="/pricing">
                       <Nav.Link>Pricing</Nav.Link>
                     </LinkContainer>
@@ -97,14 +95,7 @@ const Header = () => {
           </div>
           <div className="col-md-5 small-nav">
             <Navbar expand="md" className="justify-content-end">
-              <Nav className="mr-auto">
-                <LinkContainer to="/help">
-                  <Nav.Link>Help center</Nav.Link>
-                </LinkContainer>
-                <LinkContainer to="/about">
-                  <Nav.Link>English</Nav.Link>
-                </LinkContainer>
-              </Nav>
+
               <LinkContainer to="/contact-us">
                 <Nav.Link className="btn btnyellow">Get Started</Nav.Link>
               </LinkContainer>

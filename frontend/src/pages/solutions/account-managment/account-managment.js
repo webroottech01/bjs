@@ -180,7 +180,7 @@ const AccountManagment = () => {
 
             </h3>
             <p className="mb-0">
-            Outsource to our professional UK-based team to focus on core business activities while we handle client interactions. This not only improves customer experience but also alleviates the burden of managing in-house support staff, allowing you to concentrate on what you do best.
+            Outsource to our professional team to focus on core business activities while we handle client interactions. This not only improves customer experience but also alleviates the burden of managing in-house support staff, allowing you to concentrate on what you do best.
 
             </p>
           </div>

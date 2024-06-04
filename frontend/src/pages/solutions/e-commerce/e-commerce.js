@@ -183,7 +183,7 @@ const Ecommerce = () => {
             <p className="mb-0">
               Hiring, training, and managing support staff is a tall order for
               most businesses. Instead, it is best for you to outsource all your
-              support needs to UK-based support centres like BJS. Our helpful
+              support needs to support centres like BJS. Our helpful
               support staff will ensure ideal experience and quick resolution
               for your customers.
             </p>

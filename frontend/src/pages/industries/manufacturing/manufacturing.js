@@ -1,10 +1,10 @@
 import React from "react";
-import "./hospitality.scss";
+import "./manufacturing.scss";
 import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 
-const Hospitality = () => {
+const Manufacturing = () => {
   const accountfaqs = [
     {
       faq_heading: "What services can be outsourced in the hospitality sector?",
@@ -19,8 +19,8 @@ const Hospitality = () => {
   ];
   return (
     <>
-      <div className="hospitality industries-subpage">
-        <Banner title="Hospitality" innerpage />
+      <div className="manufacturing industries-subpage">
+        <Banner title="Manufacturing" innerpage />
         <div className="container-med">
           <div className="right-splitsec">
             <div className="row align-items-center ">
@@ -243,4 +243,4 @@ const Hospitality = () => {
     </>
   );
 };
-export default Hospitality;
+export default Manufacturing;

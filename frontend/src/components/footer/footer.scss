@@ -1,6 +1,6 @@
 .site-footer {
   padding: 100px 0 18px;
-  color: #fff;
+  color: #000;
   padding-top: 34px;
   border-top: 0.5px solid #c7c7c7;
   .upper-footer {
@@ -11,9 +11,10 @@
       font-size: 20px;
       line-height: 26px;
       width: 45%;
+      color:#000;
     }
     h6 {
-      color: #fff;
+      color: #ffb600;
       text-align: left;
       font-family: Fonarto;
       font-size: 36px;
@@ -26,7 +27,7 @@
       width: 100%;
       a {
         width: 50%;
-        color: #fff;
+        color: #000;
         font-family: Poppins;
         font-size: 20px;
         font-style: normal;
@@ -41,7 +42,7 @@
       a {
         display: block;
         text-decoration: none;
-        color: #FFF;
+        color: #000;
         font-family: Poppins;
         font-size: 20px;
         text-transform: capitalize;
@@ -73,7 +74,7 @@
     }
     a {
       text-decoration: none;
-      color: #fff;
+      color: #000;
     }
     
   }

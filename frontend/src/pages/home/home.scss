@@ -1,7 +1,7 @@
 .Home {
 }
 .services-sec {
-  background-image: url("../../../public/images/services-bg.jpg");
+  background-image: url("../../../public/images/solutionBg.jpg");
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,10 +175,10 @@
 }
 
 .counter-sec {
-  background-image: url("../../../public/images/smallyellowbg.webp");
+  background-image: url("../../../public/images/counterBg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 109px 0;
+  padding: 50px 0 109px;
   background-position: center;
   .d-flex {
     justify-content: space-between;
@@ -190,6 +190,10 @@
       border-radius: 10px;
       min-width: 276px;
     }
+  }
+  h2.secheading {
+    color: #e93860;
+    padding-bottom: 50px;
   }
   h3 {
     font-family: Poppins;
@@ -237,9 +241,10 @@
 
 .contact-sec {
   padding: 54px 0 34px;
-  background-image: url("../../../public/images/contactbg.webp");
+  background-image: url("../../../public/images/contact-BG.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 
   .secheading {
     color: #000;

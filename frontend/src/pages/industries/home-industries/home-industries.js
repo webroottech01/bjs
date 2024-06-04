@@ -72,8 +72,8 @@ const HomeIndustries = () => {
 
           <div className="col-md-4">
             <div className="feature-single bgpurple">
-              <Link to="/industries/hospitality" >
-              <h3>Hospitality</h3>
+              <Link to="/industries/manufacturing" >
+              <h3>Manufacturing</h3>
               <p>
                 The impact of well-crafted website content cannot be overstated
                 and can be the difference between a thriving online presence and

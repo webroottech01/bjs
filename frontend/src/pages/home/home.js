@@ -49,6 +49,7 @@ const Home = () => {
       </div>
       <div className="counter-sec">
         <div className="container-max">
+        <h2 className="secheading">Lorem Ipsum</h2>
           <div className="d-flex">
             <div className="bgpink">
               <h3 className="textblack">
