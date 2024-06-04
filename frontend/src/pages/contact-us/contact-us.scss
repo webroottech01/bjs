@@ -31,6 +31,16 @@
     } 
   }
 }
+.basic-form input.form-control {
+  width: 100%;
+  font-size: 24px;
+  margin: 23px 0px !important;
+  height: auto;
+  padding: 23px 50px;
+}
+.basic-form input.form-control:focus{
+  box-shadow: none;
+}
 .trianglebg {
   background: -webkit-gradient(
     linear,

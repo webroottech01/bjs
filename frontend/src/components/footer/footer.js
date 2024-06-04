@@ -6,13 +6,13 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const Footer = () => (
   <>
-    <div className="site-footer bgpurple">
+    <div className="site-footer">
       <div className="container-max">
         <div className="row upper-footer">
           <div className="col-md-6">
             <img
               className="footer-logo"
-              src={process.env.PUBLIC_URL + "/images/bjslogofooter.svg"}
+              src={process.env.PUBLIC_URL + "/images/bjslogo.svg"}
               alt="Logo"
             />
             <p>
@@ -23,31 +23,31 @@ const Footer = () => (
             <div className="social-links">
               <a href="facebook.com">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/facebook.svg"}
+                  src={process.env.PUBLIC_URL + "/images/facebook-icon.png"}
                   alt=""
                 />
               </a>
               <a href="facebook.com">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/twitter.svg"}
+                  src={process.env.PUBLIC_URL + "/images/twitter-icon.png"}
                   alt=""
                 />
               </a>
               <a href="facebook.com">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/instagram.svg"}
+                  src={process.env.PUBLIC_URL + "/images/instagram-icon.png"}
                   alt=""
                 />
               </a>
               <a href="facebook.com">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/youtube.svg"}
+                  src={process.env.PUBLIC_URL + "/images/youTube-icon.png"}
                   alt=""
                 />
               </a>
               <a href="facebook.com">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/linkedin.svg"}
+                  src={process.env.PUBLIC_URL + "/images/linkedin-icon.png"}
                   alt=""
                 />
               </a>
@@ -98,6 +98,7 @@ const Footer = () => (
   </>
 );
 
+  
 Footer.propTypes = {};
 
 Footer.defaultProps = {};
