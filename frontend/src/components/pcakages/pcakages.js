@@ -20,7 +20,7 @@ const Pcakages = () => {
                     <h3>Basic Plan:</h3>
                     <h4>(Small Businesses)</h4>
                     <h5>
-                      Price : £5<span>per Agent/Hour</span>
+                      Price : £5.5<span>per Agent/Hour</span>
                     </h5>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ const Pcakages = () => {
                     <h3> Standard Plan:</h3>
                     <h4>(Growing Enterprises)</h4>
                     <h5>
-                      Price : £5.5<span>per Agent/Hour</span>
+                      Price : £6<span>per Agent/Hour</span>
                     </h5>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ const Pcakages = () => {
                     <h3>Premium Plan:</h3>
                     <h4>(Large Firms and Corporations)</h4>
                     <h5>
-                      Price : £6<span>per Agent/Hour</span>
+                      Price : £6.5<span>per Agent/Hour</span>
                     </h5>
                   </div>
                 </div>

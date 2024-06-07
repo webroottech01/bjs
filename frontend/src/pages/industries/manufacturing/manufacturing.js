@@ -7,15 +7,11 @@ import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 const Manufacturing = () => {
   const accountfaqs = [
     {
-      faq_heading: "What services can be outsourced in the hospitality sector?",
+      faq_heading: "What services can be outsourced in the the Manufacturing Sector?",
       description:
-        "The hospitality sector is already a very tough sector to crack for businesses due to its competitive nature and very tough-to-please target audience. You can help manage the work by outsourcing services like HR management, financial planning, customer support, marketing & sales to top organisations. One such company is BJS, which is best known for its outsourced business services that help businesses across various industries, including hospitality.",
-    },
-    {
-      faq_heading: "How can I get customised solutions for my needs?",
-      description:
-        "Cheaper services might need to be able to handle your unique needs. However, top outsourced company providers like BJS can actually offer highly customised plans that best suit your needs. We at BJS can modify and adjust anything and everything to better adapt to your use case requirements.",
-    },
+        "The manufacturing sector faces numerous challenges, including maintaining efficiency and managing complex operations. You can streamline your work by outsourcing services such as HR management, financial planning, customer support, process consulting, and integrated sales to top organizations. One such company is BJS, renowned for its outsourced business services that support manufacturing businesses in optimizing their operations and achieving excellence.",
+    }
+   
   ];
   return (
     <>
@@ -27,32 +23,23 @@ const Manufacturing = () => {
               <div className="col-md-12 col-lg-6">
                 <span className="">Streamlined Solutions</span>
                 <h3 className="secheading">
-                  Punctual and Effective Services For Your Business Needs
+                Streamlining manufacturing processes to enhance productivity and efficiency
                 </h3>
                 <p className="mb-0">
-                  In the hospitality sector, customer experience is everything.
-                  The tiniest slip-up can have significant consequences in terms
-                  of legalities, reputations, public perception, and brand
-                  image.
+                In the manufacturing sector, efficiency and precision are crucial. Small errors can disrupt production, affecting supply chains, customer satisfaction, and your bottom line. Ensuring smooth operations is essential for maintaining a competitive edge and delivering high-quality products.
                 </p>
                 <p className="mb-0 mt-4">
-                  While you might be a pro in your core business proposition,
-                  there are aspects of business like financial planning, account
-                  management, customer support, and sales that might not get the
-                  attention they deserve.
+                While your expertise is in manufacturing, critical functions like financial management, supply chain logistics, customer support, and sales also need attention. These areas are vital for your overall success and sustainability.
                 </p>
                 <p className="mb-0 mt-4">
-                  Handling all these things is critical, yet it is not feasible
-                  for you to be handling everything. Instead, professional
-                  outsourced service providers can handle these for you, saving
-                  time and resources while delivering industry-leading quality.
+                Partnering with professional outsourced service providers lets you delegate these tasks to experts. This enables you to focus on core competencies, improve efficiency, and ensure high standards of quality across your business. Outsourcing saves time and resources while helping you meet industry demands and customer expectations more effectively.
                 </p>
               </div>
               <div className="col-md-12 col-lg-6 order-lg-1">
                 <div className="splitimg-part">
                   <img
                     alt=""
-                    src={process.env.PUBLIC_URL + "/images/hospitality.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/manufacturing.jpg"}
                   />
                 </div>
               </div>
@@ -71,23 +58,17 @@ const Manufacturing = () => {
             <p className="mb-0">
               When it comes to outsourcing services for your business, BJS is
               the best brand in the UK, handling the various needs of
-              hospitality customers.
+              manufacturing customers.
             </p>
           </div>
         </div>
         <div className="outsourcing-sec">
           <div className="container">
             <h3>
-            What are Outsourced Services? <br /> Do Hospitality Firms Benefit from Outsourcing
+            What are Outsourced Services? <br /> Do Manufacturing Firms Benefit from Outsourcing
             </h3>
             <p>
-            Outsourced services handle aspects of your business that are critical yet not the core proposition for your business. For a restaurant, its food will be the core proposition, but human resource management, despite being critical, will not be the most important thing on its list.
-            </p>
-            <p>
-            We at BJS take up all these tasks to ease your workload and let you focus on your core work. Our intelligent, well-trained staff takes responsibility for all these tasks and executes them to perfection. 
-            </p>
-            <p>
-            BJS has decades of experience in serving the hospitality sector. All our workforce are given proper training to ensure that they are able to match the needs and expectations of hospitality businesses.
+            In an industry where customer experience is crucial, outsourcing enhances service quality without straining internal resources. Professional providers manage essential functions like financial planning, account management, customer support, and sales. This enables Manufacturing firms to focus on delivering exceptional guest experiences while improving efficiency, reducing costs, and maintaining a competitive edge.
             </p>
           </div>
         </div>
@@ -108,7 +89,7 @@ const Manufacturing = () => {
                 <div className="card-cont">
                   <h4>Call Centre Services</h4>
                   <p>
-                  Call Centre Services are especially critical for tourism, food, and leisure-based businesses. Customers should be able to easily reach you and make reservations, book tickets, or get answers to their queries. Based on your requirements, our staff can handle all incoming calls 24x7 to give your customers an ideal experience.
+                  Our call centre services ensure your customers can easily reach you for orders, support, and inquiries. We provide 24x7 assistance, enhancing customer satisfaction and operational efficiency.
                   </p>
                 </div>
               </div>
@@ -122,7 +103,8 @@ const Manufacturing = () => {
                 <div className="card-cont">
                   <h4>Human Resources</h4>
                   <p>
-                  Human Resources (HR) involves ensuring proper regulatory compliance and well being of all your employees. This includes tracking work hours, compensation for overtime, provisions for paid leaves, etc. Managing Human Resources is time-consuming, yet even the smallest mistakes in HR management can snowball into large legal battles. We at BJS ensure your employees give their maximum performance while still being mentally stable, healthy, and overall satisfied. Proper employee benefits, insurance, bonuses, and more are designed to keep morale high.
+                  We manage HR tasks to ensure regulatory compliance and employee well-being. Our services include tracking work hours, handling compensation, and providing benefits to maintain high morale and productivity.
+
 
                   </p>
                 </div>
@@ -137,7 +119,7 @@ const Manufacturing = () => {
                 <div className="card-cont">
                   <h4>Finance & E-Commerce Management</h4>
                   <p>
-                  Let’s say there’s a major festival coming up. You would want to invest in additional resources, workforce, and decorations to attract and serve customers properly. To be able to execute it, you would need a lot of savings and planning. Most people are not very good at it. Fortunately, BJS offers financial consultation to help you effectively plan, save, and optimise your business for all upcoming financial activities. Our consultants also advise you on suitable price hikes to appropriately leverage the festival rush, balancing profits and sales.
+                  BJS offers financial planning and consultation to optimize your resources and investment. We help you prepare for peak seasons and advise on pricing strategies to maximize profits and sales.
 
                   </p>
                 </div>
@@ -153,7 +135,7 @@ const Manufacturing = () => {
                   <h4>Process Consulting
 </h4>
                   <p>
-                  Hospitality is largely a process-driven industry. There are certain processes in the life cycle of each customer that must operate with perfection for an ideal consumer experience. We help identify areas for improvement, improve efficiencies to save money, and redesign procedures to ensure your costs are minimal. 
+                  We analyze and improve your manufacturing processes to increase efficiency and reduce costs. Our consulting services help streamline operations and enhance overall productivity. 
                   </p>
                 </div>
               </div>
@@ -168,7 +150,7 @@ const Manufacturing = () => {
                   <h4>Integrated Sales
 </h4>
                   <p>
-                  Our revolutionary sales procedures combine the marketing and sales departments to ensure that the customer is never left high and dry anywhere between lead generation and onboarding. For example, as a tourist agency, your marketing team might have generated leads from prospective customers. But, our slow sales team wasn’t properly made aware of the special needs and concerns of clients, resulting in offers getting rejected. Instead, our unified team understands the customer, curates plans, and ensures proper communication and care until the sale is complete.
+                  Our integrated sales approach aligns marketing and sales efforts to ensure seamless customer onboarding. We facilitate smooth communication and care from lead generation to final sales.
 
                   </p>
                 </div>
@@ -183,7 +165,7 @@ const Manufacturing = () => {
                 <div className="card-cont">
                   <h4>Field Agent Management</h4>
                   <p>
-                  Hospitality usually requires multiple employees working together with complete coordination and precision to ensure an ideal user experience. Most of the times, our field agent management services can reduce cost overruns, optimise processes, and bring massive efficiency boost for firms.
+                  Our field agent management services optimize coordination and efficiency among your employees. We help reduce cost overruns and improve process effectiveness, boosting overall productivity.
                   </p>
                 </div>
               </div>
