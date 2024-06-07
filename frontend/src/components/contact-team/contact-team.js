@@ -110,7 +110,7 @@ const ContactTeam = () => {
                   value={formData.contact_no}
                   placeholder="Contact Number"
                   required
-                  country={'us'}
+                  country={'gb'}
                   onChange={handlePhoneChange}
                 />
             </div>

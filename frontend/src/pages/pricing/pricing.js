@@ -27,7 +27,7 @@ const Pricing = () => {
 
             <div className="col-md-12 col-lg-6 order-lg-1">
               <div className="splitimg-part">
-                <img src={process.env.PUBLIC_URL + "/images/about-img.webp"} />
+                <img src={process.env.PUBLIC_URL + "/images/pricingmain.jpg"} />
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Pricing = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="splitimg-part">
-                <img src={process.env.PUBLIC_URL + "/images/about-img2.webp"} />
+                <img src={process.env.PUBLIC_URL + "/images/getteam.jpg"} />
               </div>
             </div>
             <div className="col-lg-6">
@@ -71,7 +71,7 @@ const Pricing = () => {
                   professionals create a curriculum to train and prepare our
                   workforce to serve you in the best way possible.
                 </p>
-                <Link className="thm-btn" to={"/contact-us"}>
+                <Link className="btn btnyellow" to={"/contact-us"}>
                   Contact us
                 </Link>
               </div>
