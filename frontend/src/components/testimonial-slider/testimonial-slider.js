@@ -13,36 +13,29 @@ const TestimonialSlider = () => {
   let reviews = [
     {
       id: 1,
-      name: "Melvin Leadbitter",
-      date: "11 march 2024",
-      photo: "/images/testimon1.jpg",
-      desc: "We serve clients from around the globe, but since our firm is in the UK, our staff is only available during the day to take calls. That’s where BJS came to the rescue and handled all our customer support and communications 24/7. It reduced the burden on my shoulders by handling everything automatically and sending me periodic reports/notes about all the activities to maintain transparency.",
+      name: "Really helpfull!!",
+      date: "11 march 2023",
+      photo: "/images/usershadow.jpg",
+      desc: "The whole company were really helpful and friendly, from the people in customer service to the delivery guys, really did a great job, and the mattress is 100% fantastic. Well done",
       trust_rating : 5,
     },
     {
       id: 2,
-      name: "Olive Ross",
-      date: "22 march 2024",
-      photo: "/images/testimon2.jpg",
-      desc: "As a self-employed sole proprietor, I find it difficult to focus on my work and take calls from current and prospective clients during the day. During a pandemic, communications became even harder to handle. BJS came to our rescue, and I have never looked back since that day. They have handled all my needs and ensured my clients never feel alienated by answering quick calls and accurately responding to all queries.",
-      trust_rating : 4,
+      name: "Maia Garden Furniture",
+      date: "22 Jan 2024",
+      photo: "/images/usershadow.jpg",
+      desc: "I was kept up to date with my order every step of the way. An excellent customer service experience. I was extremely impressed that I was given a 3 hour delivery time but they arrived in half the time very efficient service.",
+      trust_rating : 4, 
     },
     {
       id: 3,
-      name: "Suzzane Hunt",
+      name: "Very professional service",
       date: "26 march 2024",
-      photo: "/images/testimon4.jpg",
-      desc: "I run a medium-scale business offering IT services globally. With many departments and a widespread network of professionals, it's impossible to properly get answers for our customers. Fortunately, BJS offers the infrastructure to take calls on our behalf and then transfer them to the concerned person/department to receive responses in almost no time. I have heard praise from my clients about the reduced waiting times and overall improvement in the quality of responses. I consider them a must-have for any business.",
-      trust_rating : 3,
+      photo: "/images/usershadow.jpg",
+      desc: "Had 6 chairs ordered. 2 however had damage. I rang there customer service who then replaced the 2 faulty chairs. Received the replacements within a couple of days. Very friendly and professional service.",
+      trust_rating : 4,
     },
-    {
-      id: 4,
-      name: "Louis Omarzai",
-      date: "30 march 2024",
-      photo: "/images/testimon3.jpg",
-      desc: "I run a business with high-profile clients from the US and UK. As a non-native English speaker, it is impossible for me and most of my employees to effectively communicate with them. Fortunately, BJS has a staff that is comprised of native English speakers. That can effectively understand, communicate, and answer queries.",
-      trust_rating : 2,
-    },
+    
   ]
   return (
     <div className="testimonial-slider">
