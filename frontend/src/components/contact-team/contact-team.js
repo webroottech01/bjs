@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./contact-team.scss";
-import PhoneInput from 'react-phone-input-2';
-import 'react-phone-input-2/lib/style.css';
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 const ContactTeam = () => {
   const [formData, setFormData] = useState({
@@ -10,7 +10,7 @@ const ContactTeam = () => {
     designation: "",
     company: "",
     contact_no: "",
-    message: ""
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -24,60 +24,72 @@ const ContactTeam = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch('http://127.0.0.1:8000/api/contact', {
-      method: 'POST',
+    fetch("http://127.0.0.1:8000/api/contact", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
     })
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      // Clear the form fields after successful submission
-      setFormData({
-        name: "",
-        email: "",
-        designation: "",
-        company: "",
-        contact_no: "",
-        message: "",
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        // Clear the form fields after successful submission
+        setFormData({
+          name: "",
+          email: "",
+          designation: "",
+          company: "",
+          contact_no: "",
+          message: "",
+        });
+      })
+      .catch((error) => {
+        console.error("Error:", error);
       });
-    })
-    .catch(error => {
-      console.error('Error:', error);
-    });
   };
 
   return (
     <>
       <div className="contactteam-inner">
-      <div className='container-med'>
-        <form onSubmit={handleSubmit} className="basic-form">
-          <div className="row">
-            <div className="col-md-4">
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder="Name"
-                required
-              />
-            </div>
-            <div className="col-md-4">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Email"
-                required
-              />
-            </div>
-            <div className="col-md-4">
+        <div className="container-med">
+          <form onSubmit={handleSubmit} className="basic-form">
+            <div className="row">
+              <div className="col-md-4">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div className="col-md-4">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div className="col-md-4">
+                <PhoneInput
+                  type="text"
+                  id="contact_no"
+                  name="contact_no"
+                  value={formData.contact_no}
+                  placeholder="Contact Number"
+                  required
+                  country={"gb"}
+                  onChange={handlePhoneChange}
+                />
+              </div>
+              <div className="col-md-4">
                 <input
                   type="text"
                   id="company"
@@ -87,48 +99,37 @@ const ContactTeam = () => {
                   placeholder="Company Name"
                   required
                 />
-            </div>
-            <div className="col-md-4">
-              <input
-                type="text"
-                id="designation"
-                name="designation"
-                value={formData.designation}
-                onChange={handleChange}
-                placeholder="Designation"
-                required
-              />
-            </div>
-
-
-            
-            <div className="col-md-4">
-                <PhoneInput
+              </div>
+              <div className="col-md-4">
+                <input
                   type="text"
-                  id="contact_no"
-                  name="contact_no"
-                  value={formData.contact_no}
-                  placeholder="Contact Number"
+                  id="designation"
+                  name="designation"
+                  value={formData.designation}
+                  onChange={handleChange}
+                  placeholder="Designation"
                   required
-                  country={'gb'}
-                  onChange={handlePhoneChange}
                 />
-            </div>
-            <div className="col-md-4">
+              </div>
+
+              <div className="col-md-4">
                 <textarea
                   id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                   placeholder="Message"
+                  maxlength="200"
                   required
                 ></textarea>
+              </div>
+              <div className="col-md-12 submit-outer">
+                <button className="submitbtn" type="submit">
+                  Submit Now
+                </button>
+              </div>
             </div>
-            <div className="col-md-12 submit-outer">
-              <button className="submitbtn" type="submit">Submit Now</button>
-            </div>
-          </div>
-        </form>
+          </form>
         </div>
       </div>
     </>

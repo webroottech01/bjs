@@ -21,31 +21,31 @@ const Footer = () => (
               lackluster one.
             </p>
             <div className="social-links">
-              <a href="facebook.com">
+              <a target="blank" href="https://www.facebook.com/profile.php?id=61559815511782">
                 <img
                   src={process.env.PUBLIC_URL + "/images/facebook-icon.png"}
                   alt=""
                 />
               </a>
-              <a href="facebook.com">
+              {/* <a target="blank" href="facebook.com">
                 <img
                   src={process.env.PUBLIC_URL + "/images/twitter-icon.png"}
                   alt=""
                 />
-              </a>
-              <a href="facebook.com">
+              </a> */}
+              <a target="blank" href="https://www.instagram.com/bjs_beyond/">
                 <img
                   src={process.env.PUBLIC_URL + "/images/instagram-icon.png"}
                   alt=""
                 />
               </a>
-              <a href="facebook.com">
+              {/* <a target="blank" href="facebook.com">
                 <img
                   src={process.env.PUBLIC_URL + "/images/youTube-icon.png"}
                   alt=""
                 />
-              </a>
-              <a href="facebook.com">
+              </a> */}
+              <a target="blank" href="https://www.linkedin.com/company/bjs-beyond/">
                 <img
                   src={process.env.PUBLIC_URL + "/images/linkedin-icon.png"}
                   alt=""

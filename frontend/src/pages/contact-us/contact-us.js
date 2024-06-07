@@ -43,7 +43,7 @@ const ContactUs = () => {
       <Banner
         title="Contact us"
         innerpage
-        bgimage={"images/contactusban.jpg"}
+        bgimage={"images/contactusbg.jpg"}
       />
       <div className="center-part">
         <div className="container-max">

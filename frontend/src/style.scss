@@ -230,6 +230,8 @@ body {
   }
   textarea {
     height: 75px;
+    min-height: 75px;
+    max-height: 180px;
   }
   .flag-dropdown {
     margin: 3px 0px 2px 3px;
