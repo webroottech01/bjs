@@ -120,8 +120,7 @@ const Finance = () => {
                   <h4>E-Commerce Support</h4>
                   <p>
                     As a business in the finance industry, you must serve your
-                    customers quickly and with proper satisfaction. Our 24/7
-                    UK-based customer service with native English speakers and
+                    customers quickly and with proper satisfaction. Our 24/7 customer service with native English speakers and
                     years of experience is ideal for handling all your
                     e-commerce needs. You can configure custom caller tunes,
                     call answering scripts, and more.

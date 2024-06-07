@@ -1,17 +1,24 @@
 import React, { useState } from "react";
 import "./contact-team.scss";
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 const ContactTeam = () => {
   const [formData, setFormData] = useState({
     name: "",
-    contact_no: "",
     email: "",
-    message: "",
+    designation: "",
+    company: "",
+    contact_no: "",
+    message: ""
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+  };
+  const handlePhoneChange = (value) => {
+    setFormData({ ...formData, contact_no: value });
   };
 
   const handleSubmit = (e) => {
@@ -30,8 +37,10 @@ const ContactTeam = () => {
       // Clear the form fields after successful submission
       setFormData({
         name: "",
-        contact_no: "",
         email: "",
+        designation: "",
+        company: "",
+        contact_no: "",
         message: "",
       });
     })
@@ -59,17 +68,6 @@ const ContactTeam = () => {
             </div>
             <div className="col-md-4">
               <input
-                type="text"
-                id="contact_no"
-                name="contact_no"
-                value={formData.contact_no}
-                onChange={handleChange}
-                placeholder="Contact Number"
-                required
-              />
-            </div>
-            <div className="col-md-4">
-              <input
                 type="email"
                 id="email"
                 name="email"
@@ -79,17 +77,54 @@ const ContactTeam = () => {
                 required
               />
             </div>
-            <div className="col-md-8">
-              <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                placeholder="Message"
-                required
-              ></textarea>
+            <div className="col-md-4">
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  value={formData.company}
+                  onChange={handleChange}
+                  placeholder="Company Name"
+                  required
+                />
             </div>
-            <div className="col-md-4 submit-outer">
+            <div className="col-md-4">
+              <input
+                type="text"
+                id="designation"
+                name="designation"
+                value={formData.designation}
+                onChange={handleChange}
+                placeholder="Designation"
+                required
+              />
+            </div>
+
+
+            
+            <div className="col-md-4">
+                <PhoneInput
+                  type="text"
+                  id="contact_no"
+                  name="contact_no"
+                  value={formData.contact_no}
+                  placeholder="Contact Number"
+                  required
+                  country={'gb'}
+                  onChange={handlePhoneChange}
+                />
+            </div>
+            <div className="col-md-4">
+                <textarea
+                  id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  placeholder="Message"
+                  required
+                ></textarea>
+            </div>
+            <div className="col-md-12 submit-outer">
               <button className="submitbtn" type="submit">Submit Now</button>
             </div>
           </div>

@@ -75,26 +75,18 @@
       padding-left: 0;
       padding-right: 7%;
     }
-    a.thm-btn {
+    a.btnyellow {
+      display: block;
+      width: fit-content;
       text-decoration: none;
-      padding: 10px 25px;
-      color: white;
+      padding: 15px 30px;
       border-radius: 8px;
-      font-weight: bold;
       font-size: 22px;
       margin-top: 20px;
-      background: linear-gradient(to left, #562479 50%, #e72b6a 50%) right;
-      background-size: 200%;
+      font-weight: 500;
       transition: 0.5s ease-out;
-      background-position: right;
 
-      &:active {
-        background-position: left;
-      }
-      &:hover {
-        // box-shadow: inset 225px 0 0 0 #e0e0e0;
-        background-position: left;
-      }
+
     }
   }
   .review-sec {

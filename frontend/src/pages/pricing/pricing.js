@@ -18,21 +18,16 @@ const Pricing = () => {
                 Make classic businesses effective and profitable
               </h3>
               <p className="mb-0">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi.
+              Services and facilities that you avail from BJS would be at par or better than the ones offered by dedicated services. Our services are designed to give your customers an ideal experience and no chance of complaints.
               </p>
               <p className="mb-0 mt-4">
-                Dest laborum et dolorum fuga. Et harum quidem rerum facilis est
-                et expedita distinctio.
+              We prioritize quality and efficiency, ensuring your business runs smoothly and your customers are always satisfied. Our tailored solutions are crafted to meet your specific needs, setting you apart from the competition
               </p>
             </div>
 
             <div className="col-md-12 col-lg-6 order-lg-1">
               <div className="splitimg-part">
-                <img src={process.env.PUBLIC_URL + "/images/about-img.webp"} />
+                <img src={process.env.PUBLIC_URL + "/images/pricingmain.jpg"} />
               </div>
             </div>
           </div>
@@ -43,9 +38,7 @@ const Pricing = () => {
 
         <div className="packages-pricing">
           <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos
-            dolores et quas molestias excepturi sint.
+          Experience the benefits of our innovative approaches and dedicated support, all aimed at enhancing your business performance and customer satisfaction.
           </p>
           <Pcakages />
         </div>
@@ -55,7 +48,7 @@ const Pricing = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="splitimg-part">
-                <img src={process.env.PUBLIC_URL + "/images/about-img2.webp"} />
+                <img src={process.env.PUBLIC_URL + "/images/getteam.jpg"} />
               </div>
             </div>
             <div className="col-lg-6">
@@ -78,7 +71,7 @@ const Pricing = () => {
                   professionals create a curriculum to train and prepare our
                   workforce to serve you in the best way possible.
                 </p>
-                <Link className="thm-btn" to={"/contact-us"}>
+                <Link className="btn btnyellow" to={"/contact-us"}>
                   Contact us
                 </Link>
               </div>

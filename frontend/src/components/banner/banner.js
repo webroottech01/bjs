@@ -43,7 +43,7 @@ Banner.propTypes = {
 };
 
 Banner.defaultProps = {
-  bgimage : 'images/bghome.webp',
+  bgimage : 'images/testbanner.webp', 
 }
 
 export default Banner;

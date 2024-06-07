@@ -28,6 +28,7 @@
       height: 120px;
       padding: 27px;
       margin-top: -110px;
+      box-shadow: #000 0px 0px 5px -2px;
       img {
         height: 65px;
         width: 65px;
@@ -107,7 +108,9 @@
     background-color: rgb(255 71 46 / 75%);
   }
 }
-
+button.slick-arrow:before {
+  color: #000;
+}
 .slick-prev {
   top: 75px;
   left: calc(99%  - 130px);

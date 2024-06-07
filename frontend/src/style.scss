@@ -167,11 +167,12 @@ body {
 }
 
 .basic-form {
-  input {
+  input,
+  .react-tel-input .form-control {
     width: 100%;
     margin: 23px 0;
     border-radius: 9px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     background: #fff;
     padding: 18px 30px;
     color: #000;
@@ -187,7 +188,7 @@ body {
     width: 100%;
     margin: 23px 0;
     border-radius: 9px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     background: #fff;
     padding: 18px 30px;
     color: #000;
@@ -200,6 +201,7 @@ body {
       color: #000;;
     }
   }
+
   .submit-outer {
     display: flex;
     align-items: center;
@@ -221,8 +223,24 @@ body {
       color: #000;
     }
   }
-}
+  .react-tel-input .form-control { 
+    height: 75px;
+    padding-left: 50px;
+    margin: 23px 0 !important;
+  }
+  textarea {
+    height: 75px;
+  }
+  .flag-dropdown {
+    margin: 3px 0px 2px 3px;
+    border-radius: 5px !important;
 
+    .selected-flag {
+      width: 40px;
+    } 
+}
+  
+}
 
 /* industries pages */
 .industries-subpage {
@@ -398,7 +416,7 @@ body {
     text-align: left;
     color: #000;
     margin-bottom: 20px;
-    font-size: 56px;
+    font-size: 54px;
   }
   p {
     font-size: 20px;

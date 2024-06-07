@@ -5,7 +5,7 @@
   background-repeat: no-repeat !important;
   .banner-inner {
     padding: 116px 0;
-    background: linear-gradient(90deg, #d51bed 0%, #e72b6a 10%, #ffb600 36%, rgba(255, 182, 0, 0.75) 41%, rgba(255, 182, 0, 0) 45%);
+    background: linear-gradient(90deg, #d51bed 0%, #e72b6a 15%, #ffb600 40%, rgba(255, 182, 0, 0.75) 44%, rgba(255, 182, 0, 0) 50%);
     .container-max {
       > * {
         position: relative;
@@ -120,6 +120,7 @@
 .site-banner.inner-page-banner {
   .banner-inner {
     padding-top: 140px;
+    background: linear-gradient(90deg, #d51bed 0%, #e72b6a 15%, #ffb600 40%, rgba(255, 182, 0, 0.75) 44%, rgba(255, 182, 0, 0) 50%);
   }
   h2 {
     max-width: 100%;
