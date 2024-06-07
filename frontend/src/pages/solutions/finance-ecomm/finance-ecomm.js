@@ -34,7 +34,7 @@ const FinanceEcomm = () => {
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/finandecom.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/financialgrow.jpg"}
                   />
                 </div>
               </div>

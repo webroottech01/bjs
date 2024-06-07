@@ -41,7 +41,7 @@ const ContactCenter = () => {
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/contactcenter.webp"}
+                    src={process.env.PUBLIC_URL + "/images/contactcenter.jpg"}
                   />
                 </div>
               </div>

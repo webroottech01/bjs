@@ -18,15 +18,10 @@ const Pricing = () => {
                 Make classic businesses effective and profitable
               </h3>
               <p className="mb-0">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi.
+              Services and facilities that you avail from BJS would be at par or better than the ones offered by dedicated services. Our services are designed to give your customers an ideal experience and no chance of complaints.
               </p>
               <p className="mb-0 mt-4">
-                Dest laborum et dolorum fuga. Et harum quidem rerum facilis est
-                et expedita distinctio.
+              We prioritize quality and efficiency, ensuring your business runs smoothly and your customers are always satisfied. Our tailored solutions are crafted to meet your specific needs, setting you apart from the competition
               </p>
             </div>
 
@@ -43,9 +38,7 @@ const Pricing = () => {
 
         <div className="packages-pricing">
           <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos
-            dolores et quas molestias excepturi sint.
+          Experience the benefits of our innovative approaches and dedicated support, all aimed at enhancing your business performance and customer satisfaction.
           </p>
           <Pcakages />
         </div>

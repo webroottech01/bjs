@@ -78,6 +78,17 @@ const ContactTeam = () => {
               />
             </div>
             <div className="col-md-4">
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  value={formData.company}
+                  onChange={handleChange}
+                  placeholder="Company Name"
+                  required
+                />
+            </div>
+            <div className="col-md-4">
               <input
                 type="text"
                 id="designation"
@@ -90,17 +101,7 @@ const ContactTeam = () => {
             </div>
 
 
-            <div className="col-md-4">
-                <input
-                  type="text"
-                  id="company"
-                  name="company"
-                  value={formData.company}
-                  onChange={handleChange}
-                  placeholder="Company Name"
-                  required
-                />
-            </div>
+            
             <div className="col-md-4">
                 <PhoneInput
                   type="text"

@@ -12,7 +12,7 @@ const Home = () => {
   let pagetitle = "Time to think Beyond Just Service";
   let pagedesc =
     "You’re bogged down with processes, spinning plates, juggling workloads, and generally just struggling to keep it all together – hi 👋 we’re here to help.";
-  let bgimage = "./images/newbjsbanner.webp"; 
+  let bgimage = "./images/testbanner.webp"; 
   
   return (
     <div className="home">
@@ -30,7 +30,7 @@ const Home = () => {
         
       </div>
       <div className="justimage-sec">
-        <img src={process.env.PUBLIC_URL + "/images/homejustgirl.jpg"}  />
+        <img src={process.env.PUBLIC_URL + "/images/centerbjs.webp"}  />
         <div className="bounceball one"></div>
         <div className="bounceball two"></div>
         <div className="bounceball three"></div>
@@ -49,18 +49,19 @@ const Home = () => {
       </div>
       <div className="counter-sec">
         <div className="container-max">
-        <h2 className="secheading">Lorem Ipsum</h2>
+        <h2 className="secheading">What Makes Us Different</h2>
+        <h5>We are the best in the business but don’t take our word for it. Hear it from our clientele.</h5>
           <div className="d-flex">
             <div className="bgpink">
               <h3 className="textblack">
-                <Counter fromValue={1} toValue={15} suffix="m" prefix="" />
+                <Counter fromValue={1} toValue={15} suffix="M" prefix="" />
               </h3>
               <p className="textblack">Calls Handled</p>
             </div>
 
             <div className="bgpurple">
               <h3>
-                <Counter fromValue={50} toValue={250} suffix="" prefix="" />
+                <Counter fromValue={50} toValue={250} suffix="+" prefix="" />
               </h3>
               <p>Clients Served</p>
             </div>

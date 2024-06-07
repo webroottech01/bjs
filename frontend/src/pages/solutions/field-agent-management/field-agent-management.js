@@ -39,7 +39,7 @@ const FieldAgentManagement = () => {
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/fieldmanag.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/fieldmanage.jpg"}
                   />
                 </div> 
               </div>

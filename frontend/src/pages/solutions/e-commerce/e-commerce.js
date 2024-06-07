@@ -38,7 +38,7 @@ const Ecommerce = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img src={process.env.PUBLIC_URL + "/images/ecomsupport.jpg"} />
+                  <img src={process.env.PUBLIC_URL + "/images/ecommsupport.jpg"} />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
