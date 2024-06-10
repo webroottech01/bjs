@@ -57,6 +57,7 @@ const TestimonialSlider = () => {
                    )}
                    </div>
                 </div>
+                
                 <div className="review-details">
                   
                   <div className="d-flex">
