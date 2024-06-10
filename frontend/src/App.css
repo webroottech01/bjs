@@ -76,9 +76,9 @@
 .underconst .site-banner h2{
     font-size: 52px;
   }
-  .App > div {
+ /*.App > div {
     display: none;
-}
+}*/
 .App > div.underconst {
   display: block;
 }

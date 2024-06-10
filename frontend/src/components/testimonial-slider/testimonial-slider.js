@@ -13,26 +13,26 @@ const TestimonialSlider = () => {
   let reviews = [
     {
       id: 1,
-      name: "Really helpfull!!",
+      name: "Amarat Gill, Operations Director at Construct IT",
       date: "11 march 2023",
       photo: "/images/usershadow.jpg",
-      desc: "The whole company were really helpful and friendly, from the people in customer service to the delivery guys, really did a great job, and the mattress is 100% fantastic. Well done",
-      trust_rating : 5,
+      desc: "We prioritize efficiency and excellence in all our administrative processes. Partnering with Beyond Just Service has significantly enhanced our operational capabilities, resulting in improved productivity, cost savings, and better service quality. Their precision and professionalism make them an invaluable partner in our growth and success.",
+      trust_rating : 4,
     },
     {
       id: 2,
-      name: "Maia Garden Furniture",
+      name: "Khalil Khan, Director, BedsDivans",
       date: "22 Jan 2024",
       photo: "/images/usershadow.jpg",
-      desc: "I was kept up to date with my order every step of the way. An excellent customer service experience. I was extremely impressed that I was given a 3 hour delivery time but they arrived in half the time very efficient service.",
-      trust_rating : 4, 
+      desc: "Partnering with Beyond Just Service has been a game-changer for us at BedsDivans! Their experts efficiently manage our sales and customer service, allowing our small team to streamline operations and enhance the customer experience. We look forward to continued success together.",
+      trust_rating : 5, 
     },
     {
       id: 3,
-      name: "Very professional service",
+      name: "Aditya Gupta, Director, Fortune Select Forest Hill Resort",
       date: "26 march 2024",
       photo: "/images/usershadow.jpg",
-      desc: "Had 6 chairs ordered. 2 however had damage. I rang there customer service who then replaced the 2 faulty chairs. Received the replacements within a couple of days. Very friendly and professional service.",
+      desc: "Working with Beyond Just Service has transformed our operations at Fortune Select Forest Hill Resort. Their team expertly handles our customer support and administrative tasks, allowing us to focus on delivering an exceptional guest experience. Their professionalism and efficiency have significantly improved our service quality.",
       trust_rating : 4,
     },
     
@@ -49,11 +49,11 @@ const TestimonialSlider = () => {
                   <img className="review-photo" src={process.env.PUBLIC_URL + review.photo } />
                   <div className="review-rating">
                    {review.trust_rating > 4 ?(
-                   <img src={process.env.PUBLIC_URL + '/images/star5.svg' } />
+                   <img src={process.env.PUBLIC_URL + '/images/star5new.svg' } />
                    ) : review.trust_rating > 3 ?(
-                    <img src={process.env.PUBLIC_URL + '/images/star4.svg' } />
+                    <img src={process.env.PUBLIC_URL + '/images/star4new.svg' } />
                    ) : (
-                    <img src={process.env.PUBLIC_URL + '/images/starmid.svg' } />
+                    <img src={process.env.PUBLIC_URL + '/images/starmidnew.svg' } />
                    )}
                    </div>
                 </div>
