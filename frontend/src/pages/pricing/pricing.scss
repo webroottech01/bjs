@@ -113,3 +113,46 @@
     }
   }
 }
+
+
+
+@media screen and (max-width:1024px){
+
+.pricing-page {
+  .pricing-splitsec {
+    padding: 50px 0;
+    span {
+      font-size: 20px;
+    }
+    .secheading {
+      font-size: 45px;
+      line-height: 45px;
+    }
+    p {
+      font-size: 17px;
+    }
+  }
+  .tribackground {
+    h2 {
+      font-size: 50px;
+      padding: 25px 15px 0px;
+    }
+  }
+  .packages-pricing {
+    padding: 25px 0 0;
+    > p {
+      font-size: 17px;
+      padding: 0 0 20px;
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    
+  }
+
+
+}
+
+
+
+
+}

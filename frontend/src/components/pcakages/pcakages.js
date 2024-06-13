@@ -185,7 +185,7 @@ const Pcakages = () => {
       <Modal size="90w" show={modalShow} className="modal-dialog-centered">
         <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter">
-            Please fill out this form and we will get back to you eventually!
+            Please fill out this form and we will get back to you shortly!
           </Modal.Title>
           <button
             type="button"

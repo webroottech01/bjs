@@ -68,6 +68,32 @@ const ContactTeam = () => {
               </div>
               <div className="col-md-4">
                 <input
+                  type="text"
+                  id="designation"
+                  name="designation"
+                  value={formData.designation}
+                  onChange={handleChange}
+                  placeholder="Designation"
+                  required
+                />
+              </div>
+              <div className="col-md-4">
+              <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  value={formData.company}
+                  onChange={handleChange}
+                  placeholder="Company Name"
+                  required
+                />
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="row">
+              <div className="col-md-12">
+              <input
                   type="email"
                   id="email"
                   name="email"
@@ -77,7 +103,7 @@ const ContactTeam = () => {
                   required
                 />
               </div>
-              <div className="col-md-4">
+              <div className="col-md-12">
                 <PhoneInput
                   type="text"
                   id="contact_no"
@@ -89,30 +115,10 @@ const ContactTeam = () => {
                   onChange={handlePhoneChange}
                 />
               </div>
-              <div className="col-md-4">
-                <input
-                  type="text"
-                  id="company"
-                  name="company"
-                  value={formData.company}
-                  onChange={handleChange}
-                  placeholder="Company Name"
-                  required
-                />
               </div>
-              <div className="col-md-4">
-                <input
-                  type="text"
-                  id="designation"
-                  name="designation"
-                  value={formData.designation}
-                  onChange={handleChange}
-                  placeholder="Designation"
-                  required
-                />
               </div>
-
-              <div className="col-md-4">
+              
+              <div className="col-md-8">
                 <textarea
                   id="message"
                   name="message"
@@ -123,11 +129,11 @@ const ContactTeam = () => {
                   required
                 ></textarea>
               </div>
+              </div>
               <div className="col-md-12 submit-outer">
                 <button className="submitbtn" type="submit">
                   Submit Now
                 </button>
-              </div>
             </div>
           </form>
         </div>

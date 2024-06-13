@@ -81,3 +81,56 @@
   }
 }
 }
+
+
+@media screen and (max-width:1600px) {
+
+  .testimonial-slider {
+    padding-top: 65px;
+  }
+
+}
+
+
+@media screen and (max-width:1024px){
+
+.testimonial-slider {
+  padding-top: 45px;
+  .slick-slider {
+    margin: 0 15px;
+  
+  .slick-slide {
+    padding: 0 20px;
+  .single-review {
+    .review-photo {
+      margin-bottom: 10px;
+      max-width: 65px;
+    }
+    .review-rating img {
+      min-width: 65px;
+      width: 100%;
+    }
+    .review-details {
+      h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 12px 0 0;
+      }
+    }
+  }
+  .hypeicon {
+    height: 40px;
+    width: 40px;
+  }
+}
+  
+  }
+}
+
+
+}

@@ -16,9 +16,7 @@ const Footer = () => (
               alt="Logo"
             />
             <p>
-              The impact of well-crafted website content cannot be overstated
-              and can be the difference between a thriving online presence and a
-              lackluster one.
+            We are known as the agile contact center experts because we adapt to your industry's changing needs.
             </p>
             <div className="social-links">
               <a target="blank" href="https://www.facebook.com/profile.php?id=61559815511782">
@@ -66,7 +64,7 @@ const Footer = () => (
                       <Nav.Link>Pricing</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/solutions/contact-center">
-                      <Nav.Link>Contact Centre v2</Nav.Link>
+                      <Nav.Link>Contact Centre</Nav.Link>
                     </LinkContainer>
 
                     <LinkContainer to="/contact-us">

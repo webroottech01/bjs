@@ -47,7 +47,7 @@ const ServicesSlider = () => {
   let services = [
     {
       id: 1,
-      name: "Contact Centre v2",
+      name: "Contact Center",
       subhead: "Busy People",
       icon_url: "/images/phone.svg",
       image_url: "./images/contactcenter.jpg",
@@ -122,7 +122,7 @@ const ServicesSlider = () => {
     <div className="slider-container serv-slider">
       <Slider {...settings}>
       {services.map((service) => (
-        <div key={service.id}>
+        <div key={service.id} class="srvcMain">
             <div className="serv-single" key={service.id} style={{ backgroundImage: `url(${service.image_url})` }}>
               <div className="serv-center" >
                 <div className='serv-icon'><img src={process.env.PUBLIC_URL + service.icon_url} /></div>
