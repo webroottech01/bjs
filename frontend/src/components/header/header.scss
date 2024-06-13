@@ -1,6 +1,8 @@
 .site-header {
   padding: 30px 0 20px;
   border-bottom: 8px solid #562479;
+  background: #fff;
+
   .site-nav {
     .navbar-nav {
       justify-content: space-between;
@@ -94,6 +96,7 @@
   }
 }
 
+
 // @media (min-width: 768px){
 // .navbar-expand-md .navbar-nav .dropdown-menu {
 //     padding: 15px 0px;
@@ -103,3 +106,35 @@
 //     transform: translateX(-50%);
 // }
 // }
+
+
+@media screen and (max-width:1024px) {
+  
+.site-header {
+  padding: 20px 0 12px;
+  border-bottom: 5px solid #562479;
+  nav .navbar-brand {
+    margin-right: 75px;
+  }
+  .site-nav .nav-link{
+    font-size: 18px;
+  }
+  .col-md-7.px-0 {
+    width: 75%;
+  }
+  .col-md-5.small-nav {
+    width: 25%;
+    padding: 0;
+
+    .btn {
+      padding: 12px 25px;
+      font-size: 17px;
+    }
+
+  }
+
+}
+
+
+
+}

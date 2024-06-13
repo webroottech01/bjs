@@ -78,10 +78,10 @@
   }
  /*.App > div {
     display: none;
-}*/
+}
 .App > div.underconst {
   display: block;
-}
+}*/
 .underconst .site-banner .triblocks img {
   width: 100px;
 }

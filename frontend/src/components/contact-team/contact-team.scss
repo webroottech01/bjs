@@ -1,3 +1,14 @@
 .contactteam-inner {
   padding: 46px 0;
 }
+
+@media screen and (max-width:1600px) {
+  .contactteam-inner {
+    padding: 35px 0;
+  }
+}
+@media screen and (max-width:1024px) {
+  .contactteam-inner {
+    padding: 25px 0;
+  }
+}

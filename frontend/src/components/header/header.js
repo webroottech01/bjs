@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
   return (
-    <div className="site-header">
+    <div className="site-header sticky-top">
       <div className="container-max">
         <div className="row align-items-center">
           <div className="col-md-7 px-0">
@@ -30,7 +30,7 @@ const Header = () => {
 
                     <NavDropdown title="Solutions" id="nav-dropdown">
                     <LinkContainer to="/solutions/contact-center" className="dropdown-item">
-                        <Nav.Link>Contact Centre v2</Nav.Link>
+                        <Nav.Link>Contact Centre</Nav.Link>
                       </LinkContainer> 
                     <LinkContainer to="/solutions/account-management" className="dropdown-item">
                         <Nav.Link>Account Management</Nav.Link>

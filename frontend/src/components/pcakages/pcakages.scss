@@ -154,3 +154,55 @@
 
   }
 }
+
+
+
+@media screen and (max-width:1024px) {
+
+.packages-inner {
+  padding-bottom: 60px;
+  .package-card {
+    padding: 30px 30px 35px;
+    .package-detail {
+      h3 {
+        font-size: 35px;
+        line-height: 35px;
+      }
+      h4 {
+        font-size: 22px;
+        line-height: 23.94px;
+        margin-top: 10px;
+        margin-bottom: 18px;
+      }
+      h5 {
+        font-size: 22px;
+        line-height: 23.94px;
+      }
+      span {
+        font-size: 18px;
+      }
+      img {
+        width: 30px;
+        margin-top: 8px;
+      }
+    }
+    .package-desc{
+      margin: 20px 0 30px;
+      h5 {
+        font-size: 22px;
+      }
+      li {
+        font-size: 18px;
+        background-size: 22px 32px;
+        padding-left: 35px;
+      }
+    }
+    button {
+      padding: 12px 45px;
+      font-size: 18px;
+    }
+
+  }
+}
+  
+}

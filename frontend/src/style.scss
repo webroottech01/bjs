@@ -229,9 +229,9 @@ body {
     margin: 23px 0 !important;
   }
   textarea {
-    height: 75px;
-    min-height: 75px;
-    max-height: 180px;
+    height: 100%;
+    min-height: 200px;
+    max-height: 200px;
   }
   .flag-dropdown {
     margin: 3px 0px 2px 3px;
@@ -574,4 +574,177 @@ body {
     color: #000;
   }
 }
+}
+
+
+
+
+@media screen and (max-width:1800px) {
+  
+  .container-max {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+  } 
+
+}
+
+
+@media screen and (max-width:1600px) {
+
+  .secheading{
+    font-size: 60px;
+  }
+  .container-med {
+    max-width: 90%;
+    padding: 0;
+  }
+  .basic-form {
+  .submitbtn {
+    border: 3px solid #fff;
+    padding: 12px 50px;
+    font-size: 20px;
+  }
+  .submitbtn:hover {
+    border: 3px solid #000;
+  }
+}
+
+}
+
+
+@media screen and (max-width:1024px) {
+  
+.secheading {
+    font-size: 45px;
+}
+
+.basic-form {
+input, 
+.react-tel-input .form-control {
+  margin: 15px 0;
+  padding: 12px 15px;
+  font-size: 18px;
+}
+.react-tel-input .form-control {
+  height: 54px;
+  padding-left: 50px;
+  margin: 15px 0 !important;
+}
+textarea {
+  height: 54px;
+  min-height: 54px;
+  max-height: 150px;
+  font-size: 18px;
+  padding: 12px 15px;
+  margin: 15px 0;
+}
+.submitbtn {
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.submitbtn:hover {
+  border: 2px solid #000;
+}
+}
+
+.solutions-subpage, .industries-subpage  {
+
+  .right-splitsec {
+    padding: 60px 0;
+    span {
+      font-size: 20px;
+    }
+    .secheading {
+      margin-bottom: 18px;
+      font-size: 35px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .helpyou-sec {
+    h3 {
+      font-size: 18px;
+      margin: 25px auto 0;
+      width: 100%;
+    }
+    .triangle-cards {
+      margin: 50px 0 0px;
+      column-gap: 30px;
+      .card {
+        padding: 20px;
+        margin-bottom: 30px;
+        h4 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 17px;
+        }
+      }
+      .icon {
+        padding: 10px;
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+
+.small-strip {
+  margin-top: 50px;
+  padding: 40px 0;
+  .iconheading {
+    font-size: 45px;
+  }
+  p {
+    margin: 25px auto 0;
+    max-width: 100%;
+    font-size: 18px;
+  }
+}
+
+.benifits-sec{
+  margin: 60px 0;
+  h3{
+    margin: 12px auto 45px;
+    font-size: 18px;
+  }
+  .roundcard-outer{
+    .roundcard {
+      padding: 25px 12px;
+    h4{
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: 17px;
+    }
+  }
+  }
+}
+.contact-sec {
+  margin-top: 50px;
+}
+.account-faqs {
+  margin-top: 50px;
+}
+
+.outsourcing-sec{
+  margin: 50px 0 60px;
+   h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+   }
+   p {
+    font-size: 17px;
+   }
+
+}
+
+}
+
+
 }
