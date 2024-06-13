@@ -56,7 +56,7 @@ const Pricing = () => {
                 <span className="d-block text-color1 text-uppercase">
                   Get Your Team
                 </span>
-                <h2 className="secheading">How We Work?</h2>
+                <h2 className="secheading">How We Work</h2>
                 <p>
                   BJS has decades of experience in serving clients across
                   various industries. Our all-round solutions have been
