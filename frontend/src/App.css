@@ -96,6 +96,13 @@
 
 }
 
+@media screen and (max-width:825px) {
+  .leftimgtype .splitimg-part {
+    padding-right: 0%;
+  } 
+  
+}
+
 @media screen and (max-width :768px){
  .underconst .site-banner h2 {
    font-size: 48px;

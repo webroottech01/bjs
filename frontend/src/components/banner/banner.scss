@@ -171,6 +171,18 @@
     .banner-gettouch {
       margin-bottom: 35px;
     }
+    .triblocks{
+
+      .leftyban{
+        width:100px;
+      }
+      .bottomban{
+        width:215px;
+      }
+      .rightban{
+        width:125px;
+      }
+    }
 }
 .site-banner.inner-page-banner {
   .banner-inner {
@@ -212,13 +224,13 @@
   .triblocks{
 
     .leftyban{
-      width:10%;
+      width:75px;
     }
     .bottomban{
-      width:15%;
+      width:180px;
     }
     .rightban{
-      width:10%;
+      width:95px;
     }
   }
 
@@ -232,7 +244,45 @@
     }
   }
 
-
   }
+
+
+@media screen and (max-width:780px) {
+    
+.site-banner {
+  .banner-inner {
+    padding: 35px 0;
+  }
+  h2 {
+    font-size: 28px;
+    max-width: 450px;
+  }
+  p {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    max-width: 450px;
+  }
+  .banner-gettouch {
+    margin-bottom: 0px;
+    a {
+      padding: 8px 22px;
+      font-size: 17px;
+      border: 2px solid;
+    }
+  }
+}
+.site-banner.inner-page-banner{ 
+  .banner-inner {
+    padding-top: 70px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+}
+
+
+
+}
 
 

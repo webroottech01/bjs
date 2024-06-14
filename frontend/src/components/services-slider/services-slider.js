@@ -50,7 +50,7 @@ const ServicesSlider = () => {
       name: "Contact Center",
       subhead: "Busy People",
       icon_url: "/images/phone.svg",
-      image_url: "./images/contactcenter.jpg",
+      image_url: "./images/contact-center.webp",
       main_url: "./solutions/contact-center",
     },
     {
@@ -58,7 +58,7 @@ const ServicesSlider = () => {
       name: "Account Management ",
       subhead: "Smaller companies",
       icon_url: "/images/mugcall.svg",
-      image_url: "./images/accountmanage.jpg",
+      image_url: "./images/accountmanage.webp",
       main_url: "/solutions/account-management",
     },
     {
@@ -66,7 +66,7 @@ const ServicesSlider = () => {
       name: "Integrated Sales ",
       subhead: "Smaller companies",
       icon_url: "/images/headphones.svg",
-      image_url: "./images/integrtedsale.jpg",
+      image_url: "./images/integrtedsale.webp",
       main_url: "/solutions/integrated-sales",
     },
     {
@@ -74,7 +74,7 @@ const ServicesSlider = () => {
       name: "Virtual PA ",
       subhead: "Busy People",
       icon_url: "/images/phone.svg",
-      image_url: "./images/virtualpa.jpg",
+      image_url: "./images/virtualpa.webp",
       main_url: "/solutions/virtual-pa",
     },
     {
@@ -90,7 +90,7 @@ const ServicesSlider = () => {
       name: "Process Consulting",
       subhead: "Smaller companies",
       icon_url: "/images/headphones.svg",
-      image_url: "./images/processconsult.jpg",
+      image_url: "./images/processconsult.webp",
       main_url: "/solutions/process-consulting",
     },
     {
@@ -98,7 +98,7 @@ const ServicesSlider = () => {
       name: "Finance and Accounting",
       subhead: "Busy People",
       icon_url: "/images/phone.svg",
-      image_url: "./images/financialgrow.jpg",
+      image_url: "./images/financialgrow.webp",
       main_url: "/solutions/finance-accounting",
     },
     {
@@ -106,7 +106,7 @@ const ServicesSlider = () => {
       name: "E-Commerce Support ",
       subhead: "Smaller companies",
       icon_url: "/images/mugcall.svg",
-      image_url: "./images/ecommsupport.jpg",
+      image_url: "./images/ecommsupport.webp",
       main_url: "/solutions/e-commerce",
     },
     {
@@ -114,7 +114,7 @@ const ServicesSlider = () => {
       name: "Field Agent Management",
       subhead: "Smaller companies",
       icon_url: "/images/headphones.svg",
-      image_url: "./images/fieldmanage.jpg",
+      image_url: "./images/fieldmanage.webp",
       main_url: "/solutions/field-agent-management",
     }, 
   ];

@@ -134,3 +134,17 @@
 
 
 }
+
+@media screen and (max-width:780px) {
+
+.testimonial-slider {
+    padding-top: 35px;
+  .slick-slider {
+      margin: 0 25px;
+    .slick-slide {
+        padding: 0 5px;
+    }
+  }
+}
+  
+}

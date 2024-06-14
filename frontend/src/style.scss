@@ -195,7 +195,7 @@ body {
     font-size: 24px;
     line-height: normal;
     letter-spacing: -0.48px;
-    height: 170px;
+    height: 200px;
 
     &::placeholder{
       color: #000;;
@@ -227,11 +227,6 @@ body {
     height: 75px;
     padding-left: 50px;
     margin: 23px 0 !important;
-  }
-  textarea {
-    height: 100%;
-    min-height: 200px;
-    max-height: 200px;
   }
   .flag-dropdown {
     margin: 3px 0px 2px 3px;
@@ -579,12 +574,16 @@ body {
 
 
 
-@media screen and (max-width:1800px) {
+@media screen and (max-width:1700px) {
   
   .container-max {
-    width: 90%;
+    width:1300px;
     padding-left: 0;
     padding-right: 0;
+  }
+  .container-med {
+    max-width: 1200px;
+    padding: 0;
   } 
 
 }
@@ -593,11 +592,7 @@ body {
 @media screen and (max-width:1600px) {
 
   .secheading{
-    font-size: 60px;
-  }
-  .container-med {
-    max-width: 90%;
-    padding: 0;
+    font-size: 50px;
   }
   .basic-form {
   .submitbtn {
@@ -610,46 +605,6 @@ body {
   }
 }
 
-}
-
-
-@media screen and (max-width:1024px) {
-  
-.secheading {
-    font-size: 45px;
-}
-
-.basic-form {
-input, 
-.react-tel-input .form-control {
-  margin: 15px 0;
-  padding: 12px 15px;
-  font-size: 18px;
-}
-.react-tel-input .form-control {
-  height: 54px;
-  padding-left: 50px;
-  margin: 15px 0 !important;
-}
-textarea {
-  height: 54px;
-  min-height: 54px;
-  max-height: 150px;
-  font-size: 18px;
-  padding: 12px 15px;
-  margin: 15px 0;
-}
-.submitbtn {
-  border: 2px solid #fff;
-  padding: 10px 30px;
-  font-size: 17px;
-  margin-top: 10px;
-}
-.submitbtn:hover {
-  border: 2px solid #000;
-}
-}
-
 .solutions-subpage, .industries-subpage  {
 
   .right-splitsec {
@@ -659,15 +614,15 @@ textarea {
     }
     .secheading {
       margin-bottom: 18px;
-      font-size: 35px;
+      font-size: 40px;
     }
     p {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
   .helpyou-sec {
     h3 {
-      font-size: 18px;
+      font-size: 16px;
       margin: 25px auto 0;
       width: 100%;
     }
@@ -678,10 +633,10 @@ textarea {
         padding: 20px;
         margin-bottom: 30px;
         h4 {
-          font-size: 25px;
+          font-size: 26px;
         }
         p {
-          font-size: 17px;
+          font-size: 16px;
         }
       }
       .icon {
@@ -697,12 +652,12 @@ textarea {
   margin-top: 50px;
   padding: 40px 0;
   .iconheading {
-    font-size: 45px;
+    font-size: 50px;
   }
   p {
     margin: 25px auto 0;
     max-width: 100%;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -710,7 +665,7 @@ textarea {
   margin: 60px 0;
   h3{
     margin: 12px auto 45px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .roundcard-outer{
     .roundcard {
@@ -720,7 +675,7 @@ textarea {
       margin-bottom: 15px;
     }
     p{
-      font-size: 17px;
+      font-size: 16px;
     }
   }
   }
@@ -742,6 +697,203 @@ textarea {
     font-size: 17px;
    }
 
+}
+
+}
+
+.basic-form {
+  input, .react-tel-input .form-control {
+    margin: 15px 0;
+    padding: 15px 18px;
+    font-size: 18px;
+  }
+  .react-tel-input .form-control {
+    height: 60px;
+    padding-left: 50px;
+    margin: 15px 0 !important;
+  }
+  textarea {
+    margin: 15px 0;
+    padding: 15px 18px;
+    font-size: 18px;
+    height: 150px;
+  }
+}
+
+
+
+}
+
+@media screen and (max-width:1400px) {
+  
+  .container-max {
+    width:1200px;
+  }
+  .container-med {
+    max-width: 1100px;
+  } 
+
+}
+
+@media screen and (max-width:1300px) {
+  
+  .container-max {
+    width:1100px;
+  }
+  .container-med {
+    max-width: 1000px;
+  } 
+
+}
+
+
+@media screen and (max-width:1024px) {
+
+  .container-max {
+    width:900px;
+  }
+  .container-med {
+    max-width: 800px;
+  }
+  
+  
+.secheading {
+    font-size: 45px;
+}
+
+.basic-form {
+input, 
+.react-tel-input .form-control {
+  margin: 15px 0;
+  padding: 12px 15px;
+  font-size: 18px;
+}
+.react-tel-input .form-control {
+  height: 54px;
+  padding-left: 50px;
+  margin: 15px 0 !important;
+}
+textarea {
+  height: 135px;
+  font-size: 18px;
+  padding: 12px 15px;
+  margin: 15px 0;
+}
+.submitbtn {
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.submitbtn:hover {
+  border: 2px solid #000;
+}
+}
+
+
+}
+
+
+@media screen and (max-width:825px) {
+  
+.secheading {
+    font-size: 38px;
+}
+.counter-sec {
+  h3 {
+    font-size: 28px;
+  }
+}
+
+.solutions-subpage, .industries-subpage{
+  .right-splitsec {
+    padding: 38px 0;
+    .splitimg-part {
+      padding-left: 0%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  .small-strip {
+    .iconheading {
+      font-size: 35px;
+    }
+  }
+}
+
+}
+
+@media screen and (max-width:780px) {
+
+.secheading {
+    font-size: 35px;
+}
+.basic-form{
+  input, .react-tel-input .form-control {
+  margin: 10px 0;
+  padding: 10px 12px;
+  font-size: 16px;
+  }
+  .react-tel-input .form-control {
+    height: 47px;
+    padding-left: 50px;
+    margin: 10px 0 !important;
+  }
+  textarea {
+    height: 105px;
+    font-size: 16px;
+    padding: 10px 12px;
+    margin: 10px 0;
+  }
+}
+
+.solutions-subpage, .industries-subpage{
+.right-splitsec {
+    padding: 20px 0 30px;
+  p {
+    font-size: 16px;
+    margin: 10px 0 !important;
+  }
+}
+.helpyou-sec {
+  padding: 30px 0;
+  .h3 {
+    font-size: 16px;
+    margin: 12px auto 0;
+  }
+  .triangle-cards {
+    margin: 35px 0 0px;
+    column-gap: 25px;
+    grid-template-columns: repeat(2, auto);
+    columns: 2;
+
+    .card {
+      padding: 18px;
+      margin-bottom: 25px;
+    }
+  }
+}
+.small-strip{
+  p {
+    margin: 20px auto 0;
+    font-size: 16px;
+  }
+}
+.benifits-sec {
+  margin: 40px 0;
+  .h3 {
+    margin: 10px auto 35px;
+    font-size: 16px;
+  }
+  .roundcard-outer {
+    grid-template-columns: repeat(2, 48%);
+    gap: 25px;
+  }
+}
+.benifits-sec.threeelements {
+  .roundcard-outer {
+    grid-template-columns: repeat(1, 100%);
+  }
 }
 
 }
