@@ -82,7 +82,7 @@ const ServicesSlider = () => {
       name: "Human Resources ",
       subhead: "Smaller companies",
       icon_url: "/images/mugcall.svg",
-      image_url: "./images/hrres.jpg",
+      image_url: "./images/hrres.webp",
       main_url: "/solutions/human-resources",
     },
     {
