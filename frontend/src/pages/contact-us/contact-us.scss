@@ -30,13 +30,6 @@
     } 
   }
 
-.basic-form input.form-control {
-  width: 100%;
-  font-size: 24px;
-  margin: 23px 0px !important;
-  height: auto;
-  padding: 23px 50px;
-}
 .basic-form input.form-control:focus{
   box-shadow: none;
 }
@@ -139,6 +132,75 @@
 .maparea {
   display: flex;
   flex-direction: column;
+}
+
+}
+
+
+
+@media screen and (max-width:1600px) {
+  
+.contact-us{
+  .contact-headings {
+    padding-top: 20px;
+    span {
+      font-size: 20px;
+    }
+    .secheading {
+      margin-bottom: 15px;
+      line-height: 42px;
+    }
+    p {
+      font-size: 17px;
+      line-height: 20px;
+    }
+  }
+
+  .contact-info{
+    h5 {
+      font-size: 26px;
+      margin-bottom: 8px;
+    }
+    .featured-icon {
+      padding: 10px;
+      img {
+        width: 30px;
+      }
+    }
+    p {
+      font-size: 17px;
+      line-height: 22px;
+    }
+    .contact-icon-box{
+      gap: 15px;
+      margin-top: 10px;
+      padding: 28px 18px;
+
+      a {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+
+  }
+  .center-part {
+    padding: 35px 0;
+  }
+  .form-sec {
+    margin-top: 50px;
+  }
+
+}
+
+}
+
+
+@media screen and (max-width:825px){
+
+.contact-us{
+  .container-med {
+    max-width: 100%;
+  }
 }
 
 }

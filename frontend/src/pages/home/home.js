@@ -102,12 +102,12 @@ const Home = () => {
         <div className="container-max">
           <div className="d-flex">
             {/* <img src={process.env.PUBLIC_URL + "/images/bjscouriers.svg"} /> */}
-            <img src={process.env.PUBLIC_URL + "/images/bjshaulage.svg"} />
+            <img src={process.env.PUBLIC_URL + "/images/bjs-haulage-logo.webp"} />
             {/* <img src={process.env.PUBLIC_URL + "/images/bjsextra.svg"} /> */}
             
             <img src={process.env.PUBLIC_URL + "/images/koonerlogo.png"} />
             <img src={process.env.PUBLIC_URL + "/images/beds-divan-logo.png"} />
-            <img src={process.env.PUBLIC_URL + "/images/constructit.svg"} />
+            <img src={process.env.PUBLIC_URL + "/images/Construct-it-logo.webp"} />
           </div>
         </div>
       </div>
