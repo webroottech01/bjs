@@ -22,14 +22,14 @@ const Banner = (props) => {
       </div>
       
       <div className="triblocks">
-        <img className="leftyban" src={process.env.PUBLIC_URL + "/images/lefttriangle.webp"} />
+        <img className="leftyban" src={process.env.PUBLIC_URL + "/images/lefttriangle.webp"} alt="leftyban" />
       
       
-        <img className="bottomban" src={process.env.PUBLIC_URL + "/images/bottomtriangle.webp"} />
+        <img className="bottomban" src={process.env.PUBLIC_URL + "/images/bottomtriangle.webp"} alt="bottomban" />
       
       
         <img className="rightban" 
-        src={process.env.PUBLIC_URL + "/images/righttriangle.webp"} />
+        src={process.env.PUBLIC_URL + "/images/righttriangle.webp"} alt="rightban" />
       
       </div>
     </div>

@@ -62,14 +62,14 @@ const TestimonialSlider = () => {
             <div className="single-review">
               <div className="d-flex">
                 <div className="review-photo">
-                  <img className="review-photo" src={process.env.PUBLIC_URL + review.photo } />
+                  <img className="review-photo" src={process.env.PUBLIC_URL + review.photo } alt=""/>
                   <div className="review-rating">
                    {review.trust_rating > 4 ?(
-                   <img src={process.env.PUBLIC_URL + '/images/star5new.svg' } />
+                   <img src={process.env.PUBLIC_URL + '/images/star5new.svg' } alt="" />
                    ) : review.trust_rating > 3 ?(
-                    <img src={process.env.PUBLIC_URL + '/images/star4new.svg' } />
+                    <img src={process.env.PUBLIC_URL + '/images/star4new.svg' } alt=""/>
                    ) : (
-                    <img src={process.env.PUBLIC_URL + '/images/starmidnew.svg' } />
+                    <img src={process.env.PUBLIC_URL + '/images/starmidnew.svg' } alt=""/>
                    )}
                    </div>
                 </div>

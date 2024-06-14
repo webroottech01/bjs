@@ -125,7 +125,7 @@ const ServicesSlider = () => {
         <div key={service.id} class="srvcMain">
             <div className="serv-single" key={service.id} style={{ backgroundImage: `url(${service.image_url})` }}>
               <div className="serv-center" >
-                <div className='serv-icon'><img src={process.env.PUBLIC_URL + service.icon_url} /></div>
+                <div className='serv-icon'><img src={process.env.PUBLIC_URL + service.icon_url} alt=""/></div>
                 <h3>{service.name}</h3>
                 <p>{service.subhead}</p>
                 <Link to={service.main_url}>Explore More</Link>
