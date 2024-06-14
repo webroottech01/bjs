@@ -30,7 +30,7 @@ const Home = () => {
         
       </div>
       <div className="justimage-sec">
-        <img src={process.env.PUBLIC_URL + "/images/centerbjs.webp"}  />
+        <img src={process.env.PUBLIC_URL + "/images/centerbjs.webp"} alt=""  />
         <div className="bounceball one"></div>
         <div className="bounceball two"></div>
         <div className="bounceball three"></div>
@@ -102,12 +102,12 @@ const Home = () => {
         <div className="container-max">
           <div className="d-flex">
             {/* <img src={process.env.PUBLIC_URL + "/images/bjscouriers.svg"} /> */}
-            <img src={process.env.PUBLIC_URL + "/images/bjs-haulage-logo.webp"} />
+            <img src={process.env.PUBLIC_URL + "/images/bjs-haulage-logo.webp"} alt=""/>
             {/* <img src={process.env.PUBLIC_URL + "/images/bjsextra.svg"} /> */}
             
-            <img src={process.env.PUBLIC_URL + "/images/koonerlogo.png"} />
-            <img src={process.env.PUBLIC_URL + "/images/beds-divan-logo.png"} />
-            <img src={process.env.PUBLIC_URL + "/images/Construct-it-logo.webp"} />
+            <img src={process.env.PUBLIC_URL + "/images/koonerlogo.png"} alt=""/>
+            <img src={process.env.PUBLIC_URL + "/images/beds-divan-logo.png"} alt=""/>
+            <img src={process.env.PUBLIC_URL + "/images/Construct-it-logo.webp"} alt=""/>
           </div>
         </div>
       </div>
