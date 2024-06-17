@@ -271,6 +271,18 @@
       border: 2px solid;
     }
   }
+  .triblocks{
+
+    .leftyban{
+      width:60px;
+    }
+    .bottomban{
+      width:100px;
+    }
+    .rightban{
+      width:80px;
+    }
+  }
 }
 .site-banner.inner-page-banner{ 
   .banner-inner {
@@ -286,3 +298,47 @@
 }
 
 
+@media screen and (max-width:500px) {
+
+.site-banner{
+  .banner-inner {
+    padding: 28px 0;
+    background: linear-gradient(90deg, #d51bed 0%, #e72b6a 35%, #ffb600 60%, rgba(255, 182, 0, 0.75) 66%, rgba(255, 182, 0, 0) 95%);
+  }
+  h2 {
+    font-size: 25px;
+    max-width: 100%;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  .banner-gettouch a {
+    padding: 7px 18px;
+    font-size: 15px;
+  }
+}
+.site-banner.inner-page-banner {
+  h2 {
+    font-size: 28px;
+  }
+  .banner-inner {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+}
+.site-banner.inner-page-banner h2 {
+  font-size: 25px;
+}
+}
+
+
+@media screen and (max-width: 420px) {
+  .site-banner{
+    h2 {
+      font-size: 22px;
+    }
+  }
+}

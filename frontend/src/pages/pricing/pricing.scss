@@ -149,30 +149,32 @@
 
 .pricing-page {
   .pricing-splitsec {
-    padding: 50px 0;
+    padding: 40px 0;
     span {
-      font-size: 20px;
+      font-size: 18px;
     }
     .secheading {
-      font-size: 45px;
-      line-height: 45px;
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 15px;
     }
     p {
-      font-size: 17px;
+      font-size: 14px;
+      margin: 10px 0 !important;
     }
 
   }
   .tribackground {
     h2 {
-      font-size: 50px;
-      padding: 25px 15px 0px;
+      font-size: 38px;
+      padding: 10px 15px 0px;
     }
   }
   .packages-pricing {
-    padding: 25px 0 0;
+    padding: 18px 0 0;
     > p {
-      font-size: 17px;
-      padding: 0 0 20px;
+      font-size: 14px;
+      padding: 0 0 10px;
       width: 90%;
       margin-bottom: 20px;
     }
@@ -188,8 +190,8 @@
 .review-sec {
 
   .secheading {
-    margin-top: 28px;
-    padding: 10px 15px 15px;
+    margin-top: 20px;
+    padding: 8px 15px 12px;
   }
 
 }
@@ -209,15 +211,10 @@
       padding-bottom: 20px;
       padding-top: 20px;
     }
-    .secheading {
-      font-size: 36px;
-      line-height: 40px;
-      margin-bottom: 15px;
-    }
   }
   .tribackground{
      h2 {
-      font-size: 35px;
+      font-size: 30px;
       padding: 10px 15px 0px;
     }
   }
@@ -226,4 +223,50 @@
   }
 }
   
+}
+
+
+@media screen and (max-width:500px) {
+.pricing-page {
+
+.pricing-splitsec {
+  padding: 28px 0 15px;
+  span {
+    font-size: 16px;
+  }
+  .secheading {
+    font-size: 25px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  .splitimg-part {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+}
+.tribackground {
+  h2 {
+  font-size: 25px;
+  padding: 0px 15px 0px;
+  }
+}
+.packages-pricing {
+  padding: 12px 0 0;
+  > p {
+    margin-bottom: 12px;
+  }
+}
+.pricing-splitsec.leftimgtype a.btnyellow {
+  padding: 8px 18px;
+  font-size: 15px;
+}
+.review-sec {
+  .testimonial-slider {
+  padding-top: 28px;
+  padding-bottom: 35px;
+  }
+}
+}
+
+
 }

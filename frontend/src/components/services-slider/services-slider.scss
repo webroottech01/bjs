@@ -285,8 +285,89 @@ button.slick-arrow:before {
 }
 
 }
+ }
 
 
+@media screen and (max-width:780px) {
+
+.serv-slider {
+.slick-next, .slick-prev {
+  top: 25px;   
+}
+.slick-next:before, .slick-prev:before {
+  font-size: 35px;
+}
+.slick-slide {
+  .srvcMain {
+    margin-top: 58px;
+    &:hover{
+    margin-top: 35px;
+    .serv-single .serv-center {
+      margin-bottom: 10px;
+    }
+    }
   }
+}
+
+}
+  
+}
+
+
+@media screen and (max-width:650px) {
+
+.serv-slider {
+  .slick-slide {
+    .srvcMain {
+      .serv-single {
+      .serv-center {
+      h3 {
+        font-size: 20px;
+        margin-top: 15px;
+      }
+      p {
+        font-size: 15px;
+        margin-top: 2px;
+      }
+      }
+      }
+    }
+  }
+}
+  
+}
+
+
+@media screen and (max-width: 500px) {
+.serv-slider {
+  .slick-slide {
+    .srvcMain {
+    .serv-single {
+      .serv-center {
+        padding-top: 22px;
+        padding-bottom: 25px;
+        a {
+          padding: 6px 10px;
+          margin: 15px auto 0;
+          font-size: 13px;
+        }
+      }
+    }
+    &:hover{
+      .serv-single {
+        .serv-center {
+          margin-bottom: 10px;
+          padding-top: 20px;
+          padding-bottom: 25px;
+        }
+      }
+      &:hover .serv-icon {
+        margin-top: -48px;
+      }
+    }
+    }
+  }
+}
+}
 
 
