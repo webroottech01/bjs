@@ -134,9 +134,7 @@
   nav .navbar-brand {
     margin-right: 75px;
   }
-  .site-nav .nav-link{
-    font-size: 18px;
-  }
+
   .col-md-7.px-0 {
     width: 75%;
   }
@@ -198,3 +196,59 @@
 }  
   
 }
+
+@media screen and (max-width:650px) {
+
+.site-header {
+  padding: 7px 0;
+  border-bottom: 3px solid #562479;
+  nav {
+    .navbar-brand {
+      img {
+        max-width: 80px;
+      }
+    }
+  }
+  .col-md-5.small-nav {
+    .btn {
+      padding: 7px 17px;
+      font-size: 14px;
+    }
+  }
+}
+
+}
+
+@media screen and (max-width:500px) {
+
+.site-header {
+  .col-md-7.px-0 {
+    width: 68%;
+  }
+  .col-md-5.small-nav {
+    width: 32%;
+  }
+  button.navbar-toggler {
+    padding: 3px 6px;
+  }
+  button.navbar-toggler:focus {
+    box-shadow: 0px 0px 0px 2px;
+  }
+
+}
+
+}
+
+
+@media screen and (max-width:420px) {
+.site-header {
+  .col-md-7.px-0 {
+    width: 60%;
+  }
+  .col-md-5.small-nav {
+    width: 40%;
+  }
+}
+
+}
+

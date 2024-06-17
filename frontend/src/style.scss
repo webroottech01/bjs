@@ -577,7 +577,7 @@ body {
 @media screen and (max-width:1700px) {
   
   .container-max {
-    width:1300px;
+    max-width:1300px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -727,7 +727,7 @@ body {
 @media screen and (max-width:1400px) {
   
   .container-max {
-    width:1200px;
+    max-width:1200px;
   }
   .container-med {
     max-width: 1100px;
@@ -738,7 +738,7 @@ body {
 @media screen and (max-width:1300px) {
   
   .container-max {
-    width:1100px;
+    max-width:1100px;
   }
   .container-med {
     max-width: 1000px;
@@ -750,7 +750,7 @@ body {
 @media screen and (max-width:1024px) {
 
   .container-max {
-    width:900px;
+    max-width:900px;
   }
   .container-med {
     max-width: 800px;
@@ -790,6 +790,110 @@ textarea {
 }
 }
 
+.solutions-subpage, .industries-subpage {
+  .right-splitsec{
+    padding: 40px 0;
+    span {
+      font-size: 18px;
+    }
+    .secheading {
+      margin-bottom: 15px;
+      font-size: 30px;
+      line-height: 30px;
+    }
+    p {
+      font-size: 14px;
+      margin: 10px 0 !important;
+    }
+
+  }
+  .helpyou-sec {
+    padding: 30px 0;
+    h3 {
+      font-size: 14px;
+      margin: 15px auto 0;
+    }
+    .triangle-cards{
+      margin: 40px 0 0px;
+      column-gap: 25px;
+      .icon {
+      padding: 8px;
+      img {
+        width: 40px;
+      }
+      }
+      .card{
+        padding: 15px;
+        margin-bottom: 25px;
+        h4 {
+          font-size: 22px;
+          margin: 18px 0;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .small-strip {
+    margin-top: 40px;
+    padding: 32px 0;
+    .iconheading {
+      font-size: 38px;
+      img{
+        max-height: 60px;
+      }
+    }
+    p {
+      margin: 15px auto 0;
+      font-size: 14px;
+    }
+  }
+  .benifits-sec {
+    margin: 40px 0;
+    h3 {
+      margin: 8px auto 32px;
+      font-size: 14px;
+    }
+    .roundcard-outer {
+      .roundcard {
+        padding: 15px 10px;
+        h4 {
+          font-size: 18px;
+          margin-bottom: 12px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .contact-sec {
+    margin-top: 50px;
+    padding-top: 0;
+  }
+  .account-faqs {
+    margin-top: 40px;
+  }
+  .outsourcing-sec{
+    margin: 30px 0 35px;
+    h3 {
+      font-size: 28px;
+      margin-bottom: 13px;
+    }
+    p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+  }
+
+}
+
+.container-sm, .container {
+  max-width: 90%;
+  padding: 0;
+}
+
 
 }
 
@@ -820,6 +924,14 @@ textarea {
     }
   }
 }
+  
+.container-max {
+  max-width:90%;
+}
+.container-med {
+  max-width: 90%;
+} 
+
 
 }
 
@@ -850,10 +962,6 @@ textarea {
 .solutions-subpage, .industries-subpage{
 .right-splitsec {
     padding: 20px 0 30px;
-  p {
-    font-size: 16px;
-    margin: 10px 0 !important;
-  }
 }
 .helpyou-sec {
   padding: 30px 0;
@@ -871,12 +979,6 @@ textarea {
       padding: 18px;
       margin-bottom: 25px;
     }
-  }
-}
-.small-strip{
-  p {
-    margin: 20px auto 0;
-    font-size: 16px;
   }
 }
 .benifits-sec {
@@ -898,5 +1000,116 @@ textarea {
 
 }
 
+}
+
+
+@media screen and (max-width: 500px) {
+  .secheading {
+      font-size: 28px;
+      letter-spacing: 0;
+  }
+
+.basic-form {
+  input, .react-tel-input .form-control {
+    margin: 7px 0;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  .react-tel-input .form-control {
+    height: 40px;
+    padding-left: 50px;
+    margin: 7px 0 !important;
+  }
+  textarea {
+    height: 85px;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin: 7px 0;
+  }
+  .submitbtn {
+    padding: 8px 25px;
+    font-size: 15px;
+  }
+}
+
+.solutions-subpage, .industries-subpage{
+.right-splitsec{
+  padding: 12px 0 15px;
+  .splitimg-part {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  span {
+    font-size: 16px;
+  }
+  .secheading {
+    margin-bottom: 12px;
+    font-size: 25px;
+    line-height: 27px;
+  }
+}
+.helpyou-sec {
+  padding: 25px 0 20px;
+  margin-bottom: 25px;
+  .triangle-cards {
+    margin: 28px 0 0px;
+    column-gap: 20px;
+    grid-template-columns: repeat(1, auto);
+    columns: 1;
+    .icon {
+      img {
+      width: 35px;
+      }
+    }
+    .card {
+      margin-bottom: 20px;
+      h4 {
+      font-size: 20px;
+      margin: 12px 0;
+      }
+    }
+  }
+}
+.secheading {
+  font-size: 25px;
+  line-height: 28px;
+}
+.small-strip {
+  margin-top: 0px;
+  padding: 25px 0;
+  .iconheading {
+  font-size: 25px;
+  img {
+    max-height: 45px;
+  }
+  }
+}
+.benifits-sec {
+  margin: 30px 0;
+  .roundcard-outer {
+  grid-template-columns: repeat(1, 100%);
+  gap: 20px;
+  }
+  h3 {
+    margin: 8px auto 25px;
+  }
+}
+.contact-sec {
+  margin-top: 40px;
+}
+.account-faqs {
+  margin-top: 30px;
+}
+.outsourcing-sec {
+  margin: 22px 0 25px;
+  h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  line-height: 26px;
+  }
+}
 
 }
+
+}
+

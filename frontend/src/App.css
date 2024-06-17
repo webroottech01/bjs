@@ -110,6 +110,7 @@
  .underconst .site-banner .banner-inner {
   background: linear-gradient(90deg, #d51bed 0%, #e72b6a 20%, #ffb600 50%, rgba(255, 182, 0, 0.75) 75%, rgba(255, 182, 0, 0.3) 100%);
 }
+
  }
  @media screen and (max-width :500px){
 .underconst .site-banner p {
@@ -120,4 +121,5 @@
 .underconst .site-banner h2 {
   font-size: 34px;
 }
+
  }

@@ -46,3 +46,38 @@
   }
   
 }
+
+
+@media screen and (max-width:1024px){
+
+.faq-tabs {
+  margin: 35px 0 50px;
+  .accordion-button {
+    font-size: 17px;
+    padding: 8px 12px;
+  }
+  .accordion-button::after {
+    width: 20px;
+    height: 25px;
+  }
+  .accordion-body {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px;
+  }
+}
+
+}
+
+
+@media screen and (max-width:500px) {
+.faq-tabs {
+  margin: 25px 0 35px;
+  .accordion-button {
+    font-size: 16px;
+  }
+  .accordion-body {
+    padding: 10px 12px;
+  }
+}
+}

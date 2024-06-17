@@ -399,9 +399,6 @@
 
 .familylogos-sec {
   padding: 50px 0;
-  img {
-    width: 20%;
-  }
 }
 
 }
@@ -418,13 +415,20 @@
   }
   p {
     margin: 10px auto 0;
+    font-size: 14px;
   }
 }
 .features-sec {
   padding-bottom: 35px;
+  p {
+    font-size: 14px;
+  }
 }
 .counter-sec {
   padding: 20px 0 40px;
+  h5 {
+    font-size: 14px;
+  }
   .d-flex {
     gap: 20px;
     > div {
@@ -437,11 +441,6 @@
   .d-flex {
     flex-flow: wrap;
   }
-  img {
-    width: 45%;
-    height: 120px;
-    object-fit: contain;
-  }
 }
 .testimonial-sec {
   margin-top: 25px;
@@ -449,4 +448,84 @@
 }
 
   
+}
+
+
+@media screen and (max-width: 650px) {
+  .counter-sec .d-flex > div {
+      min-width: 47%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+.services-sec {
+  h3 {
+    font-size: 17px;
+  }
+  p {
+    margin: 8px auto 0;
+  } 
+}
+
+.features-sec {
+  padding-bottom: 28px;
+  padding-top: 28px;
+
+  p{
+    margin: 7px auto 30px;
+  }
+}
+.counter-sec {
+  padding: 12px 0 28px;
+  h5 {
+    margin: 8px auto 35px;
+  }
+  h3 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    padding-top: 28px;
+  }
+  p {
+    font-size: 15px;
+    padding-bottom: 28px;
+  }
+
+}
+.testimonial-sec {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.contact-sec {
+  padding: 30px 0 22px;
+}
+.familylogos-sec{
+  padding: 15px 0;
+  img {
+    max-width: 42%;
+    max-height: 80px;
+    padding: 10px 0;
+  }
+}
+
+}
+
+
+@media screen and (max-width: 420px) {
+  .counter-sec {
+    padding: 12px 0 20px;
+    .d-flex {
+      gap: 15px;
+      > div {
+      min-width: 100%;
+      padding: 10px 20px;
+      }
+    }
+    h5 {
+      margin: 5px auto 25px;
+    }
+  }
+  .familylogos-sec {
+    padding: 0px 0 10px;
+  }
 }

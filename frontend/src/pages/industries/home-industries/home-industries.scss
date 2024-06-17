@@ -156,14 +156,16 @@
 
 .features-inner{
   .feature-single{
-      padding: 100px 0 135px;
-      background-position: -25% 85%, 105% 45%, 75% -30%, 74% 295%;
+      padding: 80px 0 110px;
+      background-position: -65% 80%, 110% -140%, 37% -65%, 68% 105px;
+      max-width: 220px;
     h3 {
-    font-size: 25px;
+    font-size: 23px;
     }
     p {
-      padding: 0px 18px;
-      font-size: 16px;
+      padding: 0px 15px;
+      font-size: 14px;
+      line-height: 19px;
     }
     > div {
       border: 5px solid #fff;
@@ -174,8 +176,15 @@
     left: calc(100% - 20px);
   }
   .feature-single:hover {
-    padding: 29px 0;
-    background-position: -45% 145%, 108% 65%, 80% -40%, 90% 342%;
+    padding: 18px 0;
+    background-position: -75% 75%, 113% -145%, 35% -72%, 67% 112px;
+    p{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 10;
+      -webkit-box-orient: vertical;
+    }
   }
   .row {
     gap: 50px 0;
@@ -194,19 +203,18 @@
 
 .features-inner {
   .feature-single {
-    padding: 90px 0 100px;
-    background-position: -70% 85%, 110% 100%, 20% -63%, 75% 125px;
-    h3 {
-      font-size: 22px;
-    }
+    padding: 75px 0 100px;
+    background-position: -100% 70%, 115% 235%, 35% -85%, 70% 100px;
+    max-width: 92%;
     p {
       padding: 0px 10px;
-      font-size: 14px;
-      line-height: 19px;
     }
     &:hover{
-      padding: 15px 0;
-      background-position: -85% 75%, 115% 90%, 18% -75%, 80% 130px;
+      padding: 20px 0;
+      background-position: -112% 70%, 118% 235%, 35% -98%, 75% 110px;
+      p {
+        -webkit-line-clamp: 9;
+      }
     }
   }
 }
@@ -226,15 +234,15 @@
     }
   }
   .feature-single {
-    background-position: -18% 75%, 100% 90%, 45% -60%, 85% 100px; 
+    background-position: -32% 75%, 102% 90%, 50% -85%, 85% 105px;
     p {
       padding: 0px 12px;
       font-size: 16px;
       line-height: 20px;
     }
     &:hover{
-      padding: 22px 0;
-      background-position: -30% 90%, 105% 100%, 35% -70%, 90% 115px;
+      padding: 17px 0;
+      background-position: -38% 75%, 105% 90%, 50% -90%, 85% 108px;
     }
   }
   .btn {
@@ -244,4 +252,59 @@
 
 }
 
+}
+
+@media screen and (max-width: 650px) {
+  .features-inner {
+    .feature-single {
+      background-position: -60% 75%, 108% 95%, 39% -98%, 85% 105px;
+      &:hover{
+        padding: 15px 0;
+        background-position: -70% 75%, 112% 103%, 39% -105%, 85% 110px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+.features-inner {
+  .row {
+    gap: 20px 0;
+    .col-md-4 {
+    width: 100%;
+  }
+  }
+  .feature-single {
+    background-position: -1% 48%, 102% 75%, 50% -22%, 50% 110%;
+    padding: 100px 0 120px;
+    background-size: 33%, 27%, 85%, 65%;
+    max-width: 300px;
+    margin: 0 auto;
+
+    &:hover{
+      padding: 38px 0;
+      background-position: -8% 48%, 108% 75%, 50% -30%, 50% 120%;
+      p {
+        padding: 0px 15px;
+      }
+    }
+  }
+  .btn {
+    padding: 8px 25px;
+    margin: 32px auto 0;
+    font-size: 15px;
+  }
+
+}
+.shape {
+  width: 50%;
+}
+}
+
+
+@media screen and (max-width: 420px) {
+  .shape {
+      right: 10px;
+  }
 }
