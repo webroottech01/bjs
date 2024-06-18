@@ -17,6 +17,7 @@ const ContactTeam = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+
   const handlePhoneChange = (value) => {
     setFormData({ ...formData, contact_no: value });
   };
@@ -24,25 +25,36 @@ const ContactTeam = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://bjs-beyond.com/api/contact", {  
+    fetch("https://bjs-beyond.com/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
     })
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.text(); // Read as text first
+      })
       .then((data) => {
-        console.log(data);
-        // Clear the form fields after successful submission
-        setFormData({
-          name: "",
-          email: "",
-          designation: "",
-          company: "",
-          contact_no: "",
-          message: "",
-        });
+        try {
+          const jsonData = JSON.parse(data);
+          console.log(jsonData);
+          // Clear the form fields after successful submission
+          setFormData({
+            name: "",
+            email: "",
+            designation: "",
+            company: "",
+            contact_no: "",
+            message: "",
+          });
+        } catch (e) {
+          console.error("Error parsing JSON:", e);
+          console.error("Response data:", data);
+        }
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -76,7 +88,7 @@ const ContactTeam = () => {
                   placeholder="Designation"
                   required
                 />
-              </div>
+              </div> 
               <div className="col-md-4">
               <input
                   type="text"
