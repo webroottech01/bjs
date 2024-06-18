@@ -35,7 +35,7 @@ const ProcessConsulting = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img src={process.env.PUBLIC_URL + "/images/processonsulting.jpg"} />
+                  <img src={process.env.PUBLIC_URL + "/images/processconsult.jpg"} />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">

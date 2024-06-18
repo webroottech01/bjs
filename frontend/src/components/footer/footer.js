@@ -6,48 +6,46 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const Footer = () => (
   <>
-    <div className="site-footer bgpurple">
+    <div className="site-footer">
       <div className="container-max">
         <div className="row upper-footer">
           <div className="col-md-6">
             <img
               className="footer-logo"
-              src={process.env.PUBLIC_URL + "/images/bjslogofooter.svg"}
+              src={process.env.PUBLIC_URL + "/images/bjslogo.svg"}
               alt="Logo"
             />
             <p>
-              The impact of well-crafted website content cannot be overstated
-              and can be the difference between a thriving online presence and a
-              lackluster one.
+            We are known as the agile contact center experts because we adapt to your industry's changing needs.
             </p>
             <div className="social-links">
-              <a href="facebook.com">
+              <a target="blank" href="https://www.facebook.com/profile.php?id=61559815511782">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/facebook.svg"}
+                  src={process.env.PUBLIC_URL + "/images/facebook-icon.png"}
                   alt=""
                 />
               </a>
-              <a href="facebook.com">
+              {/* <a target="blank" href="facebook.com">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/twitter.svg"}
+                  src={process.env.PUBLIC_URL + "/images/twitter-icon.png"}
+                  alt=""
+                />
+              </a> */}
+              <a target="blank" href="https://www.instagram.com/bjs_beyond/">
+                <img
+                  src={process.env.PUBLIC_URL + "/images/instagram-icon.png"}
                   alt=""
                 />
               </a>
-              <a href="facebook.com">
+              {/* <a target="blank" href="facebook.com">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/instagram.svg"}
+                  src={process.env.PUBLIC_URL + "/images/youTube-icon.png"}
                   alt=""
                 />
-              </a>
-              <a href="facebook.com">
+              </a> */}
+              <a target="blank" href="https://www.linkedin.com/company/bjs-beyond/">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/youtube.svg"}
-                  alt=""
-                />
-              </a>
-              <a href="facebook.com">
-                <img
-                  src={process.env.PUBLIC_URL + "/images/linkedin.svg"}
+                  src={process.env.PUBLIC_URL + "/images/linkedin-icon.png"}
                   alt=""
                 />
               </a>
@@ -66,7 +64,7 @@ const Footer = () => (
                       <Nav.Link>Pricing</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/solutions/contact-center">
-                      <Nav.Link>Contact Centre v2</Nav.Link>
+                      <Nav.Link>Contact Centre</Nav.Link>
                     </LinkContainer>
 
                     <LinkContainer to="/contact-us">
@@ -98,6 +96,7 @@ const Footer = () => (
   </>
 );
 
+  
 Footer.propTypes = {};
 
 Footer.defaultProps = {};

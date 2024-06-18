@@ -76,12 +76,12 @@
 .underconst .site-banner h2{
     font-size: 52px;
   }
-  .App > div {
+ /*.App > div {
     display: none;
 }
 .App > div.underconst {
   display: block;
-}
+}*/
 .underconst .site-banner .triblocks img {
   width: 100px;
 }
@@ -96,6 +96,13 @@
 
 }
 
+@media screen and (max-width:825px) {
+  .leftimgtype .splitimg-part {
+    padding-right: 0%;
+  } 
+  
+}
+
 @media screen and (max-width :768px){
  .underconst .site-banner h2 {
    font-size: 48px;
@@ -103,6 +110,7 @@
  .underconst .site-banner .banner-inner {
   background: linear-gradient(90deg, #d51bed 0%, #e72b6a 20%, #ffb600 50%, rgba(255, 182, 0, 0.75) 75%, rgba(255, 182, 0, 0.3) 100%);
 }
+
  }
  @media screen and (max-width :500px){
 .underconst .site-banner p {
@@ -113,4 +121,5 @@
 .underconst .site-banner h2 {
   font-size: 34px;
 }
+
  }

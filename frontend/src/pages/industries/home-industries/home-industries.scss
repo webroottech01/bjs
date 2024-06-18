@@ -2,20 +2,20 @@
   transform: translateX(3%);
 
   .feature-single {
-    padding: 130px 0 227px;
+    padding: 120px 0 191px;
     border-radius: 10px;
     background-image: url("../../../../public/images/featureleft.png"),
       url("../../../../public/images/featureright.png"),
       url("../../../../public/images/featuretop.png"),
       url("../../../../public/images/featurebotm.png");
-    background-position: -4% 31%, 100% 15%, 101% 0%, 100% 100%;
+    background-position: -8% 31%, 100% 15%, 101% -8%, 100% 100%;
     background-repeat: no-repeat;
     max-width: 390px;
     position: relative;
     transition: background-position 0.3s linear;
 
     &:hover {
-      padding: 70px 0 58px;
+      padding: 40px 0 41px;
       background-position: -16% 145%, 102% 90%, 95% -16%, 100% 157%;
     }
     &:hover h3 {
@@ -84,10 +84,10 @@
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   transition: all 2s ease-in-out;
   position: absolute;
-  height: 80%;
-  width: 80%;
-  top: 10%;
-  right: 15px;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 10%;
   z-index: -1;
   opacity: 0.7;
 }
@@ -106,5 +106,205 @@
   100% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     //   background: linear-gradient(45deg, #ff472e 0%, #ff472e 100%);
+  }
+}
+
+
+
+
+@media screen and (max-width:1600px) {
+  
+  .features-inner {
+    transform: translateX(1%);
+
+    .row {
+      gap: 75px 0;
+  }
+  .feature-single {
+    padding: 118px 0 190px;
+    max-width: 340px;
+
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    padding: 0px 25px;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  } 
+  .feature-single:hover {
+    padding: 54px 0;
+  }
+  .btn {
+    font-size: 20px;
+    margin-left: 40%;
+    padding: 15px 50px;
+    margin-top: 50px;
+  }
+
+  }
+  .shape{
+    right: 20px;
+  }
+
+}
+
+
+@media screen and (max-width:1024px) {
+
+.features-inner{
+  .feature-single{
+      padding: 80px 0 110px;
+      background-position: -65% 80%, 110% -140%, 37% -65%, 68% 105px;
+      max-width: 220px;
+    h3 {
+    font-size: 23px;
+    }
+    p {
+      padding: 0px 15px;
+      font-size: 14px;
+      line-height: 19px;
+    }
+    > div {
+      border: 5px solid #fff;
+      padding: 5px;
+    }
+  }
+  .feature-single:hover > div {
+    left: calc(100% - 20px);
+  }
+  .feature-single:hover {
+    padding: 18px 0;
+    background-position: -75% 75%, 113% -145%, 35% -72%, 67% 112px;
+    p{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 10;
+      -webkit-box-orient: vertical;
+    }
+  }
+  .row {
+    gap: 50px 0;
+  }
+  .btn {
+    font-size: 17px;
+    padding: 12px 40px;
+    margin: 42px auto 0;
+  }
+}
+  
+}
+
+
+@media screen and (max-width:825px){
+
+.features-inner {
+  .feature-single {
+    padding: 75px 0 100px;
+    background-position: -100% 70%, 115% 235%, 35% -85%, 70% 100px;
+    max-width: 92%;
+    p {
+      padding: 0px 10px;
+    }
+    &:hover{
+      padding: 20px 0;
+      background-position: -112% 70%, 118% 235%, 35% -98%, 75% 110px;
+      p {
+        -webkit-line-clamp: 9;
+      }
+    }
+  }
+}
+
+}
+
+
+@media screen and (max-width:780px){
+
+.features-inner {
+  transform: translateX(0%);
+  .row {
+    gap: 35px 0;
+    justify-content: space-between;
+    .col-md-4 {
+      width: 48%;
+    }
+  }
+  .feature-single {
+    background-position: -32% 75%, 102% 90%, 50% -85%, 85% 105px;
+    p {
+      padding: 0px 12px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &:hover{
+      padding: 17px 0;
+      background-position: -38% 75%, 105% 90%, 50% -90%, 85% 108px;
+    }
+  }
+  .btn {
+    padding: 10px 30px;
+    margin: 38px auto 0;
+  }
+
+}
+
+}
+
+@media screen and (max-width: 650px) {
+  .features-inner {
+    .feature-single {
+      background-position: -60% 75%, 108% 95%, 39% -98%, 85% 105px;
+      &:hover{
+        padding: 15px 0;
+        background-position: -70% 75%, 112% 103%, 39% -105%, 85% 110px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+.features-inner {
+  .row {
+    gap: 30px 0;
+    .col-md-4 {
+    width: 100%;
+  }
+  }
+  .feature-single {
+    background-position: -1% 48%, 102% 75%, 50% -22%, 50% 110%;
+    padding: 100px 0 120px;
+    background-size: 33%, 27%, 85%, 65%;
+    max-width: 300px;
+    margin: 0 auto;
+
+    &:hover{
+      padding: 38px 0;
+      background-position: -8% 48%, 108% 75%, 50% -30%, 50% 120%;
+      p {
+        padding: 0px 15px;
+      }
+    }
+  }
+  .btn {
+    padding: 8px 25px;
+    margin: 32px auto 0;
+    font-size: 15px;
+  }
+
+}
+.shape {
+  width: 50%;
+}
+}
+
+
+@media screen and (max-width: 420px) {
+  .shape {
+      right: 10px;
   }
 }

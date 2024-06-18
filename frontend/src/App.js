@@ -13,7 +13,7 @@ import AccountManagment from "./pages/solutions/account-managment/account-managm
 import Finance from "./pages/industries/finance/finance";
 import ContactCenter from "./pages/solutions/contact-center/contact-center";
 import ECommerce from "./pages/industries/e-commerce/e-commerce";
-import Hospitality from "./pages/industries/hospitality/hospitality";
+import Manufacturing from "./pages/industries/manufacturing/manufacturing";
 import RealEstate from "./pages/industries/real-estate/realestate";
 import Supplychain from "./pages/industries/supplychain/supplychain";
 import TeleCommunications from "./pages/industries/telecommunications/telecommunications";
@@ -64,7 +64,7 @@ function App() {
           <Route path="/industries/automobile" element={<Automobile />} />
           <Route path="/industries/e-commerce" element={<ECommerce />} />
           <Route path="/industries/finance" element={<Finance />} />
-          <Route path="/industries/hospitality" element={<Hospitality />} />
+          <Route path="/industries/manufacturing" element={<Manufacturing />} />
           <Route path="/industries/real-estate" element={<RealEstate />} />
           <Route path="/industries/supply-chain" element={<Supplychain />} />
           <Route

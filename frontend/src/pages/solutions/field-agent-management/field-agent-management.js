@@ -39,14 +39,14 @@ const FieldAgentManagement = () => {
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
                   <img
-                    src={process.env.PUBLIC_URL + "/images/fieldmanag.jpg"}
+                    src={process.env.PUBLIC_URL + "/images/fieldmanage.jpg"}
                   />
                 </div> 
               </div>
               <div className="col-md-12 col-lg-6">
                 <span className="">Task Coordination</span>
                 <h3 className="secheading">
-                  Manage Tasks, Word Orders, and Schedules for Teams on the road
+                  Manage Tasks, Work Orders, and Schedules for Teams on the road
                 </h3>
                 <p className="mb-0">
                   Whether your business utilises on-the-road sales teams,

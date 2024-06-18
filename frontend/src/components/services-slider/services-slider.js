@@ -47,10 +47,10 @@ const ServicesSlider = () => {
   let services = [
     {
       id: 1,
-      name: "Contact Centre v2",
+      name: "Contact Center",
       subhead: "Busy People",
       icon_url: "/images/phone.svg",
-      image_url: "./images/driving.webp",
+      image_url: "./images/contact-center.webp",
       main_url: "./solutions/contact-center",
     },
     {
@@ -58,7 +58,7 @@ const ServicesSlider = () => {
       name: "Account Management ",
       subhead: "Smaller companies",
       icon_url: "/images/mugcall.svg",
-      image_url: "./images/calling.webp",
+      image_url: "./images/accountmanage.webp",
       main_url: "/solutions/account-management",
     },
     {
@@ -66,7 +66,7 @@ const ServicesSlider = () => {
       name: "Integrated Sales ",
       subhead: "Smaller companies",
       icon_url: "/images/headphones.svg",
-      image_url: "./images/accounting.webp",
+      image_url: "./images/integrtedsale.webp",
       main_url: "/solutions/integrated-sales",
     },
     {
@@ -74,7 +74,7 @@ const ServicesSlider = () => {
       name: "Virtual PA ",
       subhead: "Busy People",
       icon_url: "/images/phone.svg",
-      image_url: "./images/driving.webp",
+      image_url: "./images/virtualpa.webp",
       main_url: "/solutions/virtual-pa",
     },
     {
@@ -82,7 +82,7 @@ const ServicesSlider = () => {
       name: "Human Resources ",
       subhead: "Smaller companies",
       icon_url: "/images/mugcall.svg",
-      image_url: "./images/calling.webp",
+      image_url: "./images/hrres.webp",
       main_url: "/solutions/human-resources",
     },
     {
@@ -90,7 +90,7 @@ const ServicesSlider = () => {
       name: "Process Consulting",
       subhead: "Smaller companies",
       icon_url: "/images/headphones.svg",
-      image_url: "./images/accounting.webp",
+      image_url: "./images/processconsult.webp",
       main_url: "/solutions/process-consulting",
     },
     {
@@ -98,7 +98,7 @@ const ServicesSlider = () => {
       name: "Finance and Accounting",
       subhead: "Busy People",
       icon_url: "/images/phone.svg",
-      image_url: "./images/driving.webp",
+      image_url: "./images/financialgrow.webp",
       main_url: "/solutions/finance-accounting",
     },
     {
@@ -106,7 +106,7 @@ const ServicesSlider = () => {
       name: "E-Commerce Support ",
       subhead: "Smaller companies",
       icon_url: "/images/mugcall.svg",
-      image_url: "./images/calling.webp",
+      image_url: "./images/ecommsupport.webp",
       main_url: "/solutions/e-commerce",
     },
     {
@@ -114,7 +114,7 @@ const ServicesSlider = () => {
       name: "Field Agent Management",
       subhead: "Smaller companies",
       icon_url: "/images/headphones.svg",
-      image_url: "./images/accounting.webp",
+      image_url: "./images/fieldmanage.webp",
       main_url: "/solutions/field-agent-management",
     }, 
   ];
@@ -122,10 +122,10 @@ const ServicesSlider = () => {
     <div className="slider-container serv-slider">
       <Slider {...settings}>
       {services.map((service) => (
-        <div key={service.id}>
+        <div key={service.id} class="srvcMain">
             <div className="serv-single" key={service.id} style={{ backgroundImage: `url(${service.image_url})` }}>
               <div className="serv-center" >
-                <div className='serv-icon'><img src={process.env.PUBLIC_URL + service.icon_url} /></div>
+                <div className='serv-icon'><img src={process.env.PUBLIC_URL + service.icon_url} alt=""/></div>
                 <h3>{service.name}</h3>
                 <p>{service.subhead}</p>
                 <Link to={service.main_url}>Explore More</Link>

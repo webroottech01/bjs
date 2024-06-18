@@ -22,7 +22,7 @@ const Automobile = () => {
         <div className="container-med">
           <div className="right-splitsec">
             <div className="row align-items-center ">
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-6 order-2 order-lg-1">
                 <span className="">Driving Efficiency</span>
                 <h3 className="secheading">
                   Perfect Solutions For All The Needs of Automobile
@@ -40,7 +40,7 @@ const Automobile = () => {
                   Let’s see how.
                 </p>
               </div>
-              <div className="col-md-12 col-lg-6 order-lg-1">
+              <div className="col-md-12 col-lg-6 order-1 order-lg-2"> 
                 <div className="splitimg-part">
                   <img alt="" src={process.env.PUBLIC_URL + "/images/perfactsol.jpg"} />
                 </div>

@@ -29,7 +29,7 @@
         border-radius: 12px;
         margin-bottom: 17px;
         max-width: 174px;
-        max-height: 174px;
+        max-height: 100px;
         object-fit: cover;
       }
       .review-details {
@@ -80,4 +80,157 @@
     }
   }
 }
+}
+
+
+@media screen and (max-width:1600px) {
+
+  .testimonial-slider {
+    padding-top: 65px;
+  }
+
+}
+
+
+@media screen and (max-width:1024px){
+
+.testimonial-slider {
+  padding-top: 45px;
+  .slick-slider {
+    margin: 0 15px;
+  
+  .slick-slide {
+    padding: 0 20px;
+  .single-review {
+    .review-photo {
+      margin-bottom: 10px;
+      max-width: 65px;
+    }
+    .review-rating img {
+      min-width: 65px;
+      width: 100%;
+    }
+    .review-details {
+      h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 12px 0 0;
+      }
+    }
+  }
+  .hypeicon {
+    height: 40px;
+    width: 40px;
+  }
+  }
+  .slick-next {
+    right: -35px;
+  }
+  .slick-prev {
+    left: -35px;
+  }
+  
+  }
+}
+
+
+}
+
+
+@media screen and (max-width:825px) {
+  
+
+.testimonial-slider{
+  .slick-slider {
+    .slick-next {
+      right: -45px;
+    }
+    .slick-prev {
+      left: -45px;
+    }
+  .slick-prev:before, .slick-next:before{
+    display: inline-block;
+    transform: scale(.7);
+    }
+  }
+
+}
+
+
+}
+
+
+
+@media screen and (max-width:780px) {
+
+.testimonial-slider {
+    padding-top: 35px;
+  .slick-slider {
+      margin: 0 25px;
+    .slick-slide {
+        padding: 0 5px;
+    }
+  }
+}
+  
+}
+
+
+@media screen and (max-width: 500px) {
+.testimonial-slider {
+  padding-top: 25px;
+  .slick-slider {
+    .slick-slide {
+      padding: 0;
+      .single-review {
+      > .d-flex {
+        gap: 20px;
+      }
+      .review-details {
+        h3 {
+          font-size: 18px;
+          line-height: 20px;
+        }
+        span{
+          font-size: 12px;
+        }
+        p {
+          margin: 10px 0 0;
+        }
+      }
+      }
+    }
+  }
+}
+}
+
+
+@media screen and (max-width: 420px) {
+  .testimonial-slider {
+    .slick-slider {
+      margin: 0 15px;
+    .slick-slide {
+      .single-review {
+        .review-photo {
+        margin-bottom: 8px;
+        max-width: 50px;
+        }
+        .review-rating img {
+          min-width: 50px;
+        }
+      }
+    }
+    .slick-prev {
+      left: -35px;
+    }
+    .slick-next {
+      right: -35px;
+    }
+    }
+  }
 }

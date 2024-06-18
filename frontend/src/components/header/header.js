@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
   return (
-    <div className="site-header">
+    <div className="site-header sticky-top">
       <div className="container-max">
         <div className="row align-items-center">
           <div className="col-md-7 px-0">
@@ -30,7 +30,7 @@ const Header = () => {
 
                     <NavDropdown title="Solutions" id="nav-dropdown">
                     <LinkContainer to="/solutions/contact-center" className="dropdown-item">
-                        <Nav.Link>Contact Centre v2</Nav.Link>
+                        <Nav.Link>Contact Centre</Nav.Link>
                       </LinkContainer> 
                     <LinkContainer to="/solutions/account-management" className="dropdown-item">
                         <Nav.Link>Account Management</Nav.Link>
@@ -68,8 +68,8 @@ const Header = () => {
                       <LinkContainer to="/industries/e-commerce" className="dropdown-item">
                         <Nav.Link>E-commerce</Nav.Link>
                       </LinkContainer>
-                      <LinkContainer to="/industries/hospitality" className="dropdown-item">
-                        <Nav.Link>Hospitality</Nav.Link>
+                      <LinkContainer to="/industries/manufacturing" className="dropdown-item">
+                        <Nav.Link>Manufacturing</Nav.Link>
                       </LinkContainer>
                       <LinkContainer to="/industries/real-estate" className="dropdown-item">
                         <Nav.Link>Real Estate</Nav.Link>
@@ -81,9 +81,7 @@ const Header = () => {
                         <Nav.Link>Telecommunications</Nav.Link>
                       </LinkContainer>
                     </NavDropdown>
-                    <LinkContainer to="/insights">
-                      <Nav.Link>Insights</Nav.Link>
-                    </LinkContainer>
+
                     <LinkContainer to="/pricing">
                       <Nav.Link>Pricing</Nav.Link>
                     </LinkContainer>
@@ -97,14 +95,7 @@ const Header = () => {
           </div>
           <div className="col-md-5 small-nav">
             <Navbar expand="md" className="justify-content-end">
-              <Nav className="mr-auto">
-                <LinkContainer to="/help">
-                  <Nav.Link>Help center</Nav.Link>
-                </LinkContainer>
-                <LinkContainer to="/about">
-                  <Nav.Link>English</Nav.Link>
-                </LinkContainer>
-              </Nav>
+
               <LinkContainer to="/contact-us">
                 <Nav.Link className="btn btnyellow">Get Started</Nav.Link>
               </LinkContainer>

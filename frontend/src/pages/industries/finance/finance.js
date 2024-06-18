@@ -25,7 +25,7 @@ const Finance = () => {
         <div className="container-med">
           <div className="right-splitsec">
             <div className="row align-items-center ">
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-6 order-2 order-lg-1">
                 <span className="">Financial Efficiency</span>
                 <h3 className="secheading">
                   Maintain Compliance And Maximise Growth
@@ -48,7 +48,7 @@ const Finance = () => {
                   your business needs.
                 </p>
               </div>
-              <div className="col-md-12 col-lg-6 order-lg-1">
+              <div className="col-md-12 col-lg-6 order-1 order-lg-2">
                 <div className="splitimg-part">
                   <img
                     alt=""
@@ -120,8 +120,7 @@ const Finance = () => {
                   <h4>E-Commerce Support</h4>
                   <p>
                     As a business in the finance industry, you must serve your
-                    customers quickly and with proper satisfaction. Our 24/7
-                    UK-based customer service with native English speakers and
+                    customers quickly and with proper satisfaction. Our 24/7 customer service with native English speakers and
                     years of experience is ideal for handling all your
                     e-commerce needs. You can configure custom caller tunes,
                     call answering scripts, and more.
