@@ -25,7 +25,7 @@ const ContactTeam = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://bjs-beyond.com/backend/api/contact", {
+    fetch("https://bjs-beyond.com/backend/public/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
