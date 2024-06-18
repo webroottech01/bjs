@@ -65,7 +65,7 @@ class ContactContoller extends Controller
         $contact->company = $request->company;
         $contact->save();
 
-        Mail::to("help@bjs-beyond.com")->send(new ContactUs($request));
+        // Mail::to("help@bjs-beyond.com")->send(new ContactUs($request));
 
         return $this->sendResponse($contact, 'Form has been submitted'); 
     }
