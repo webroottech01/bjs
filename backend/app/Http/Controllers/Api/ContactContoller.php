@@ -48,6 +48,8 @@ class ContactContoller extends Controller
             'email' => 'required|email',
             'contact_no' => ['required'], //, 'regex:/^(\+?[0-9\s\-\(\)]*)$/'
             'message' => 'required|string',
+            'designation' => 'string',
+            'company' => 'string',
         ]);
 
         if($validator->fails()){
@@ -59,10 +61,12 @@ class ContactContoller extends Controller
         $contact->email = $request->email;
         $contact->contact_no = $request->contact_no;
         $contact->message = $request->message;
+        $contact->designation = $request->designation;
+        $contact->company = $request->company;
         $contact->save();
 
         Mail::to("help@bjs-beyond.com")->send(new ContactUs($request));
 
-        return $this->sendResponse($contact, 'Form has been submitted');
+        return $this->sendResponse($contact, 'Form has been submitted'); 
     }
 }
