@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container-med">
         <div className="pricing-splitsec">
           <div className="row align-items-center ">
-            <div className="col-md-12 col-lg-6">
+            <div className="col-md-12 col-lg-6 order-2 order-lg-1">
               <span className="">Building Consultancy</span>
               <h3 className="secheading">
                 Make classic businesses effective and profitable
@@ -25,7 +25,7 @@ const Pricing = () => {
               </p>
             </div>
 
-            <div className="col-md-12 col-lg-6 order-lg-1">
+            <div className="col-md-12 col-lg-6 order-1 order-lg-2">
               <div className="splitimg-part">
                 <img src={process.env.PUBLIC_URL + "/images/pricingmain.jpg"} />
               </div>

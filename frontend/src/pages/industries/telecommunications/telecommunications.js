@@ -24,7 +24,7 @@ const TeleCommunications = () => {
         <div className="container-med">
           <div className="right-splitsec">
             <div className="row align-items-center ">
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-6 order-2 order-lg-1">
                 <span className="">Telecom Optimization</span>
                 <h3 className="secheading">Robust Telecom Services</h3>
                 <p className="mb-0">
@@ -46,7 +46,7 @@ const TeleCommunications = () => {
                   the background while delivering results.
                 </p>
               </div>
-              <div className="col-md-12 col-lg-6 order-lg-1">
+              <div className="col-md-12 col-lg-6 order-1 order-lg-2">
                 <div className="splitimg-part">
                   <img
                     alt=""
