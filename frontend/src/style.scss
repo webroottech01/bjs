@@ -152,6 +152,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .btnyellow {
   background-color: $baseyellow;
   &:hover {
@@ -590,7 +591,9 @@ body {
 
 
 @media screen and (max-width:1600px) {
-
+  .container {
+    max-width: 1170px;
+  }
   .secheading{
     font-size: 50px;
   }
@@ -603,6 +606,7 @@ body {
   .submitbtn:hover {
     border: 3px solid #000;
   }
+   
 }
 
 .solutions-subpage, .industries-subpage  {
@@ -705,7 +709,7 @@ body {
   input, .react-tel-input .form-control {
     margin: 15px 0;
     padding: 15px 18px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .react-tel-input .form-control {
     height: 60px;
@@ -715,7 +719,7 @@ body {
   textarea {
     margin: 15px 0;
     padding: 15px 18px;
-    font-size: 18px;
+    font-size: 16px;
     height: 150px;
   }
 }
@@ -766,7 +770,6 @@ input,
 .react-tel-input .form-control {
   margin: 15px 0;
   padding: 12px 15px;
-  font-size: 18px;
 }
 .react-tel-input .form-control {
   height: 54px;
@@ -775,14 +778,13 @@ input,
 }
 textarea {
   height: 135px;
-  font-size: 18px;
   padding: 12px 15px;
   margin: 15px 0;
 }
 .submitbtn {
   border: 2px solid #fff;
   padding: 10px 30px;
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 10px;
 }
 .submitbtn:hover {

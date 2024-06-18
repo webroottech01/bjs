@@ -25,7 +25,7 @@ const Finance = () => {
         <div className="container-med">
           <div className="right-splitsec">
             <div className="row align-items-center ">
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-6 order-2 order-lg-1">
                 <span className="">Financial Efficiency</span>
                 <h3 className="secheading">
                   Maintain Compliance And Maximise Growth
@@ -48,7 +48,7 @@ const Finance = () => {
                   your business needs.
                 </p>
               </div>
-              <div className="col-md-12 col-lg-6 order-lg-1">
+              <div className="col-md-12 col-lg-6 order-1 order-lg-2">
                 <div className="splitimg-part">
                   <img
                     alt=""

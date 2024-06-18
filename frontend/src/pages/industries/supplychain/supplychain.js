@@ -24,7 +24,7 @@ const Supplychain = () => {
         <div className="container-med">
           <div className="right-splitsec">
             <div className="row align-items-center ">
-              <div className="col-md-12 col-lg-6">
+              <div className="col-md-12 col-lg-6 order-2 order-lg-1">
                 <span className="">Supply Chain Mastery</span>
                 <h3 className="secheading">
                   Solutions To Manage And Optimise Supply Chain
@@ -47,7 +47,7 @@ const Supplychain = () => {
                   services, and maximise business performance.
                 </p>
               </div>
-              <div className="col-md-12 col-lg-6 order-lg-1">
+              <div className="col-md-12 col-lg-6 order-1 order-lg-2">
                 <div className="splitimg-part">
                   <img
                     alt=""
