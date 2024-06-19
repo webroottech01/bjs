@@ -11,17 +11,18 @@ const ServicesSlider = () => {
     slidesToShow: 3,
     dots: true,
     autoplay: true,
-    speed: 7000,
+    speed: 2000,
     slidesToScroll: 1,
-    swipeToSlide: true,
+    swipeToSlide: false,
     cssEase: "linear" ,
     pauseOnHover: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
             slidesToShow: 2,
+            swipeToSlide: true,
           }
         },
         {
@@ -31,7 +32,6 @@ const ServicesSlider = () => {
             slidesToScroll: 2,
             centerMode: false,
             initialSlide: 2,
-            centerPadding: "10%",
           }
         },
         {
@@ -39,7 +39,9 @@ const ServicesSlider = () => {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            initialSlide: 1
+            initialSlide: 1,
+            speed: 1000,
+            autoplaySpeed: 3000,
           }
         }
       ]
