@@ -84,7 +84,7 @@ const ContactUs = () => {
                   <div className="featured-content">
                     <h5>Call Us On</h5>
                     <p>
-                      <a href="tel:(+55) -66 99 88">(+55) -66 99 88</a>
+                      <a href="tel:9878985666">+91 98789 85666</a>
                     </p>
                   </div>
                 </div>
@@ -97,8 +97,8 @@ const ContactUs = () => {
                   </div>
                   <div className="featured-content">
                     <h5>Our Office</h5>
-                    <p>27 Divison St, New York,NY 10002,USA</p>
-                  </div>
+                    <a href="https://maps.app.goo.gl/qhbe9geJ7rf8cDiw7" target="blank">Plot No.14, Rajiv Gandhi IT Park, Opposite Infosys, Chandigarh, 160101</a>
+                  </div> 
                 </div>
               </div>
             </div>

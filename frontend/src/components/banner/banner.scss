@@ -303,7 +303,10 @@
 .site-banner{
   .banner-inner {
     padding: 28px 0;
-    background: linear-gradient(90deg, #d51bed 0%, #e72b6a 40%, #ffb600 80%, rgba(255, 182, 0, 0.75) 100%, rgba(255, 182, 0, 0) 100%);
+    background: linear-gradient(90deg,#d51bed,#e72b6a 15%,#ffb600 40%,#ffb600bf 49%,#ffb60000 65%);
+  }
+  .triblocks{
+    background: rgba(86, 36, 121, .412);
   }
   h2 {
     font-size: 25px;

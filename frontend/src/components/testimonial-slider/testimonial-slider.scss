@@ -186,10 +186,10 @@
   padding-top: 25px;
   .slick-slider {
     .slick-slide {
-      padding: 0;
       .single-review {
       > .d-flex {
-        gap: 20px;
+        gap: 0px;
+        flex-direction: column;
       }
       .review-details {
         h3 {

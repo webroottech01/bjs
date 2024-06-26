@@ -100,6 +100,7 @@ const Home = () => {
 
       <div className="familylogos-sec">
         <div className="container-max">
+        <h2 className="secheading">Our Clients</h2>
           <div className="d-flex">
             {/* <img src={process.env.PUBLIC_URL + "/images/bjscouriers.svg"} /> */}
             <img src={process.env.PUBLIC_URL + "/images/bjs-haulage-logo.webp"} alt=""/>

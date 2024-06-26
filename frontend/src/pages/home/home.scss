@@ -260,7 +260,11 @@
   }
 }
 .familylogos-sec {
-  padding: 67px 0;
+  .secheading {
+    color: #000;
+    margin-bottom: 25px;
+}
+  padding-bottom:67px;
   .d-flex {
     justify-content: space-between;
   }
@@ -334,7 +338,19 @@
 
 }
 
+@media screen and (max-width: 1300px) {
+  .counter-sec {
+    .d-flex {
+    gap: 10px;
 
+    > div {
+      padding: 0px 21px;
+      width: calc(25% - 10px);
+      min-width:auto;
+    }
+  }
+}
+}
 @media screen and (max-width: 1024px) {
   .services-sec{
     h2 {
@@ -378,14 +394,7 @@
     margin-bottom: 10px;
     padding-top: 32px;
   }
-  .d-flex {
-    gap: 10px;
-
-    > div {
-      padding: 0px 20px;
-      min-width: 23%;
-    }
-  }
+  
 
   }
 
@@ -394,11 +403,11 @@
     padding-bottom: 80px;
 }
 .contact-sec {
-  padding: 35px 0 25px;
+  padding: 35px 0;
 }
 
 .familylogos-sec {
-  padding: 50px 0;
+  padding-bottom: 50px;
 }
 
 }
@@ -430,14 +439,15 @@
     font-size: 14px;
   }
   .d-flex {
-    gap: 20px;
+    gap: 16px;
     > div {
-      min-width: 48%;
+      width: calc(50% - 10px); 
+      min-width:auto;
     }
   }
 }
 .familylogos-sec {
-  padding: 25px 0;
+  padding-bottom: 25px;
   .d-flex {
     flex-flow: wrap;
   }
@@ -451,11 +461,6 @@
 }
 
 
-@media screen and (max-width: 650px) {
-  .counter-sec .d-flex > div {
-      min-width: 47%;
-  }
-}
 
 
 @media screen and (max-width: 500px) {
@@ -500,7 +505,7 @@
   padding: 30px 0 22px;
 }
 .familylogos-sec{
-  padding: 15px 0;
+  padding: 15px 0 30px;
   img {
     max-width: 42%;
     max-height: 80px;
@@ -516,10 +521,7 @@
     padding: 12px 0 20px;
     .d-flex {
       gap: 15px;
-      > div {
-      min-width: 100%;
-      padding: 10px 20px;
-      }
+      
     }
     h5 {
       margin: 5px auto 25px;

@@ -75,8 +75,7 @@ const Footer = () => (
               </div>
               <div className="col-md-4 footer-contact">
                 <h6>Contact Us</h6>
-                <a href="tel:(+55) -66 99 88">(+55) -66 99 88</a>
-                <a href="tel:(+55) -66 99 88">(+55) -66 99 88</a>
+                <a href="tel:9878985666">+91 98789 85666</a>
                 <a href="mailto:info@bjs-beyond.com">info@bjs-beyond.com</a>
               </div>
             </div>

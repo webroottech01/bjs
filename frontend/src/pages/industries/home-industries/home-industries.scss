@@ -251,7 +251,9 @@
   }
 
 }
-
+.shape {
+  right: 0;
+}
 }
 
 @media screen and (max-width: 650px) {
@@ -279,7 +281,7 @@
     background-position: -1% 48%, 102% 75%, 50% -22%, 50% 110%;
     padding: 100px 0 120px;
     background-size: 33%, 27%, 85%, 65%;
-    max-width: 300px;
+    max-width: 280px;
     margin: 0 auto;
 
     &:hover{
@@ -299,12 +301,20 @@
 }
 .shape {
   width: 50%;
+  right: 25px;
 }
 }
 
 
 @media screen and (max-width: 420px) {
+  .features-inner {
+    transform: translateX(-3%);
+}
   .shape {
-      right: 10px;
+    right: 0;
+    height: 90%;
+    width: 100%;
+    top: 5%;
+    max-width: 280px;
   }
 }
