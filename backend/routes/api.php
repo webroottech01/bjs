@@ -13,3 +13,8 @@ Route::get('/user', function (Request $request) {
 Route::post('/contact', [ContactContoller::class, 'contactUs'])->name('contact');
 Route::get('getpost', [PostController::class, 'index']);
 Route::get('clients', [ClientController::class, 'getClientsData']);
+
+//all pages api
+Route::get('all-pages', [PostController::class, 'allPages']);
+Route::get('page/{id}', [PostController::class, 'singlePage']);
+
