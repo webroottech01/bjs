@@ -18,3 +18,4 @@ Route::get('clients', [ClientController::class, 'getClientsData']);
 Route::get('all-pages', [PostController::class, 'allPages']);
 Route::get('page/{id}', [PostController::class, 'singlePage']);
 
+Route::get('testimonial', [PostController::class, 'testimonial']);

@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Post;
 use App\Models\Page;
+use App\Models\Testimonial;
 
 class PostController extends Controller
 {
@@ -64,6 +65,14 @@ class PostController extends Controller
         return response()->json([
             'message' => 'all posts !!',
             'data' => $page,
+        ], 200);
+    }
+
+    public function testimonial(){
+        $data = Testimonial::all();
+        return response()->json([
+            'message' => 'all testimonial !!',
+            'data' => $data,
         ], 200);
     }
 }
