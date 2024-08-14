@@ -9,6 +9,7 @@ const Header = () => {
 
   const handleToggle = () => setExpanded(!expanded);
   const closeNavbar = () => setExpanded(false);
+  console.log('API URL:', process.env.REACT_APP_API_URL);
 
   return (
     <div className="site-header sticky-top">
@@ -89,6 +90,9 @@ const Header = () => {
                     <LinkContainer to="/pricing">
                       <Nav.Link onClick={closeNavbar}>Pricing</Nav.Link>
                     </LinkContainer>
+                    <LinkContainer to="/insights">
+                      <Nav.Link onClick={closeNavbar}>Insights</Nav.Link>
+                    </LinkContainer> 
                     <LinkContainer to="/contact-Us">
                       <Nav.Link onClick={closeNavbar}>Contact Us</Nav.Link>
                     </LinkContainer>

@@ -73,6 +73,8 @@ function App() {
           />
           {/*  end Industries routes */}
           <Route path="/insights" element={<Insights />} />
+
+          <Route path="/insight/:id" element={<Insights />} />
         </Routes>
         <Footer />
         <div className="underconst">
