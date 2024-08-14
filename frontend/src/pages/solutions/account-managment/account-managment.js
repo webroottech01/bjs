@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./account-managment.scss";
 import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
@@ -318,8 +317,5 @@ Manage appointments, schedule meetings, and coordinate events with our virtual s
   );
 };
 
-AccountManagment.propTypes = {};
-
-AccountManagment.defaultProps = {};
 
 export default AccountManagment; 

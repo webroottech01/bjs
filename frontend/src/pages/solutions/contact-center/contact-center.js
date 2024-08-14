@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./contact-center.scss";
 import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
@@ -300,8 +299,5 @@ const ContactCenter = () => {
   );
 };
 
-ContactCenter.propTypes = {};
-
-ContactCenter.defaultProps = {};
 
 export default ContactCenter;

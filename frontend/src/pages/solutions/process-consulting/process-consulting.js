@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./process-consulting.scss";
 import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
@@ -35,7 +34,7 @@ const ProcessConsulting = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img src={process.env.PUBLIC_URL + "/images/processconsult.jpg"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/processconsult.jpg"} />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
@@ -93,7 +92,7 @@ const ProcessConsulting = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/business.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Optimisation</h4>
@@ -125,7 +124,7 @@ const ProcessConsulting = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Technology</h4>
@@ -180,7 +179,7 @@ const ProcessConsulting = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img alt="" src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
               Process Consulting Services
             </h3>
             <p className="mb-0">

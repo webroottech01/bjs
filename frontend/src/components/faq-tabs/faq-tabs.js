@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Nav , Accordion  } from 'react-bootstrap';
 import './faq-tabs.scss'; 
 
@@ -20,9 +19,5 @@ const FaqTabs = (props) => (
     </div>
   </div>
 );
-
-FaqTabs.propTypes = {};
-
-FaqTabs.defaultProps = {};
 
 export default FaqTabs;

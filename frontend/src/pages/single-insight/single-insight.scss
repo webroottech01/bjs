@@ -1,55 +1,14 @@
-.insights-outer {
+.singleinsights {
+  padding: 50px 0;
 
-  .row {
-    padding: 50px 0;
-    .col-md-6 {
-      padding: 30px 20px;
-    }
-    .insight-inner {
-      padding: 35px;
-      box-shadow: #000 0px 0px 5px;
-      height: 100%;
-      border-radius: 45px;
-
-      > div {
-
-        img {
-          width: 100%;
-          height: 350px;
-          object-fit: cover;
-          box-shadow: #000 0px 0px 20px -10px;
-          border-radius: 30px;
-        }
-        .insight-detail {
-          padding: 30px;
-
-          h2 {
-            color: #000;
-            font-family: Fonarto;
-            overflow: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            line-clamp: 2;
-            -webkit-box-orient: vertical;
-          }
-          p {
-            font-size: 20px;
-            margin: 25px 0 40px;
-            overflow: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            line-clamp: 4;
-            -webkit-box-orient: vertical;
-          }
-          .btnyellow {
-            padding: 14px 32px;
-            font-family: Poppins;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 500;
-          }
-        }
-      }
+  p {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  @media screen and (max-width: 780px) {
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
     }
   }
 }

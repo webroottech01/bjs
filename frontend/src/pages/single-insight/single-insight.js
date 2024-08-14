@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
-import "./insights.scss";
+import "./single-insight.scss";
+import { useParams } from "react-router-dom";
 import Banner from "../../components/banner/banner";
 import { Link } from "react-router-dom";
 const SingleInsight = () => {
   const [insights, setInsights] = useState([]);
-
+  const id = useParams().id; 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_URL}/getpost/${title}`) 
+    fetch(`${process.env.REACT_APP_API_URL}/post/${id}`) 
       .then((res) => {
         return res.json();
       })
@@ -20,32 +21,15 @@ const SingleInsight = () => {
   }, []);
   return (
     <>
-      <Banner title={"Insights"} innerpage />
-      <div className="insights-outer">
+      <Banner title={insights.title} innerpage bgimage={process.env.REACT_APP_MEDIA_URL + "/" +insights.image} />
+      <div className="singleinsights">
         <div className="in-overlay">
           <div className="container-max">
-            <div className="row">
-              {insights.map((insight) => (
-                <div className="col-md-6" key={insight.id}>
-                  <div className="insight-inner">
-                    <div>
-                      <img src={insight.image} alt="" />
-                      <div className="insight-detail">
-                        <h2>{insight.title}</h2>
-                        <div
+          <div
                           dangerouslySetInnerHTML={{
-                            __html: insight.description,
+                            __html: insights.description,
                           }}
                         ></div>
-                        <Link to="#" className="btn btnyellow">
-                          Read more
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>

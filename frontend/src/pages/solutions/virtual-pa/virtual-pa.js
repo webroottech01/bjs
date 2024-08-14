@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./virtual-pa.scss";
 import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
@@ -40,7 +39,7 @@ const VirtualPa = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img src={process.env.PUBLIC_URL + "/images/virtualpa.jpg"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/virtualpa.jpg"}/>
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
@@ -78,7 +77,7 @@ const VirtualPa = () => {
             <div className="triangle-cards">
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
@@ -96,7 +95,7 @@ const VirtualPa = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/business.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Management</h4>
@@ -111,7 +110,7 @@ const VirtualPa = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
@@ -128,7 +127,7 @@ const VirtualPa = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Interactions</h4>
@@ -143,7 +142,7 @@ const VirtualPa = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
@@ -159,7 +158,7 @@ const VirtualPa = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                   />
                 </div>
@@ -182,7 +181,7 @@ const VirtualPa = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img alt="" src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
               Virtual PA Services
             </h3>
             <p className="mb-0">
