@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./insights.scss";
 import Banner from "../../components/banner/banner";
 import { Link } from "react-router-dom";
-const Insights = () => {
+const SingleInsight = () => {
   const [insights, setInsights] = useState([]);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_URL}/getpost`) 
+    fetch(`${process.env.REACT_APP_API_URL}/getpost/${title}`) 
       .then((res) => {
         return res.json();
       })
@@ -53,4 +53,4 @@ const Insights = () => {
   );
 };
 
-export default Insights;
+export default SingleInsight; 
