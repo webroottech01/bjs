@@ -31,6 +31,14 @@ class PostController extends Controller
         ], 200);
     }
 
+    public function singlePost($id){
+        $post = Post::find($id);
+        return response()->json([
+            'message' => 'single posts !!',
+            'data' => $post,
+        ], 200);
+    }
+
     public function allPages(){
         $pages = Page::all();
         $pageArr = [];
