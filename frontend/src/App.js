@@ -25,6 +25,7 @@ import ProcessConsulting from "./pages/solutions/process-consulting/process-cons
 import FinanceEcomm from "./pages/solutions/finance-ecomm/finance-ecomm";
 import Ecommerce from "./pages/solutions/e-commerce/e-commerce";
 import FieldAgentManagement from "./pages/solutions/field-agent-management/field-agent-management";
+import SingleInsight from "./pages/single-insight/single-insight";
 
 function App() {
   return (
@@ -74,7 +75,7 @@ function App() {
           {/*  end Industries routes */}
           <Route path="/insights" element={<Insights />} />
 
-          <Route path="/insight/:id" element={<Insights />} />
+          <Route path="/insight/:id" element={<SingleInsight />} /> 
         </Routes>
         <Footer />
         <div className="underconst">

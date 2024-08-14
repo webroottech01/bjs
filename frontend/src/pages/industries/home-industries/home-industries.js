@@ -1,5 +1,4 @@
 import React , {useState} from "react";
-import PropTypes from "prop-types";
 import "./home-industries.scss";
 import { Link } from "react-router-dom";  
 
@@ -136,8 +135,5 @@ const HomeIndustries = () => {
   );
 };
 
-HomeIndustries.propTypes = {};
-
-HomeIndustries.defaultProps = {};
 
 export default HomeIndustries; 

@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./footer.scss";
 import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
@@ -95,9 +94,5 @@ const Footer = () => (
   </>
 );
 
-  
-Footer.propTypes = {};
-
-Footer.defaultProps = {};
 
 export default Footer;

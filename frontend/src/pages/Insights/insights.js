@@ -37,7 +37,7 @@ const Insights = () => {
                             __html: insight.description,
                           }}
                         ></div>
-                        <Link to="#" className="btn btnyellow">
+                        <Link to={`/insight/${insight.id}`} className="btn btnyellow">
                           Read more
                         </Link>
                       </div>

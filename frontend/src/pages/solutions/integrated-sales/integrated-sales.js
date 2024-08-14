@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./integrated-sales.scss";
 import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
@@ -342,9 +341,5 @@ const IntegratedSales = () => {
     </>
   );
 };
-
-IntegratedSales.propTypes = {};
-
-IntegratedSales.defaultProps = {};
 
 export default IntegratedSales;
