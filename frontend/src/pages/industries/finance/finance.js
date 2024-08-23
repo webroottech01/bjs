@@ -3,7 +3,7 @@ import "./finance.scss";
 import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
-
+import { Helmet } from "react-helmet";
 const Finance = () => {
   const accountfaqs = [
     {
@@ -20,6 +20,13 @@ const Finance = () => {
   ];
   return (
     <>
+    <Helmet>
+        <title>Finance and eCommerce support and services - BJS 98789 85666</title>
+        <meta
+          name="description"
+          content="BJS Beyond provides comprehensive finance and eCommerce solutions for the finance industry to streamline financial processes, enhance security, and drive growth"
+        />
+      </Helmet>
       <div className="finance industries-subpage">
         <Banner title="Finance" innerpage />
         <div className="container-med">

@@ -15,6 +15,7 @@ const Home = () => {
   let bgimage = "./images/testbanner.webp"; 
   
   return (
+    <>  
     <div className="home">
       <Banner
         title={pagetitle}
@@ -113,7 +114,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    
+    </>
   );
 };
 

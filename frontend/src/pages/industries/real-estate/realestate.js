@@ -3,7 +3,7 @@ import "./realestate.scss";
 import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
-
+import { Helmet } from "react-helmet";
 const RealEstate = () => {
   const accountfaqs = [
     {
@@ -19,6 +19,15 @@ const RealEstate = () => {
   ];
   return (
     <>
+      <Helmet>
+        <title>
+        BJS’s Field Service Management Software for smooth Workflow
+        </title>
+        <meta
+          name="description"
+          content="BJS Beyond delivers tailored Field Agent Management solutions for the real estate industry to streamline processes and client interactions. Dial 98789 85666"
+        />
+      </Helmet>
       <div className="real-estate industries-subpage">
         <Banner title="Real Estate" innerpage />
         <div className="container-med">

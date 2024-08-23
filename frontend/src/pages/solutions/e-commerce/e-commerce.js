@@ -4,6 +4,7 @@ import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
+import { Helmet } from "react-helmet";
 
 const Ecommerce = () => {
   const accountfaqs = [
@@ -18,7 +19,8 @@ const Ecommerce = () => {
         "Some services can be really cheap but would lack 24/7 operations, multi-platform support, transparent performance reports, and more. Instead, you should look into ideal services like BJS that handle your customer support and offer industry leading services.",
     },
     {
-      faq_heading: "What Customisation Options Do I Get With E-Commerce Support Services?",
+      faq_heading:
+        "What Customisation Options Do I Get With E-Commerce Support Services?",
       description:
         "Plenty of options and facilities are available. We at BJS adapt to your working hours, customer base, special requirements, specific procedures, scripts, and any styling that you might like. We ensure that your requirements and specific preferences are dealt with utmost care.",
     },
@@ -31,6 +33,15 @@ const Ecommerce = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+        BJS is the Best eCommerce Support services provider in UK
+        </title>
+        <meta
+          name="description"
+          content="Discover BJS Beyond's e-commerce solutions designed to boost online sales, enhance user experience, and streamline digital operations."
+        />
+      </Helmet>
       <div className="e-commerce solutions-subpage">
         <Banner title={"E-commerce Support "} innerpage />
         <div className="container-med">
@@ -38,7 +49,9 @@ const Ecommerce = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img src={process.env.PUBLIC_URL + "/images/ecommsupport.jpg"} />
+                  <img
+                    src={process.env.PUBLIC_URL + "/images/ecommsupport.jpg"}
+                  />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
@@ -183,9 +196,9 @@ const Ecommerce = () => {
             <p className="mb-0">
               Hiring, training, and managing support staff is a tall order for
               most businesses. Instead, it is best for you to outsource all your
-              support needs to support centres like BJS. Our helpful
-              support staff will ensure ideal experience and quick resolution
-              for your customers.
+              support needs to support centres like BJS. Our helpful support
+              staff will ensure ideal experience and quick resolution for your
+              customers.
             </p>
           </div>
         </div>
@@ -269,19 +282,34 @@ const Ecommerce = () => {
               <div className="roundcard">
                 <h4>Industries</h4>
                 <p>
-                BJS is a well-recognised brand serving a wide array of clients with diverse requirements. We have clients from the UK and worldwide in industries like automobile, finance, real estate, logistics, supply chains, and more.
+                  BJS is a well-recognised brand serving a wide array of clients
+                  with diverse requirements. We have clients from the UK and
+                  worldwide in industries like automobile, finance, real estate,
+                  logistics, supply chains, and more.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Training</h4>
                 <p>
-                Our staff is provided with training via our in-house training school, which is governed by our stringent criteria and is supervised by us. Our personnel will be equally trained, skilled, and proficient in meeting your requirements as a result of this procedure. There is no other service that can match the competitive advantage that we have thanks to our in-house training facilities.
+                  Our staff is provided with training via our in-house training
+                  school, which is governed by our stringent criteria and is
+                  supervised by us. Our personnel will be equally trained,
+                  skilled, and proficient in meeting your requirements as a
+                  result of this procedure. There is no other service that can
+                  match the competitive advantage that we have thanks to our
+                  in-house training facilities.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Transparency</h4>
                 <p>
-                In line with your preferences, we offer comprehensive reports, data analyses, and detailed insights into usage, ensuring you maintain an overarching perspective on all activities. Our commitment to absolute transparency in our operations guarantees that you are always well-informed, allowing you to adjust strategies as necessary to enhance cost efficiency and conversion rates.
+                  In line with your preferences, we offer comprehensive reports,
+                  data analyses, and detailed insights into usage, ensuring you
+                  maintain an overarching perspective on all activities. Our
+                  commitment to absolute transparency in our operations
+                  guarantees that you are always well-informed, allowing you to
+                  adjust strategies as necessary to enhance cost efficiency and
+                  conversion rates.
                 </p>
               </div>
             </div>

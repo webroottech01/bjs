@@ -4,7 +4,7 @@ import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
-
+import { Helmet } from "react-helmet";
 const IntegratedSales = () => {
   const accountfaqs = [
     {
@@ -32,6 +32,15 @@ const IntegratedSales = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+        Hire BJS for Integrated Sales Management for maximized sales
+        </title>
+        <meta
+          name="description"
+          content="BJS offers best services in Integrated sales management to attract leads and convert them into a sale. Contact at +91 98789 85666 for hiring us for UK processes"
+        />
+      </Helmet>
       <div className="integrated-sales solutions-subpage">
         <Banner title={"Integrated Sales"} innerpage />
         <div className="container-med">
@@ -47,7 +56,7 @@ const IntegratedSales = () => {
               <div className="col-md-12 col-lg-6">
                 <span className="">Product Promotion</span>
                 <h3 className="secheading">
-                Market & Sell Your Products/Services
+                  Market & Sell Your Products/Services
                 </h3>
                 <p className="mb-0">
                   One of the biggest challenges for the success of any business
@@ -60,7 +69,7 @@ const IntegratedSales = () => {
                   Similarly, most sales professionals are really good at
                   converting a lead into a sale, but they rarely get leads. We
                   guess you might also struggle with this issue. That’s where
-                  our Integrated Sales come into play. 
+                  our Integrated Sales come into play.
                 </p>
                 <p className="mb-0 mt-4">
                   We have created a new breed of experts, called “Integrated

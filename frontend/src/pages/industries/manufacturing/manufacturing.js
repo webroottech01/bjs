@@ -3,9 +3,9 @@ import "./manufacturing.scss";
 import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
-
+import { Helmet } from "react-helmet";
 const Manufacturing = () => {
-  const accountfaqs = [
+  const accountfaqs = [ 
     {
       faq_heading:
         "What services can be outsourced in the the Manufacturing Sector?",
@@ -15,6 +15,13 @@ const Manufacturing = () => {
   ];
   return (
     <>
+      <Helmet>
+        <title>BJS offers Modernistic Contact Service Solutions 98789 85666</title>
+        <meta
+          name="description"
+          content="BJS provides innovative contact center services for the manufacturing industry to enhance production efficiency, supply chains, and drive operational excellence"
+        /> 
+      </Helmet>
       <div className="manufacturing industries-subpage">
         <Banner title="Manufacturing" innerpage />
         <div className="container-med">

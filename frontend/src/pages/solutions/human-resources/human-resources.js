@@ -5,6 +5,7 @@ import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
+import { Helmet } from "react-helmet"; 
 
 const HumanResources = () => {
   const accountfaqs = [
@@ -14,8 +15,7 @@ const HumanResources = () => {
         "If it wasn’t obvious from the name, Human Resource (HR) services involve collecting, managing, and interpreting data for all your on-role and off-role workforce. HR Pros use the data to take proper actions, calculate wages, file taxes, and maintain compliance.",
     },
     {
-      faq_heading:
-        "How Much Do Human Resource Services Work?",
+      faq_heading: "How Much Do Human Resource Services Work?",
       description:
         "HR costs can largely vary based on your business needs. However, they follow economies of scale. The larger the workforce, the lesser the cost-per-head. However, at BJS, we can cater plans even for SMEs to cost-effectively cater to their HR needs.",
     },
@@ -27,12 +27,21 @@ const HumanResources = () => {
     {
       faq_heading: "Is it safe to outsource HR services?",
       description:
-        "Yes, an outsourced HR will likely be able to cater to all your needs and much more. With experience from multiple clients, they are more than capable of ensuring proper HR compliance. In fact, we at BJS have highly skilled and trained HRs who are likely to be far more capable than most in-house HRs. Our strict policies and procedures ensure complete data safety as well.", 
+        "Yes, an outsourced HR will likely be able to cater to all your needs and much more. With experience from multiple clients, they are more than capable of ensuring proper HR compliance. In fact, we at BJS have highly skilled and trained HRs who are likely to be far more capable than most in-house HRs. Our strict policies and procedures ensure complete data safety as well.",
     },
   ];
 
   return (
     <>
+      <Helmet>
+        <title>
+        Let BJS to Look After Your Human Resource Processes
+        </title>
+        <meta
+          name="description"
+          content="Hire virtual personal assistants in the UK to gear up small yet necessary processes of your business. BJS offers best virtual personal assistant services in UK"
+        />
+      </Helmet>
       <div className="human-resources solutions-subpage">
         <Banner title={"Human Resources"} innerpage />
         <div className="container-med">
@@ -40,9 +49,7 @@ const HumanResources = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/hrres.jpg"}
-                  />
+                  <img src={process.env.PUBLIC_URL + "/images/hrres.jpg"} />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
@@ -150,7 +157,10 @@ const HumanResources = () => {
                 <div className="card-cont">
                   <h4>Accounts Payable</h4>
                   <p>
-                  With our proper tracking and management tools, you can always be up-to-date with your accounts payable data. This ensures there are no unexpected surprises relating to employee salaries and benefits.
+                    With our proper tracking and management tools, you can
+                    always be up-to-date with your accounts payable data. This
+                    ensures there are no unexpected surprises relating to
+                    employee salaries and benefits.
                   </p>
                 </div>
               </div>
@@ -163,7 +173,10 @@ const HumanResources = () => {
                 <div className="card-cont">
                   <h4>Employee Benefits</h4>
                   <p>
-                  A proper dedicated Human Resource department can help implement monetary and non-monetary employee benefits. These help boost morale, ensure proper legal compliance, and overall improve the well-being of the employees.
+                    A proper dedicated Human Resource department can help
+                    implement monetary and non-monetary employee benefits. These
+                    help boost morale, ensure proper legal compliance, and
+                    overall improve the well-being of the employees.
                   </p>
                 </div>
               </div>
@@ -264,26 +277,38 @@ const HumanResources = () => {
               <div className="roundcard">
                 <h4>Standardised</h4>
                 <p>
-                While the services are adapted to your needs, the training process is highly standardised to ensure all our staff are equally skilled and capable of handling even the most. 
+                  While the services are adapted to your needs, the training
+                  process is highly standardised to ensure all our staff are
+                  equally skilled and capable of handling even the most.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Scalability</h4>
                 <p>
-                Our HR services are designed to be highly scalable. We can easily adapt to the constantly changing size of your workforce, ensuring optimal services are made available to you every time.
+                  Our HR services are designed to be highly scalable. We can
+                  easily adapt to the constantly changing size of your
+                  workforce, ensuring optimal services are made available to you
+                  every time.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Security</h4>
                 <p>
-                The Human Resource data can include critical employee bio-data, personal information, family history, medical information, finance & tax info, and more. This data needs to be protected. We ensure this privileged information is stored safely and accessed only by authorised personnel, thus minimising exposure.
-
+                  The Human Resource data can include critical employee
+                  bio-data, personal information, family history, medical
+                  information, finance & tax info, and more. This data needs to
+                  be protected. We ensure this privileged information is stored
+                  safely and accessed only by authorised personnel, thus
+                  minimising exposure.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Communication</h4>
                 <p>
-                Our HR specialists are available throughout the day to answer your queries and provide quick answers to all your concerns. We can provide data-driven advice and consultation to aid your decision-making in HR-related matters.
+                  Our HR specialists are available throughout the day to answer
+                  your queries and provide quick answers to all your concerns.
+                  We can provide data-driven advice and consultation to aid your
+                  decision-making in HR-related matters.
                 </p>
               </div>
             </div>

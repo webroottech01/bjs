@@ -3,7 +3,7 @@ import "./telecommunications.scss";
 import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
-
+import { Helmet } from "react-helmet";
 const TeleCommunications = () => {
   const accountfaqs = [
     {
@@ -19,6 +19,15 @@ const TeleCommunications = () => {
   ];
   return (
     <>
+      <Helmet>
+        <title>
+        Hire BJS’s Contact Centre Services for Support and Sales.
+        </title>
+        <meta
+          name="description"
+          content="BJS - Beyond Just Service offers contact center services for the telecommunications industry to improve customer service to provide support and drive sales."
+        />
+      </Helmet>
       <div className="telecommunications industries-subpage">
         <Banner title="Tele-communications" innerpage />
         <div className="container-med">
