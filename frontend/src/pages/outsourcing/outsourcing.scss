@@ -1,0 +1,39 @@
+.singleinsights {
+  padding: 50px 0;
+
+  p {
+    color: #5b5b5b;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+    a {
+      color: #562479;
+      text-decoration: none;
+    }
+  }
+  h3 {
+    font-family: "Poppins";
+    margin-bottom: 15px;
+    padding-top: 5px;
+    color: #454545;
+  }
+  h2 {
+    font-family: "Fonarto";
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: #000000;
+    font-size: 45px;
+  }
+  @media screen and (max-width: 780px) {
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
