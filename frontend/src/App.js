@@ -5,7 +5,7 @@ import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import Home from "./pages/home/home";
 import ContactUs from "./pages/contact-us/contact-us";
-import ComingSoon from "./components/coming-soon/coming-soon";
+// import ComingSoon from "./components/coming-soon/coming-soon";
 import Pricing from "./pages/pricing/pricing";
 import Insights from "./pages/Insights/insights";
 import Automobile from "./pages/industries/automobile/automobile";
@@ -26,6 +26,7 @@ import FinanceEcomm from "./pages/solutions/finance-ecomm/finance-ecomm";
 import Ecommerce from "./pages/solutions/e-commerce/e-commerce";
 import FieldAgentManagement from "./pages/solutions/field-agent-management/field-agent-management";
 import SingleInsight from "./pages/single-insight/single-insight";
+import Outsourcing from "./pages/outsourcing/outsourcing";
 
 function App() {
   return (
@@ -73,9 +74,13 @@ function App() {
             element={<TeleCommunications />}
           />
           {/*  end Industries routes */}
+
+          {/*  end Insights routes */}
           <Route path="/insights" element={<Insights />} />
 
-          <Route path="/insight/:id" element={<SingleInsight />} /> 
+          <Route path="/insight/:id" element={<SingleInsight />} />
+          <Route path="/insight/why-outsourcing-your-call-center-is-a-smart-move-for-your-business" element={<Outsourcing />} />
+          {/*  end Industries routes */}  
         </Routes>
         <Footer />
         <div className="underconst">

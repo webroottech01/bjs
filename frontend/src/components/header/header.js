@@ -90,9 +90,9 @@ const Header = () => {
                     <LinkContainer to="/pricing">
                       <Nav.Link onClick={closeNavbar}>Pricing</Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/insights">
+                    {/* <LinkContainer to="/insights">
                       <Nav.Link onClick={closeNavbar}>Insights</Nav.Link>
-                    </LinkContainer> 
+                    </LinkContainer>  */}
                     <LinkContainer to="/contact-Us">
                       <Nav.Link onClick={closeNavbar}>Contact Us</Nav.Link>
                     </LinkContainer>
