@@ -1,9 +1,20 @@
 import "./outsourcing.scss";
 import Banner from "../../components/banner/banner";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 const Outsourcing = () => {
   return (
     <>
+      <Helmet>
+        <title>
+          Why Outsourcing Your Call Center is a Smart Move for Your Business
+        </title>
+        <meta
+          name="description"
+          content="Call center solution provider helps your business to interact with customers to create credibility and brand awareness. Dial +91 98789 85666"
+        />
+      </Helmet>
       <Banner
         title={
           "Why Outsourcing Your Call Center is a Smart Move for Your Business"
@@ -15,10 +26,8 @@ const Outsourcing = () => {
           <div className="container-max">
             <div className="row">
               <div className="entry-content">
-                
-
                 <p className="mb-4">
-                      In any business, there are a lot of tasks that need to be
+                  In any business, there are a lot of tasks that need to be
                   handled to keep things running smoothly. Some of these tasks
                   are crucial to the main business operations, while others are
                   more supportive but still important. One key supportive task
@@ -26,10 +35,11 @@ const Outsourcing = () => {
                   can be time-consuming and might distract your team from
                   focusing on the core activities of your business. That’s why
                   many companies decide to outsource their call center
-                  operations. Here’s why outsourcing to a <strong>call center solution provider</strong> can be a great
+                  operations. Here’s why outsourcing to a{" "}
+                  <strong>call center solution provider</strong> can be a great
                   idea and what to look for when choosing a call center
                   provider.
-                      </p>
+                </p>
 
                 <h2 className="wp-block-heading">
                   Benefits of Outsourcing Your Call Center
