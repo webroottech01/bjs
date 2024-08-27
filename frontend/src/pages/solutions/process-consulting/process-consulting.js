@@ -4,6 +4,7 @@ import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
+import { Helmet } from "react-helmet";
 
 const ProcessConsulting = () => {
   const accountfaqs = [
@@ -13,8 +14,7 @@ const ProcessConsulting = () => {
         "Process Consulting Services are specialists in analysing business processes, understanding your issues, and redesigning, optimising, and creating processes to ensure the desired results are achieved.",
     },
     {
-      faq_heading:
-        "What are the costs of Process Consulting Services?",
+      faq_heading: "What are the costs of Process Consulting Services?",
       description:
         "Truth be told, Process Consulting Services are not cheap. The ones that cost less rarely get the job done. You should look into top Process Consulting Services in the UK like BJS for all your consulting needs. They are a premium service with quality professionals that truly deliver results.",
     },
@@ -27,6 +27,13 @@ const ProcessConsulting = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Beyond Just Service Business Process Consulting Services, UK</title>
+        <meta
+          name="description"
+          content=" Explore BJS Beyond's business process consulting services to enhance operational efficiency, streamline workflows, and drive business growth. Dial 98789 85666"
+        />
+      </Helmet>
       <div className="process-consulting solutions-subpage">
         <Banner title={"Process Consulting"} innerpage />
         <div className="container-med">
@@ -34,7 +41,10 @@ const ProcessConsulting = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img alt="" src={process.env.PUBLIC_URL + "/images/processconsult.jpg"} />
+                  <img
+                    alt=""
+                    src={process.env.PUBLIC_URL + "/images/processconsult.jpg"}
+                  />
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
@@ -92,7 +102,10 @@ const ProcessConsulting = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img alt="" src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img
+                    alt=""
+                    src={process.env.PUBLIC_URL + "/images/business.png"}
+                  />
                 </div>
                 <div className="card-cont">
                   <h4>Optimisation</h4>
@@ -124,7 +137,10 @@ const ProcessConsulting = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img alt="" src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img
+                    alt=""
+                    src={process.env.PUBLIC_URL + "/images/mentoring.png"}
+                  />
                 </div>
                 <div className="card-cont">
                   <h4>Technology</h4>
@@ -179,7 +195,10 @@ const ProcessConsulting = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img alt="" src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img
+                alt=""
+                src={process.env.PUBLIC_URL + "/images/successfulblk.png"}
+              />
               Process Consulting Services
             </h3>
             <p className="mb-0">
@@ -274,25 +293,32 @@ const ProcessConsulting = () => {
               <div className="roundcard">
                 <h4>Industries</h4>
                 <p>
-                We have worked in almost all sectors achieving impressive results with minimum efforts. Our team has experience in automobile, finance, IT, manufacturing, logistics, supply chains, and various other areas.
-
+                  We have worked in almost all sectors achieving impressive
+                  results with minimum efforts. Our team has experience in
+                  automobile, finance, IT, manufacturing, logistics, supply
+                  chains, and various other areas.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Expertise</h4>
                 <p>
-                We believe that your business deserves the best experts. All our consultants are expert and very capable of handling. Our in-house training program ensures all our workforce has reached expert-level before entering service for you.
-
+                  We believe that your business deserves the best experts. All
+                  our consultants are expert and very capable of handling. Our
+                  in-house training program ensures all our workforce has
+                  reached expert-level before entering service for you.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Integration</h4>
                 <p>
-                One of the difficult parts of process management is coordination between different departments. Lucky for you, you can outsource everything from marketing, sales, support, communications, consulting, finance, account management, and more to BJS with our integrated services, resulting in an even more optimised workflow for you.
-
+                  One of the difficult parts of process management is
+                  coordination between different departments. Lucky for you, you
+                  can outsource everything from marketing, sales, support,
+                  communications, consulting, finance, account management, and
+                  more to BJS with our integrated services, resulting in an even
+                  more optimised workflow for you.
                 </p>
               </div>
-            
             </div>
           </div>
         </div>

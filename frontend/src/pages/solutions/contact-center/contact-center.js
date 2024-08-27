@@ -4,6 +4,7 @@ import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
+import { Helmet } from "react-helmet"; 
 
 const ContactCenter = () => {
   const accountfaqs = [
@@ -32,6 +33,15 @@ const ContactCenter = () => {
 
   return (
     <>
+    <Helmet>
+        <title>
+        BJS is the Best Call Center Solution Provider in UK
+        </title>
+        <meta
+          name="description"
+          content="Handling communications across multiple platforms can be an additional task for most businesses. Hire BJS that offers call center solutions for omni-growth."
+        />
+      </Helmet>
       <div className="contact-center solutions-subpage">
         <Banner title={"Contact Centre Services"} innerpage /> 
         <div className="container-med">

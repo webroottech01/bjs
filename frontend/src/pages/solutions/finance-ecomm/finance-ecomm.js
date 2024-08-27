@@ -4,6 +4,7 @@ import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
+import { Helmet } from "react-helmet";
 
 const FinanceEcomm = () => {
   const accountfaqs = [
@@ -26,6 +27,15 @@ const FinanceEcomm = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+        E-commerce Customer & Online Financial Services in UK | BJS
+        </title>
+        <meta
+          name="description"
+          content="BJS Beyond offers specialized finance e-commerce solutions to manage transactions, financial operations, and secure payment processing. Dial +91 98789 85666"
+        />
+      </Helmet>
       <div className="finance-ecomm solutions-subpage">
         <Banner title={"Finance & E-Commerce"} innerpage />
         <div className="container-med">

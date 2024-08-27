@@ -4,6 +4,7 @@ import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
+import { Helmet } from "react-helmet";
 
 const FieldAgentManagement = () => {
   const accountfaqs = [
@@ -31,6 +32,13 @@ const FieldAgentManagement = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Field Agent Management Software by BJS to Optimize progress</title>
+        <meta
+          name="description"
+          content="Explore BJS Beyond's field agent management solutions to improve coordination, track performance, and enhance productivity with our advanced management tools."
+        />
+      </Helmet>
       <div className="field-agent-management solutions-subpage">
         <Banner title={"Field Agent Management"} innerpage />
         <div className="container-med">
@@ -41,7 +49,7 @@ const FieldAgentManagement = () => {
                   <img
                     src={process.env.PUBLIC_URL + "/images/fieldmanage.jpg"}
                   />
-                </div> 
+                </div>
               </div>
               <div className="col-md-12 col-lg-6">
                 <span className="">Task Coordination</span>

@@ -4,6 +4,7 @@ import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
+import { Helmet } from "react-helmet";
 
 const VirtualPa = () => {
   const accountfaqs = [
@@ -32,6 +33,15 @@ const VirtualPa = () => {
 
   return (
     <>
+    <Helmet>
+        <title>
+        BJS provides Virtual personal assistant UK | +91 98789 85666
+        </title>
+        <meta
+          name="description"
+          content="Hire virtual personal assistants in the UK to gear up small yet necessary processes of your business. BJS offers best virtual personal assistant services in UK"
+        />
+      </Helmet>
       <div className="virtual-pa solutions-subpage">
         <Banner title={"Virtual Private Assistant"} innerpage />
         <div className="container-med">

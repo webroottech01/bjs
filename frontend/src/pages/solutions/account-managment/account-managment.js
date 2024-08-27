@@ -4,6 +4,7 @@ import Banner from "../../../components/banner/banner";
 import ContactTeam from "../../../components/contact-team/contact-team";
 import TestimonialSlider from "../../../components/testimonial-slider/testimonial-slider";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
+import { Helmet } from "react-helmet"; 
 
 const AccountManagment = () => {
   const accountfaqs = [
@@ -30,7 +31,16 @@ const AccountManagment = () => {
   ];
 
   return (
-    <>
+    <> 
+    <Helmet>
+        <title>
+        Best Account Management Support in UK - BJS - 98789 85666
+        </title>
+        <meta
+          name="description"
+          content="Utilize the best account management services in UK offered by BJS - Beyond Just Service  to build strong relationships with customers and prepare sales reports. "
+        />
+      </Helmet>
       <div className="account-managment solutions-subpage">
         <Banner title={"Account Management"} innerpage />
         <div className="container-med">
