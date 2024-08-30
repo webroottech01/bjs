@@ -9,12 +9,12 @@ import { Helmet } from "react-helmet";
 const ProcessConsulting = () => {
   const accountfaqs = [
     {
-      faq_heading: "What exactly is a Process Consulting Service?",
+      faq_heading: "What exactly is a Business Process Consulting Services?",
       description:
         "Process Consulting Services are specialists in analysing business processes, understanding your issues, and redesigning, optimising, and creating processes to ensure the desired results are achieved.",
     },
     {
-      faq_heading: "What are the costs of Process Consulting Services?",
+      faq_heading: "What are the costs of Business Process Consulting Solutions?",
       description:
         "Truth be told, Process Consulting Services are not cheap. The ones that cost less rarely get the job done. You should look into top Process Consulting Services in the UK like BJS for all your consulting needs. They are a premium service with quality professionals that truly deliver results.",
     },
@@ -53,18 +53,11 @@ const ProcessConsulting = () => {
                   Optimise Processes and Remove Inefficiencies
                 </h3>
                 <p className="mb-0">
-                  In the ever-changing business landscape, it is vital to
-                  constantly adapt, rethink, and redesign your processes to
-                  maximise output. What worked last year might not suit you this
-                  year. In addition, as businesses scale, you are forced to do
-                  the difficult task of rethinking the processes to maintain
-                  efficiency.
+                In the ever-changing business landscape, it is vital to constantly adapt, rethink, and redesign your processes to maximize output. What worked last year might not suit you this year. In addition, as businesses scale, you are forced to do the difficult task of rethinking the processes to maintain efficiency.
+
                 </p>
                 <p className="mb-0 mt-4">
-                  If you have also faced such difficulties, you are not alone.
-                  The solution to such problems is to have process consulting
-                  experts audit your business to design/redesign, optimise, and
-                  troubleshoot various processes.
+                If you have also faced such difficulties, you are not alone, you can outreach to Business Process Consulting Services for a better solution. The solution to such problems is to have process consulting experts audit your business to design/redesign, optimise, and troubleshoot various processes.
                 </p>
               </div>
             </div>
@@ -88,6 +81,7 @@ const ProcessConsulting = () => {
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
+                    alt=""
                   />
                 </div>
                 <div className="card-cont">
@@ -110,10 +104,8 @@ const ProcessConsulting = () => {
                 <div className="card-cont">
                   <h4>Optimisation</h4>
                   <p>
-                    Existing processes might have many issues that cause
-                    significant losses as your company scales up. Process
-                    consultants carry out proper optimisations to reduce time
-                    spent and minimise costs.
+                  Existing processes might have many issues that cause significant losses as your company scales up. Business Process Consulting services carry out proper optimisations to reduce time spent and minimise costs.
+
                   </p>
                 </div>
               </div>
@@ -121,17 +113,15 @@ const ProcessConsulting = () => {
               <div className="card">
                 <div className="icon">
                   <img
+                  alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
                 <div className="card-cont">
                   <h4>Tools</h4>
                   <p>
-                    One of the best things about process consulting is that it
-                    helps automate processes and tasks that humans currently do.
-                    Modern machines, efficient equipment, and automation can
-                    help massively reduce the variables and optimise the
-                    processes.
+                  One of the best things about Business Process Consulting solutions is that it helps automate processes and tasks that humans currently do. Modern machines, efficient equipment, and automation can help massively reduce the variables and optimise the processes.
+
                   </p>
                 </div>
               </div>
@@ -157,6 +147,7 @@ const ProcessConsulting = () => {
               <div className="card">
                 <div className="icon">
                   <img
+                  alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
@@ -173,18 +164,14 @@ const ProcessConsulting = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                   />
                 </div>
                 <div className="card-cont">
                   <h4>Consultation</h4>
                   <p>
-                    If you plan on buying a new office, changing locations,
-                    restructuring teams, adding new products, or any other
-                    significant change, you need advice on the best part. Best
-                    process consultants in the UK, like BJS, offer proper
-                    consultation to help you plan.
+                  If you plan on buying a new office, changing locations, restructuring teams, adding new products, or any other significant change, you need advice on the best part. Business Process Consulting Services in UK, like BJS, offer proper consultation to help you plan.
                   </p>
                 </div>
               </div>
@@ -224,9 +211,7 @@ const ProcessConsulting = () => {
               <div className="roundcard">
                 <h4>Methodologies & Approach</h4>
                 <p>
-                  All process consultants have an in-depth understanding of
-                  state-of-the-art methodologies and approaches utilised in your
-                  firm’s process redesign.
+                All Business Process consulting services have an in-depth understanding of state-of-the-art methodologies and approaches utilized in your firm’s process redesign.
                 </p>
               </div>
               <div className="roundcard">

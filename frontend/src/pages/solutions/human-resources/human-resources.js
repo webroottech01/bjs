@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./human-resources.scss";
 import Banner from "../../../components/banner/banner";
 import FaqTabs from "../../../components/faq-tabs/faq-tabs";
@@ -15,7 +14,7 @@ const HumanResources = () => {
         "If it wasn’t obvious from the name, Human Resource (HR) services involve collecting, managing, and interpreting data for all your on-role and off-role workforce. HR Pros use the data to take proper actions, calculate wages, file taxes, and maintain compliance.",
     },
     {
-      faq_heading: "How Much Do Human Resource Services Work?",
+      faq_heading: "How much do Human Resource Management services cost?",
       description:
         "HR costs can largely vary based on your business needs. However, they follow economies of scale. The larger the workforce, the lesser the cost-per-head. However, at BJS, we can cater plans even for SMEs to cost-effectively cater to their HR needs.",
     },
@@ -25,7 +24,7 @@ const HumanResources = () => {
         "Usually no. Most HRs would be available for a few hours a day only. But, we at BJS, offer 24/7 HR services that handle your needs and provide support throughout the day ensuring all your requirements are timely met. This is particularly ideal for offices with multiple shifts or larger businesses working in multiple time zones.",
     },
     {
-      faq_heading: "Is it safe to outsource HR services?",
+      faq_heading: "Is it safe to hire outsourced HR services in UK",
       description:
         "Yes, an outsourced HR will likely be able to cater to all your needs and much more. With experience from multiple clients, they are more than capable of ensuring proper HR compliance. In fact, we at BJS have highly skilled and trained HRs who are likely to be far more capable than most in-house HRs. Our strict policies and procedures ensure complete data safety as well.",
     },
@@ -49,7 +48,7 @@ const HumanResources = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img src={process.env.PUBLIC_URL + "/images/hrres.jpg"} />
+                  <img src={process.env.PUBLIC_URL + "/images/hrres.jpg"} alt=""/>
                 </div>
               </div>
               <div className="col-md-12 col-lg-6">
@@ -58,17 +57,10 @@ const HumanResources = () => {
                   Outsource Your Human Resource Management
                 </h3>
                 <p className="mb-0">
-                  It’s no secret that human resource management, documentation,
-                  and various tasks associated with it are quite time-consuming
-                  yet necessary. Doing them yourself is not a wise use of your
-                  time.
+                It’s no secret that human resource management, documentation, and various tasks associated with it are quite time-consuming yet necessary. Doing them yourself is not a wise use of your time.
                 </p>
                 <p className="mb-0 mt-4">
-                  At the same time, recruiting staff might be a financially
-                  difficult task. It's in your best interest to delegate these
-                  responsibilities to one of the best HR outsourcing services,
-                  BJS. Our decades-long experience in this domain is suitable
-                  for handling all your needs.
+                At the same time, recruiting staff might be a financially difficult task. It's in your best interest to delegate these responsibilities to one of the best outsourced HR services in UK, BJS. Our decades-long experience in this domain is suitable for handling all your needs.
                 </p>
               </div>
             </div>
@@ -87,7 +79,7 @@ const HumanResources = () => {
             <div className="triangle-cards">
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
@@ -104,7 +96,7 @@ const HumanResources = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/business.png"} alt=""/>
                 </div>
                 <div className="card-cont">
                   <h4>Resources</h4>
@@ -119,38 +111,33 @@ const HumanResources = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
                 <div className="card-cont">
                   <h4>Management</h4>
                   <p>
-                    The professionally trained and skilled outsourced HRs can
-                    optimise management, ensuring on-time paperwork, proper
-                    management, accelerated new recruitments, and overall time
-                    savings on every front.
+                  The professionally trained and skilled outsourced Human Resource Management team can optimize management, ensuring on-time paperwork, proper management, accelerated new recruitments, and overall time savings on every front.
                   </p>
                 </div>
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} alt=""/>
                 </div>
                 <div className="card-cont">
                   <h4>Bookkeeping</h4>
                   <p>
-                    Outsourced HR keeps track of various employee activities,
-                    including leaves, employee benefits, performance, etc. This
-                    data is used to calculate salaries and promotions across the
-                    firm accurately.
+                  Outsourced Human Resource Management specialists keep track of various employee activities, including leaves, employee benefits, performance, etc. This data is used to calculate salaries and promotions across the firm accurately.
+
                   </p>
                 </div>
               </div>
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
@@ -166,7 +153,7 @@ const HumanResources = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                   />
                 </div>
@@ -187,7 +174,7 @@ const HumanResources = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"}  alt=""/>
               Human Resource Services
             </h3>
             <p className="mb-0">
@@ -222,8 +209,7 @@ const HumanResources = () => {
               <div className="roundcard">
                 <h4>Compliance Management</h4>
                 <p>
-                  With proper experience, knowledge, skills, and training, our
-                  HR professionals ensure much better legal compliance.
+                Dedicated Human Resource Management professionals have in-depth knowledge of the law and ensure proper compliance is maintained in the offices.
                 </p>
               </div>
               <div className="roundcard">
@@ -246,8 +232,7 @@ const HumanResources = () => {
               <div className="roundcard">
                 <h4>Save Time</h4>
                 <p>
-                  It reduces your workload of constantly tracking work hours,
-                  leaves, performance, in/out times, and more.
+                Human Resource support services reduce your workload of constantly tracking work hours, leaves, performance, in/out times, and more.
                 </p>
               </div>
               <div className="roundcard">
@@ -260,9 +245,7 @@ const HumanResources = () => {
               <div className="roundcard">
                 <h4>Data</h4>
                 <p>
-                  Proper data collection performed by our HR executive ensures
-                  we can provide data-driven insights and explore opportunities
-                  to better optimise the workforce.
+                Proper data collection performed by our Human Resource Management executive ensures we can provide data-driven insights and explore opportunities to better optimise the workforce.
                 </p>
               </div>
             </div>
@@ -285,10 +268,7 @@ const HumanResources = () => {
               <div className="roundcard">
                 <h4>Scalability</h4>
                 <p>
-                  Our HR services are designed to be highly scalable. We can
-                  easily adapt to the constantly changing size of your
-                  workforce, ensuring optimal services are made available to you
-                  every time.
+                Our HR services are designed to be highly scalable. We can easily adapt to the constantly changing size of your workforce, ensuring optimal services are made available to you every time.
                 </p>
               </div>
               <div className="roundcard">

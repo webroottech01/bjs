@@ -14,7 +14,7 @@ const FieldAgentManagement = () => {
         "These services properly manage, track, and administer all the agents working outside your office space in various roles such as logistics, deliveries, marketing, branding, etc.",
     },
     {
-      faq_heading: "How can Field Agent Management Benefit Me?",
+      faq_heading: "How can field Service Agent Management Benefit Me?",
       description:
         "Field Agent Management ensures that your staff is properly tracked, accounted for, and monitored. Any misdemeanour or inefficiencies by our employees would be immediately made visible. This helps maximise performance, focus on efficiency, and avoid any unexpected hiccups in your business.",
     },
@@ -46,7 +46,7 @@ const FieldAgentManagement = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/fieldmanage.jpg"}
                   />
                 </div>
@@ -77,15 +77,13 @@ const FieldAgentManagement = () => {
           <div className="container-max">
             <h2 className="secheading">Advantages of Field Agent Management</h2>
             <h3>
-              Take a hard look at your business. Are you actually able to manage
-              everything in your firm and still work towards its growth?
-              Probably not. To reduce your workload and focus on more important
-              things, delegate the task of field agent management.
+            Take a hard look at your business. Are you actually able to manage everything in your firm and still work towards its growth? Probably not. To reduce your workload and focus on more important things, delegate the task of field service agent management in UK.
+
             </h3>
             <div className="triangle-cards">
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
@@ -103,7 +101,7 @@ const FieldAgentManagement = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img  alt="" src={process.env.PUBLIC_URL + "/images/business.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Technology</h4>
@@ -119,7 +117,7 @@ const FieldAgentManagement = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
@@ -136,7 +134,7 @@ const FieldAgentManagement = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"}  alt=""/>
                 </div>
                 <div className="card-cont">
                   <h4>Transparency</h4>
@@ -151,23 +149,20 @@ const FieldAgentManagement = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
                 <div className="card-cont">
                   <h4>Performance</h4>
                   <p>
-                    Various KPIs are tracked, and the Field Agent Management
-                    Services constantly monitors the performance of all the team
-                    members. Appropriate actions are taken to improve speed and
-                    maximise results for you.
+                  Various KPIs are tracked, and the Field Service Agent Management Services constantly monitors the performance of all the team members. Appropriate actions are taken to improve speed and maximise results for you.
                   </p>
                 </div>
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                   />
                 </div>
@@ -189,7 +184,7 @@ const FieldAgentManagement = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} alt=""/>
               Field Agent Management
             </h3>
             <p className="mb-0">
@@ -205,7 +200,7 @@ const FieldAgentManagement = () => {
             <h2 className="secheading">
               Benefits of BJS Field Agent Management
             </h2>
-            <h3>Here are some benifits of BJS Field Agent Management </h3>
+            <h3>Here are some benefits of BJS Field Service Agent Management </h3>
             <div className="roundcard-outer">
               <div className="roundcard">
                 <h4>Training</h4>

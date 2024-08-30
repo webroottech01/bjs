@@ -14,7 +14,7 @@ const AccountManagment = () => {
         "As the name suggests, Account Management Services maintains your account. It tracks all current and future incoming/outgoing transactions. They perform bookkeeping and track the flow of goods through your firm.",
     },
     {
-      faq_heading: "How Do Account Management Services Work?",
+      faq_heading: "How Do Account Management Solutions Work?",
       description:
         "You can find quality account management services for really cheap prices. However, they would not have the experience, skills, and software solutions to match your expectations. That’s why you should consider quality services like BJS. We at BJS meet all your requirements and expectations while still being reasonably competitive in the price.",
     },
@@ -48,7 +48,7 @@ const AccountManagment = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/accountmanage.jpg"}
                   />
                 </div>
@@ -60,17 +60,10 @@ const AccountManagment = () => {
                   management.
                 </h3>
                 <p className="mb-0">
-                  Effective account management nurtures strong client
-                  relationships by overseeing accounts, addressing needs, and
-                  ensuring satisfaction. This results in increased loyalty,
-                  repeat business, and referrals. However, managing accounts can
-                  be complex and time-consuming, requiring dedicated resources
-                  and expertise.
+                Effective account management services nurtures strong client relationships by overseeing accounts, addressing needs, and ensuring satisfaction. This results in increased loyalty, repeat business, and referrals. However, managing accounts can be complex and time-consuming, requiring dedicated resources and expertise.
                 </p>
                 <p className="mb-0 mt-4">
-                  At Beyond Just Service, our account managers become your
-                  account managers, designed to streamline your client
-                  interactions.
+                At Beyond Just Service, our account managers become your account managers, designed to streamline your client interactions.
                 </p>
               </div>
             </div>
@@ -90,7 +83,7 @@ const AccountManagment = () => {
             <div className="triangle-cards">
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
@@ -109,7 +102,7 @@ const AccountManagment = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/business.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Specialist Expertise</h4>
@@ -125,7 +118,7 @@ const AccountManagment = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
@@ -138,7 +131,7 @@ const AccountManagment = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Seamless Integration</h4>
@@ -151,7 +144,7 @@ const AccountManagment = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
@@ -164,7 +157,7 @@ const AccountManagment = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                   />
                 </div>
@@ -184,7 +177,7 @@ const AccountManagment = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img alt="" src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
               Outsourced Account Management
 
             </h3>
@@ -221,7 +214,7 @@ const AccountManagment = () => {
                 <h4>Expert Training
 </h4>
                 <p>
-                Our in-house training academy ensures employees are meticulously trained to provide top-notch service tailored to your needs. This rigorous training program equips our staff with the skills necessary to deliver exceptional account management services.
+                Our in-house training academy ensures employees are meticulously trained to provide top-notch service tailored to your needs. This rigorous training program equips our staff with the skills necessary to deliver exceptional account management services to you.
 
                 </p>
               </div>

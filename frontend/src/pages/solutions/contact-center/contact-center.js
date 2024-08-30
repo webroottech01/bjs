@@ -14,7 +14,7 @@ const ContactCenter = () => {
         "Contact Centre services are dedicated centres that manage your communication. They have trained professionals who are involved in communicating with current/potential customers or making calls to generate leads per your needs.",
     },
     {
-      faq_heading: "How Much Do Contact Centre Services in the UK Cost?",
+      faq_heading: "How Much Do Call center solutions in the UK Cost?",
       description:
         "Contact Centres largely work on the concept of economies of scale. The more communication there is, the lesser the cost per communication. Another factor is the services that you choose. The costs can vary based on whether you are looking to handle inbound communication, outbound communications, or both. However, for all use cases, BJS is one of the best choices, with special low-cost options curated to start as packages for upscale firms.",
     },
@@ -28,6 +28,11 @@ const ContactCenter = () => {
       faq_heading: "Are these services really working 24/7?",
       description:
         "Yes, services offered by BJS run 24 hours, 7 days a week, 365 days a year. We work 24 hours a day to ensure your clients get a consistent and reliable experience for you. Ofcourse, we work shifts for employees to take care of their well-being, but the multiple shifts together cover the entire day for you.",
+    },
+    {
+      faq_heading: "Do you provide Call center solutions for small businesses?",
+      description:
+        "Yes, we provide contact centre services to Small businesses as well as to big enterprises.",
     },
   ];
 
@@ -49,7 +54,7 @@ const ContactCenter = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/contactcenter.jpg"}
                   />
                 </div>
@@ -68,7 +73,7 @@ const ContactCenter = () => {
                 </p>
                 <p className="mb-0 mt-4">
                   At Beyond Just Service, we provide a 24x7 contact centre
-                  solution designed to streamline your communications and give
+                  services designed to streamline your communications and give
                   you the room to grow. Our agents integrate seamlessly with
                   your team, delivering a consistent brand experience that
                   reflects your company's values and standards.
@@ -92,7 +97,7 @@ const ContactCenter = () => {
             <div className="triangle-cards">
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
@@ -109,7 +114,7 @@ const ContactCenter = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/business.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Omnichannel </h4>
@@ -123,7 +128,7 @@ const ContactCenter = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
@@ -138,7 +143,7 @@ const ContactCenter = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img alt="" src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
                 </div>
                 <div className="card-cont">
                   <h4>Integration</h4>
@@ -150,7 +155,7 @@ const ContactCenter = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
@@ -163,9 +168,9 @@ const ContactCenter = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
-                  />
+                  /> 
                 </div>
                 <div className="card-cont">
                   <h4>Brand Reputation
@@ -184,7 +189,7 @@ const ContactCenter = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} alt=""/>
               Outsourced Contact Centres
             </h3>
             <p className="mb-0">
@@ -223,8 +228,7 @@ const ContactCenter = () => {
               <div className="roundcard">
                 <h4>Consultation Services</h4>
                 <p>
-                Our specialist account managers are always available to address your concerns, providing expert advice and tailored solutions to meet your needs.
-
+                Our specialist account managers are always available to address your concerns, providing expert advice and tailored solutions to meet your contact centre services needs.
                 </p>
               </div>
             </div>
@@ -277,7 +281,7 @@ const ContactCenter = () => {
               <div className="roundcard">
                 <h4>Comprehensive Training</h4>
                 <p>
-                Our in-house training academy ensures that our workforce meets stringent standards, providing consistent and proficient service. This competitive edge sets us apart from other providers.
+                Our in-house training academy ensures that our workforce meets stringent standards, providing consistent and proficient service. This competitive edge sets us apart from other Call center solution providers.
                 </p>
               </div>
               <div className="roundcard">
