@@ -20,7 +20,7 @@ const Ecommerce = () => {
     },
     {
       faq_heading:
-        "What Customisation Options Do I Get With E-Commerce Support Services?",
+        "What customization options do I get with Outsource ecommerce customer services?",
       description:
         "Plenty of options and facilities are available. We at BJS adapt to your working hours, customer base, special requirements, specific procedures, scripts, and any styling that you might like. We ensure that your requirements and specific preferences are dealt with utmost care.",
     },
@@ -49,7 +49,7 @@ const Ecommerce = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/ecommsupport.jpg"}
                   />
                 </div>
@@ -60,18 +60,12 @@ const Ecommerce = () => {
                   For the ideal experience that your customers deserve
                 </h3>
                 <p className="mb-0">
-                  Delays in issue resolution in pre-sales and after-sales
-                  services can be a major pain point for businesses.
-                  Unprofessional support can make you lose existing customers,
-                  create a bad reputation, and turn away new potential
-                  customers.
+                Delays in issue resolution in pre-sales and after-sales services can be a major pain point for businesses. Unprofessional support can make you lose existing customers, create a bad reputation, and turn away new potential customers.
+
                 </p>
                 <p className="mb-0 mt-4">
-                  Naturally, you would want to have the best possible support
-                  experience. However, hiring dedicated staff to manage support
-                  issues 24x7 might be expensive and ineffective for your
-                  business scale. Instead, you need to deploy outsourced
-                  customer support solutions.
+                Naturally, you would want to have the best possible eCommerce support services. However, hiring dedicated staff to manage support issues 24x7 might be expensive and ineffective for your business scale. Instead, you need to deploy outsourced customer support solutions.
+
                 </p>
               </div>
             </div>
@@ -89,7 +83,7 @@ const Ecommerce = () => {
             <div className="triangle-cards">
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
@@ -107,22 +101,20 @@ const Ecommerce = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/business.png"} alt="" />
                 </div>
                 <div className="card-cont">
                   <h4>Instant Response</h4>
                   <p>
-                    Your customers don’t like to wait. A waiting period of more
-                    than 2 minutes is unacceptable in most chat and call-based
-                    support systems. Best E-commerce services ensure
-                    near-instant response
+                  Your customers don’t like to wait. A waiting period of more than 2 minutes is unacceptable in most chat and call-based support systems. Best eCommerce support services ensure near-instant response
+
                   </p>
                 </div>
               </div>
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
@@ -137,24 +129,19 @@ const Ecommerce = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} alt=""/>
                 </div>
                 <div className="card-cont">
                   <h4>SOPs</h4>
                   <p>
-                    While multiple personnel may be involved in serving your
-                    customers, the experience and overall support quality remain
-                    unchanged. We built proper standard operating procedures by
-                    taking input from you. All our agents strictly adhere to
-                    these requirements, ensuring a consistent and reliable
-                    experience.
+                  While multiple personnel may be involved in serving your customers, the experience and overall eCommerce support services quality remain unchanged. We built proper standard operating procedures by taking input from you. All our agents strictly adhere to these requirements, ensuring a consistent and reliable experience.
                   </p>
                 </div>
               </div>
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
@@ -170,7 +157,7 @@ const Ecommerce = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                   />
                 </div>
@@ -190,15 +177,12 @@ const Ecommerce = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} alt=""/>
               Outsourced E-Commerce Support
             </h3>
             <p className="mb-0">
-              Hiring, training, and managing support staff is a tall order for
-              most businesses. Instead, it is best for you to outsource all your
-              support needs to support centres like BJS. Our helpful support
-              staff will ensure ideal experience and quick resolution for your
-              customers.
+            Hiring, training, and managing support staff is a tall order for most businesses. Instead, it is best for you to outsource all your support needs to e-commerce solutions services like BJS. Our helpful support staff will ensure ideal experience and quick resolution for your customers.
+
             </p>
           </div>
         </div>
@@ -219,8 +203,7 @@ const Ecommerce = () => {
               <div className="roundcard">
                 <h4>Personalised</h4>
                 <p>
-                  Services are personalised to your convenience. You can setup
-                  custom greetings, call scripts, a
+                Our eCommerce support services are personalized to your convenience. You can setup custom greetings, call scripts, voicemail options, and response templates to match your brand's voice.
                 </p>
               </div>
               <div className="roundcard">
@@ -282,22 +265,13 @@ const Ecommerce = () => {
               <div className="roundcard">
                 <h4>Industries</h4>
                 <p>
-                  BJS is a well-recognised brand serving a wide array of clients
-                  with diverse requirements. We have clients from the UK and
-                  worldwide in industries like automobile, finance, real estate,
-                  logistics, supply chains, and more.
+                BJS is a well-recognised brand offering eCommerce support services to serve a wide array of clients with diverse requirements. We have clients from the UK and worldwide in industries like automobile, finance, real estate, logistics, supply chains, and more.
                 </p>
               </div>
               <div className="roundcard">
                 <h4>Training</h4>
                 <p>
-                  Our staff is provided with training via our in-house training
-                  school, which is governed by our stringent criteria and is
-                  supervised by us. Our personnel will be equally trained,
-                  skilled, and proficient in meeting your requirements as a
-                  result of this procedure. There is no other service that can
-                  match the competitive advantage that we have thanks to our
-                  in-house training facilities.
+                Our staff is provided with training via our in-house training school, which is governed by our stringent criteria and is supervised by us. Our personnel will be equally trained, skilled, and proficient in meeting your requirements for eCommerce support services as a result of this procedure. There is no other service that can match the competitive advantage that we have thanks to our in-house training facilities.
                 </p>
               </div>
               <div className="roundcard">

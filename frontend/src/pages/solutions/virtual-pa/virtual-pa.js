@@ -68,7 +68,7 @@ const VirtualPa = () => {
                   Clients might call at odd hours with queries, appointment
                   scheduling, or general consultation requests. Being available
                   for all this throughout the day isn’t feasible. Worry not. We
-                  have a solution for you. Our virtual PA services are here to
+                  have a solution for you. Our Virtual Personal Assistant Services are here to
                   rescue you.
                 </p>
               </div>
@@ -80,7 +80,7 @@ const VirtualPa = () => {
           <div className="container-max">
             <h2 className="secheading">Advantages of Virtual Assistants</h2>
             <h3>
-              You might consider virtual assistants to be overkill for your
+              You might consider personal assistant to be overkill for your
               requirements. But trust us, you don’t really know until you try
               one.
             </h3>
@@ -113,7 +113,7 @@ const VirtualPa = () => {
                     There are many things that are necessary yet way too
                     time-consuming for you to handle. This can include creating
                     bills for the hours spent for a client and filing receipts
-                    for reimbursements. Virtual Receptionists handle them all.
+                    for reimbursements. Virtual Personal Assistant or Receptionists handle them all.
                   </p>
                 </div>
               </div>
@@ -142,10 +142,7 @@ const VirtualPa = () => {
                 <div className="card-cont">
                   <h4>Interactions</h4>
                   <p>
-                    They handle various formalities and interactions on your
-                    behalf. This could include sending formality greetings to
-                    acquaintances, arranging for gifts for notable business
-                    partners, managing your social media, and more
+                  As a Virtual Assistant agency, we handle various formalities and interactions on your behalf. This could include sending formality greetings to acquaintances, arranging for gifts for notable business partners, managing your social media, and more
                   </p>
                 </div>
               </div>
@@ -203,8 +200,8 @@ const VirtualPa = () => {
 
         <div className="benifits-sec">
           <div className="container-max">
-            <h2 className="secheading">Benefits of BJS Virtual PA</h2>
-            <h3>Here are some benifits of BJS Virtual PA</h3>
+            <h2 className="secheading">Benefits of BJS Virtual Personal Assistant services</h2>
+            <h3>Here are some benifits of BJS Virtual Personal Assistant services</h3>
             <div className="roundcard-outer">
               <div className="roundcard">
                 <h4>Native English Speaker</h4>

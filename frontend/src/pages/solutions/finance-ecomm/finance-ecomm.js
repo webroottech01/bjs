@@ -14,7 +14,7 @@ const FinanceEcomm = () => {
         "Finance & E-Commerce services help optimise all your financial activities, reducing losses, minimising taxes, maximising sales, and improving efficiency to maximise your earnings in the long term.",
     },
     {
-      faq_heading: "How do Finance and E-Commerce services work?",
+      faq_heading: "How do Finance and eCommerce support services work?", 
       description:
         "Outsourced Finance/E-Commerce services begin by collecting data for your entire business operations. They understand your key concerns, problems, and priorities. The data collected is used to perform analysis and implement changes to help grow your business and resolve any issues that you might be facing.",
     },
@@ -43,7 +43,7 @@ const FinanceEcomm = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/financialgrow.jpg"}
                   />
                 </div>
@@ -52,18 +52,10 @@ const FinanceEcomm = () => {
                 <span className="">Financial Growth</span>
                 <h3 className="secheading">Maintain finance and grow sales</h3>
                 <p className="mb-0">
-                  Proper cash flow, tax preparations, and financial planning can
-                  go a long way in helping a company grow. Modern cut-throat
-                  competition necessitates optimised finance and e-commerce that
-                  puts your firm in a position for the best growth prospects.
+                Proper cash flow, tax preparations, and financial planning can go a long way in helping a company grow. Modern cut-throat competition necessitates optimized finance and e-commerce that puts your firm in a position for the best growth prospects.
                 </p>
                 <p className="mb-0 mt-4">
-                  We have all been in a situation where we kept a vendor waiting
-                  because our own payments were stuck. Or, a massive expansion
-                  plan comes to a halt due to improper cash flow management. Not
-                  to mention, random glitches in e-commerce management result in
-                  losses. Your business can largely benefit from Finance &
-                  E-Commerce services offered by BJS.
+                Proper cash flow, tax preparations, and financial planning can go a long way in helping a company grow. Modern cut-throat competition necessitates optimized finance and e-commerce that puts your firm in a position for the best growth prospects.
                 </p>
               </div>
             </div>
@@ -82,7 +74,7 @@ const FinanceEcomm = () => {
             <div className="triangle-cards">
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
@@ -101,23 +93,19 @@ const FinanceEcomm = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/business.png"}  alt=""/>
                 </div>
                 <div className="card-cont">
                   <h4>Experience</h4>
                   <p>
-                    Our team is trained to ensure a consistent, reliable, and
-                    delightful experience for all your customers. We optimise
-                    systems and procedures to ensure that all our financial and
-                    e-commerce services are perfectly aligned with your values
-                    and best interests.
+                  Our team is trained to ensure a consistent, reliable, and delightful experience for all your customers. We optimize systems and procedures to ensure that all our E-Commerce Customer Service Outsourcing are perfectly aligned with your values and best interests.
                   </p>
                 </div>
               </div>
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
@@ -133,7 +121,7 @@ const FinanceEcomm = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"}  alt=""/>
                 </div>
                 <div className="card-cont">
                   <h4>Optimisation</h4>
@@ -148,7 +136,7 @@ const FinanceEcomm = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
@@ -164,7 +152,7 @@ const FinanceEcomm = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                   />
                 </div>
@@ -186,7 +174,7 @@ const FinanceEcomm = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} alt=""/>
               Finance & E-Commerce Services
             </h3>
             <p className="mb-0">
@@ -199,7 +187,7 @@ const FinanceEcomm = () => {
         <div className="benifits-sec">
           <div className="container-max">
             <h2 className="secheading">Benefits of BJS Financial Services</h2>
-            <h3>Here are some benifits of BJS Financial Services</h3>
+            <h3>Here are some benefits of BJS Online financial services in UK</h3>
             <div className="roundcard-outer">
               <div className="roundcard">
                 <h4>Experience</h4>

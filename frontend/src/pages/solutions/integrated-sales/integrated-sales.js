@@ -19,7 +19,7 @@ const IntegratedSales = () => {
         "Integrated Sales Services are significantly better for modern businesses. They reduce the costs of hiring staff for 2 separate departments. In addition, better coordination reduces turnaround times for customers, and they are able to ensure a much better experience for them. They improve conversion rates and reduce costs, thus helping to increase your revenue and profits.",
     },
     {
-      faq_heading: "What are the costs of Integrated Sales Services?",
+      faq_heading: "What are the costs of Integrated sales solutions?",
       description:
         "Generally, in a short time, it can be a bit expensive since Integrated Sales professionals are generally more expensive. But, with some reasonable time passage, these services become a lot more financially viable after they bring in results. So, in short, they might cost more than conventional marketing initially, but the results are generally enough to justify their costs.",
     },
@@ -48,7 +48,7 @@ const IntegratedSales = () => {
             <div className="row align-items-center ">
               <div className="col-md-12 col-lg-6">
                 <div className="splitimg-part">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/integrtedsale.jpg"}
                   />
                 </div>
@@ -69,7 +69,7 @@ const IntegratedSales = () => {
                   Similarly, most sales professionals are really good at
                   converting a lead into a sale, but they rarely get leads. We
                   guess you might also struggle with this issue. That’s where
-                  our Integrated Sales come into play.
+                  our Integrated Sales Management come into play.
                 </p>
                 <p className="mb-0 mt-4">
                   We have created a new breed of experts, called “Integrated
@@ -96,7 +96,7 @@ const IntegratedSales = () => {
             <div className="triangle-cards">
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={
                       process.env.PUBLIC_URL + "/images/customer-service.png"
                     }
@@ -115,7 +115,7 @@ const IntegratedSales = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/business.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/business.png"} alt=""/>
                 </div>
                 <div className="card-cont">
                   <h4>Streamlined Processing</h4>
@@ -123,7 +123,7 @@ const IntegratedSales = () => {
                     Sometimes the user is convinced of the sale, but the sales
                     team takes too long to provide the details, price quote, or
                     answers to queries, resulting in customer drop-off.
-                    Streamlined Integrated Sales ensure that the user remains
+                    Streamlined Integrated Sales Management ensure that the user remains
                     well-treated.
                   </p>
                 </div>
@@ -131,7 +131,7 @@ const IntegratedSales = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/customer-care.png"}
                   />
                 </div>
@@ -148,12 +148,12 @@ const IntegratedSales = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} />
+                  <img src={process.env.PUBLIC_URL + "/images/mentoring.png"} alt=""/>
                 </div>
                 <div className="card-cont">
                   <h4>Conversions</h4>
                   <p>
-                    The optimisation and efficiency of integrated sales ensure
+                    The optimisation and efficiency of integrated sales Management ensure
                     that a given marketing budget will likely get more audience
                     engagement and a higher conversion rate due to a better
                     understanding of customer needs.
@@ -163,7 +163,7 @@ const IntegratedSales = () => {
 
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/personal-assist.png"}
                   />
                 </div>
@@ -180,7 +180,7 @@ const IntegratedSales = () => {
               </div>
               <div className="card">
                 <div className="icon">
-                  <img
+                  <img alt=""
                     src={process.env.PUBLIC_URL + "/images/insurance-agent.png"}
                   />
                 </div>
@@ -202,7 +202,7 @@ const IntegratedSales = () => {
         <div className="small-strip">
           <div className="container-med">
             <h3 className="iconheading">
-              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} />
+              <img src={process.env.PUBLIC_URL + "/images/successfulblk.png"} alt="" />
               Integrated Sales Services
             </h3>
             <p className="mb-0">
@@ -238,7 +238,7 @@ const IntegratedSales = () => {
               <div className="roundcard">
                 <h4>Data</h4>
                 <p>
-                  We teach our integrated sales specialists to efficiently
+                  We teach our Integread sales management specialists to efficiently
                   collect, compile, and interpret the data, understand user
                   behaviour, and optimise for the best results.
                 </p>
